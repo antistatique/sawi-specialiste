@@ -14,6 +14,9 @@
 @import 'atoms/button';
 
 // molecules:
+@import 'molecules/teaser-basic-page';
+@import 'molecules/alert-language';
+@import 'molecules/teaser-news';
 @import 'molecules/alert';
 @import 'molecules/inline-cta';
 @import 'molecules/tags';
@@ -22,9 +25,12 @@
 @import 'molecules/header';
 
 // organisms:
+@import 'organisms/teaser-sawi';
+@import 'organisms/news';
 @import 'organisms/cours-content';
 
 // pages:
+@import 'pages/homepage';
 @import 'pages/retail-merchandising';
 @import 'pages/marketing-operationel';
 @import 'pages/media-planning';
