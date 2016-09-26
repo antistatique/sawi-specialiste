@@ -5,7 +5,7 @@ collection: pages
 styleguide: false
 layout: page.html.swig
 ---
-{% include '../molecules/header.html.swig' %}
+{% include '../molecules/header-menu.html.swig' %}
 <div class="container">
 	<div class="row">
 		<div class="col-sm-8">
