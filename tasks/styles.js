@@ -13,7 +13,7 @@ module.exports = function() {
   function errorAlert(error){
     if (!argv.production) {
       $.notify.onError({title: "SCSS Error", message: "Check your terminal", sound: "Sosumi"})(error);
-      $.util.log(error.messageFormatted);
+      $.util.log(error.message);
     }
     this.emit("end");
   };

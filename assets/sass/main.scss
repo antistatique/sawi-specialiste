@@ -6,6 +6,7 @@
 
 
 // atoms:
+@import 'atoms/page-title';
 @import 'atoms/inline-icon';
 @import 'atoms/course-tile';
 @import 'atoms/typography';
@@ -14,6 +15,15 @@
 @import 'atoms/button';
 
 // molecules:
+@import 'molecules/header-menu';
+@import 'molecules/social';
+@import 'molecules/contact';
+@import 'molecules/newsletter';
+@import 'molecules/teaser-formations';
+@import 'molecules/teaser-info';
+@import 'molecules/teaser-basic-page';
+@import 'molecules/alert-language';
+@import 'molecules/teaser-news';
 @import 'molecules/alert';
 @import 'molecules/inline-cta';
 @import 'molecules/tags';
@@ -22,9 +32,13 @@
 @import 'molecules/header';
 
 // organisms:
+@import 'organisms/footer';
+@import 'organisms/infos';
+@import 'organisms/news';
 @import 'organisms/cours-content';
 
 // pages:
+@import 'pages/homepage';
 @import 'pages/retail-merchandising';
 @import 'pages/marketing-operationel';
 @import 'pages/media-planning';

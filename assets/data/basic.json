@@ -1,0 +1,17 @@
+{
+  "formations": {
+    "title": "Formations",
+    "resume": "Le SAWI propose une large palette de formations professionnelles répondant aux besoins des entreprises et des personnes actives dans les domaines de la communication, du marketing et de la vente. Des objectifs pédagogiques clairs, des contenus riches et pertinents et un encadrement assuré par des professionnels de haut niveau garantissent une excellente qualité d’apprentissage, une reconnaissance incontestée auprès des entreprises et un haut degré de satisfaction des apprenants.",
+    "cta": "Toutes les formations"
+    },
+    "sawi": {
+    "title": "SAWI",
+    "resume": "SAWI Academy for Marketing and Communication SA est le centre suisse d'enseignement du marketing, de la publicité et de la communication.",
+    "cta": "En savoir plus sur le SAWI"
+    },
+  "entreprise": {
+    "title": "Pour les entreprises",
+    "resume": "Des formations pour les entreprises / Les étudiants à disposition pour des projets / etc",
+    "cta": "Découvrir nos offres pour les entreprises"
+    }
+}
