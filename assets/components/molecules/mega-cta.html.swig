@@ -7,7 +7,7 @@ notes: |
   ##### Options :
   - **cours** - object
 ---
-<div class="fixed-cta">
+<div class="fixed-cta">tet
   <p class="fixed-cta-container">
     <span class="fixed-cta-legend">Recevez le dossier complet par email</span>
     <a href="{{ cours.conversionurl }}" class="btn btn-primary btn-lg" id="cta-mega">Intéressé ?</a>
