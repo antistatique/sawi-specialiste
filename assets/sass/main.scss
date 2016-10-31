@@ -6,6 +6,7 @@
 
 
 // atoms:
+@import 'atoms/language-picker';
 @import 'atoms/menu-toggle';
 @import 'atoms/page-title';
 @import 'atoms/inline-icon';
@@ -16,6 +17,7 @@
 @import 'atoms/button';
 
 // molecules:
+@import 'molecules/search-box';
 @import 'molecules/header-menu';
 @import 'molecules/social';
 @import 'molecules/contact';

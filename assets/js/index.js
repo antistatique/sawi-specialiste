@@ -1,2 +1,5 @@
-// You will use that file to import all your scripts
-// Ex: import gallery from './gallery';
+import { menu_toggle } from './menu_toggle.js';
+
+(function(){
+  menu_toggle();
+}());

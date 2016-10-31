@@ -4,6 +4,12 @@ name: Menu-toggle
 collection: atoms
 notes: |
   ##### Usage : `menu-toggle`
-  ##### Options :
-  - **option** - Type
 ---
+<a href="#" class="menu-toggle">
+  <div class="burger">
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+  </div>
+  <label>Menu</span>
+</a>
