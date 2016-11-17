@@ -350,5 +350,70 @@
             }
         ],
         "sawiurl": "http://www.sawi.com/fr/formations/vente/specialiste-retail-merchandising/"
+    },
+    "communication": {
+        "title": "Spécialiste en communication",
+        "subtitle": "Formation professionnelle de Spécialiste en communication, préparant au Brevet fédéral de Planificateur/trice en communication.",
+        "illustration": "/build/img/cover-communication.png",
+        "illustrationseparator": "/build/img/hr-communication.png",
+        "colortheme": "theme-communication",
+        "url" : "/communication",
+        "conversionurl" : "",
+        "shorttitle" : "Spécialiste en communication",
+        "objectif": "La communication est en constante évolution. Même si la publicité reste un instru- ment essentiel dans le marketing, il est indispensable de la décliner sous toutes ses formes. C’est donc de communication globale dont il est question aujourd’hui et c’est pourquoi le programme de formation s’est enrichi de toutes les disciplines que doit maîtriser un professionnel de ce domaine.",
+        "video": "",
+        "themes": [
+            {
+                "item": "Les mécanismes de communication"
+            },
+            {
+                "item": "Les instruments de communication"
+            },
+            {
+                "item": "Le paysage des médias"
+            },
+            {
+                "item": "Les nouveaux médias"
+            },
+            {
+                "item": "L'avènement de nouvelles technologies"
+            },
+            {
+                "item": "L'internationalisation des marchés"
+            },
+            {
+                "item": "L'évolution des nouvelles tendances"
+            },
+            {
+                "item": "L'aspects juridiques"
+            }
+        ],
+        "infos": [
+            {
+                "label": "Direction du cours",
+                "value": "Jean-Christophe Francet et Frederic Zamofing"
+            },
+            {
+                "label": "Durée du programme",
+                "value": "6 mois à partir du 21 septembre 2016"
+            },
+            {
+                "label": "Où",
+                "value": "à Lausanne"
+            },
+            {
+                "label": "Prix de la formation",
+                "value": "CHF 10’500.––"
+            },
+            {
+                "label": "Contact SAWI",
+                "value": "+41 (0)21 343 40 60"
+            },
+            {
+                "label": "Fiche détaillée",
+                "value": "<a href='http://www.sawi.com/fr/formations/communication/specialiste-en-communication/' target='_blank'>sawi.com/fr/.../specialiste-en-communication/</a>"
+            }
+        ],
+        "sawiurl": "http://www.sawi.com/fr/formations/communication/specialiste-en-communication/"
     }
 }

@@ -26,6 +26,10 @@
     {
       "name": "$media-planning",
       "hexa": "#746BFE"
+    },
+    {
+    "name": "$communication",
+    "hexa": "#ec6d71"
     }
   ]
 }
