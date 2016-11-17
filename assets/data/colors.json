@@ -29,7 +29,11 @@
     },
     {
     "name": "$communication",
-    "hexa": "#ec6d71"
+    "hexa": "#eeeeee"
+    },
+    {
+    "name": "$marketing",
+    "hexa": "#eeeeee"
     }
   ]
 }

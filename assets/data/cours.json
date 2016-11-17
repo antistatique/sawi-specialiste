@@ -415,5 +415,73 @@
             }
         ],
         "sawiurl": "http://www.sawi.com/fr/formations/communication/specialiste-en-communication/"
+    },
+    "marketing": {
+        "title": "Spécialiste en marketing",
+        "subtitle": "La formation est destinée à toutes les personnes possédant une expérience pratique dans le domaine du marketing, de la vente ou de la communication et qui souhaitent se profiler comme Spécialiste en marketing autant sur le plan national qu'international.",
+        "illustration": "/build/img/cover-Specialiste-en-marketing.png",
+        "illustrationseparator": "/build/img/hr-Specialiste-en-marketing.png",
+        "colortheme": "theme-marketing",
+        "url" : "/marketing",
+        "conversionurl" : "",
+        "shorttitle" : "Spécialiste en communication",
+        "objectif": "Les spécialistes en marketing sont recherchés par des entreprises de toute taille sou- haitant offrir de manière ef cace leurs services ou prestations à un groupe cible. Ils conçoivent et réalisent un marketing professionnel sur la base d’objecifs clairement dé nis et en garantissant l’application sur le plan instrumental. Ils plani ent les mesures marketing et les mettent en oeuvre avec succès",
+        "video": "",
+        "themes": [
+            {
+                "item": "Les concepts de marketing"
+            },
+            {
+                "item": "Connaissances des marchés nationaux"
+            },
+            {
+                "item": "Le Marketing-mix"
+            },
+            {
+                "item": "Interpréter les données du marché"
+            },
+            {
+                "item": "Communication intégrée"
+            },
+            {
+                "item": "Les outils de distribution"
+            },
+            {
+                "item": "La comptabilité  nancière et commerciale"
+            },
+            {
+                "item": "Les techniques de présentation"
+            },
+            {
+                "item": "Les techniques de résolution de problèmes"
+            }
+        ],
+        "infos": [
+            {
+                "label": "Direction du cours",
+                "value": "Vincent Antonioli et Nicolas Nervi"
+            },
+            {
+                "label": "Durée du programme",
+                "value": "11 mois à partir du 13 janvier 2017"
+            },
+            {
+                "label": "Où et quand",
+                "value": "à Lausanne tous les mardi et jeudi de 18h00 à 21h00 + un vendredi et deux samedis par mois de 09h00 à 16h30"
+            },
+            {
+                "label": "Prix de la formation",
+                "value": "CHF 10’500.––"
+            },
+            {
+                "label": "Contact SAWI",
+                "value": "+41 (0)21 343 40 60"
+            },
+            {
+                "label": "Fiche détaillée",
+                "value": "<a href='http://www.sawi.com/fr/formations/marketing/specialiste-en-marketing/' target='_blank'>sawi.com/fr/.../specialiste-en-marketing/</a>"
+            }
+        ],
+        "sawiurl": "http://www.sawi.com/fr/formations/marketing/specialiste-en-marketing/"
     }
 }

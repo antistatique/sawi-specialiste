@@ -39,5 +39,12 @@ a.theme-media-planning:hover {
 a.theme-communication,
 a.theme-communication:hover {
   background-color: $communication;
-  color: $white;
+  color: $gray-base;
+}
+
+.theme-marketing,
+a.theme-marketing,
+a.theme-marketing:hover {
+  background-color: $marketing;
+  color: $gray-base;
 }
