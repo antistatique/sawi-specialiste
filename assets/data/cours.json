@@ -424,8 +424,8 @@
         "colortheme": "theme-marketing",
         "url" : "/marketing",
         "conversionurl" : "",
-        "shorttitle" : "Spécialiste en communication",
-        "objectif": "Les spécialistes en marketing sont recherchés par des entreprises de toute taille sou- haitant offrir de manière ef cace leurs services ou prestations à un groupe cible. Ils conçoivent et réalisent un marketing professionnel sur la base d’objecifs clairement dé nis et en garantissant l’application sur le plan instrumental. Ils plani ent les mesures marketing et les mettent en oeuvre avec succès",
+        "shorttitle" : "Spécialiste en marketing",
+        "objectif": "Les spécialistes en marketing sont recherchés par des entreprises de toute taille sou- haitant offrir de manière ef cace leurs services ou prestations à un groupe cible. Ils conçoivent et réalisent un marketing professionnel sur la base d’objecifs clairement dé nis et en garantissant l’application sur le plan instrumental. Ils plani ent les mesures marketing et les mettent en oeuvre avec succès.",
         "video": "",
         "themes": [
             {
@@ -483,5 +483,73 @@
             }
         ],
         "sawiurl": "http://www.sawi.com/fr/formations/marketing/specialiste-en-marketing/"
+    },
+    "vente": {
+        "title": "Spécialiste en vente",
+        "subtitle": "A l’issue de cette formation, vous serez à même de maîtriser des situations de vente complexes et de se positionner sur tous les postes de cadre de Spécialiste en vente.",
+        "illustration": "/build/img/cover-Specialiste-en-vente.png",
+        "illustrationseparator": "/build/img/hr-Specialiste-en-vente.png",
+        "colortheme": "theme-vente",
+        "url" : "/vente",
+        "conversionurl" : "",
+        "shorttitle" : "Spécialiste en vente",
+        "objectif": "Le Spécialiste en vente assume de manière autonome toutes les responsabilités des différents domaines de la vente (service interne et externe) ou du key account manage- ment. Il possède en outre des connaissance en économie d’entreprise et en économie nationale, ce qui lui permet d’évaluer correctement la situation du marché et d’élabo- rer des solutions optimales tant pour ses clients que pour son entreprise.",
+        "video": "",
+        "themes": [
+            {
+                "item": "Analyse et études de marché"
+            },
+            {
+                "item": "Stratégie et concept"
+            },
+            {
+                "item": "Planification des ventes"
+            },
+            {
+                "item": "Activités opérationnelles"
+            },
+            {
+                "item": "Gestion des collaborateurs"
+            },
+            {
+                "item": "Marketing"
+            },
+            {
+                "item": "Promotion des ventes et publicité"
+            },
+            {
+                "item": "Statistiques des ventes"
+            },
+            {
+                "item": "Comptabilité commerciale et controlling"
+            }
+        ],
+        "infos": [
+            {
+                "label": "Direction du cours",
+                "value": "Yves Goumaz"
+            },
+            {
+                "label": "Durée du programme",
+                "value": "12 mois à partir de février 2017"
+            },
+            {
+                "label": "Où et quand",
+                "value": "à Lausanne tous les mardi et jeudi de 18h00 à 21h00 + deux samedis par mois de 09h00 à 16h30"
+            },
+            {
+                "label": "Prix de la formation",
+                "value": "CHF 10'000.––"
+            },
+            {
+                "label": "Contact SAWI",
+                "value": "+41 (0)21 343 40 60"
+            },
+            {
+                "label": "Fiche détaillée",
+                "value": "<a href='http://www.sawi.com/fr/formations/vente/specialiste-en-vente/' target='_blank'>sawi.com/fr/.../specialiste-en-vente/</a>"
+            }
+        ],
+        "sawiurl": "http://www.sawi.com/fr/formations/vente/specialiste-en-vente/"
     }
 }
