@@ -33,6 +33,7 @@ notes: |
       {% endfor %}
     </div>
   </div>
+  {% if cours.video %}
   <div class="row">
     <div class="col-sm-10">
       <h3>Vidéo de présentation</h3>
@@ -41,6 +42,7 @@ notes: |
       </div>
     </div>
   </div>
+  {% endif %}
   <div class="row">
     <div class="col-sm-10">
     <h3>Information pratiques</h3>
