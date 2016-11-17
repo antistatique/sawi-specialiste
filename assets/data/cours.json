@@ -354,8 +354,8 @@
     "communication": {
         "title": "Spécialiste en communication",
         "subtitle": "Formation professionnelle de Spécialiste en communication, préparant au Brevet fédéral de Planificateur/trice en communication.",
-        "illustration": "/build/img/cover-communication.png",
-        "illustrationseparator": "/build/img/hr-communication.png",
+        "illustration": "/build/img/cover-Specialiste-en-communication.png",
+        "illustrationseparator": "/build/img/hr-Specialiste-en-communication.png",
         "colortheme": "theme-communication",
         "url" : "/communication",
         "conversionurl" : "",
