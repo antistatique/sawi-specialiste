@@ -1,0 +1,58 @@
+@charset 'UTF-8';
+
+.teaser-seance {
+  margin-bottom: 1em;
+  padding: 1em;
+  transition: 0.3s;
+  background-color: $gray-lighter;
+
+  a {
+    color: $text-color;
+  }
+
+  &:hover {
+    box-shadow: inset 0 0 0 5px rgba(0, 0, 0, 0.4);
+    .seance-tile { background-position: 95% 48%; }
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &:active {
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.4);
+    .seance-tile { background-position: 95% 60%; }
+  }
+
+  .seance-tile {
+    display: block;
+    min-height: 7em;
+    padding-right: 30%;
+    background-position: 100% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 0.9em;
+    line-height: 1.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s;
+
+    &.theme-strategie-digital { background-image: url('../img/tile-Strategie-Digitale.png'); }
+
+    &.theme-brand-design-management { background-image: url('../img/tile-Brand-Design-Management.png'); }
+
+    &.theme-marketing-operationnel { background-image: url('../img/tile-Marketing-Operationnel.png'); }
+
+    &.theme-retail-merchandising { background-image: url('../img/tile-Retail-Merchandising.png'); }
+
+    &.theme-media-planning { background-image: url('../img/tile-Media-planning.png'); }
+
+    &.theme-communication { background-image: url('../img/tile-Specialiste-en-communication.png'); }
+
+    &.theme-marketing { background-image: url('../img/tile-Specialiste-en-marketing.png'); }
+
+    &.theme-vente { background-image: url('../img/tile-Specialiste-en-vente.png'); }
+  }
+
+  .seance-infos {
+  }
+}
