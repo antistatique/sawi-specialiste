@@ -1,1 +1,13 @@
 @charset 'UTF-8';
+
+.news-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+
+  @media only screen and (min-width: $screen-xs-min) { flex-direction: row; }
+
+  .news-title {  }
+  .news-more { }
+}
