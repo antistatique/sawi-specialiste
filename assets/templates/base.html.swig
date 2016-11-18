@@ -16,6 +16,7 @@
       <link rel="stylesheet" href="/build/css/styleguide.css">
     {% endif %}
 
+    <link rel="stylesheet" href="/build/css/vendors.min.css">
     <link rel="stylesheet" href="/build/css/main.css">
 
     <script>

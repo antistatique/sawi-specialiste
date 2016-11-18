@@ -7,30 +7,23 @@ notes: |
   ##### Options :
   - **option** - Type
 ---
-<header class="header">
+<div class="header-menu">
   <div class="container">
-    <div class="header-container">
-      <img src="/build/img/logo.svg" alt="" class="header-logo" onerror="this.onerror=null; this.src='/build/img/logo.png'" />
-      <ul style="nav nav-pills" role="tablist">
-        <li role="presentation"><a href="">Deutschschweiz</a></li>
-        <li role="presentation" class="active"><a href="">Romandie</a></li>
-      </ul>
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Formations <span class="caret"></span></a>
-          <ul class="dropdown-menu">
+    <div class="header-menu-container">
+      <ul class="">
+        <li class="">
+          <a href="#">Formations</a>
+          <ul class="children">
             <li><a href="#">Toutes les formations</a></li>
             <li><a href="#">Formations continues</a></li>
             <li><a href="#">Formations à templs plein</a></li>
           </ul>
         </li>
-        <li><a href="">Actualités</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">À propos <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Présentation</a></li>
+        <li><span class="active">Actualités</span></li>
+        <li class="">
+          <a href="#">À propos</a>
+          <ul class="children">
             <li><a href="#">Team</a></li>
-            <li><a href="#">Intervenants</a></li>
             <li><a href="#">Partenariats</a></li>
             <li><a href="#">Presse</a></li>
           </ul>
@@ -38,9 +31,9 @@ notes: |
         <li><a href="">Entreprises</a></li>
         <li><a href="">Contact</a></li>
         <li><a href="">Connexion</a></li>
-        <li><a href=""><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
       </ul>
     </div>
-  </div>
-</header>
 
+    {% include '../molecules/socials-icons.html.swig' %}
+  </div>
+</div>

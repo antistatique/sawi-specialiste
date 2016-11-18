@@ -1,1 +1,37 @@
 @charset 'UTF-8';
+
+.header-menu {
+  background: $black;
+  color: $white;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: $font-size-h3;
+
+    &.children {
+      font-size: $font-size-h4;
+    }
+
+    li {
+      padding: $grid-gutter-width/4 0;
+    }
+
+    ul {
+      padding: $grid-gutter-width/1.5 0;
+    }
+  }
+
+  span,
+  a {
+    color: $white;
+    text-decoration: none;
+
+    &.active,
+    &:hover {
+      color: $brand-primary;
+      transition: color 0.25s ease-in-out;
+    }
+  }
+}
