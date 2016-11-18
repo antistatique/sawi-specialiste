@@ -1,0 +1,20 @@
+@charset 'UTF-8';
+
+.socials-icons {
+  display: flex;
+  max-width: 200px;
+  padding: 0;
+  justify-content: space-between;
+  list-style: none;
+
+  a {
+    font-size: $font-size-h4;
+    color: $white;
+    transition: 0.25s color ease-in-out;
+
+    &:hover,
+    &:active {
+      color: $brand-primary;
+    }
+  }
+}
