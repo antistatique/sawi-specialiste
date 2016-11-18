@@ -1,1 +1,9 @@
 @charset 'UTF-8';
+
+.teaser-news-cover {
+  img { width: 100%; }
+}
+
+.teaser-news-body {
+  .teaser-news-date { color: $teaser-news-light; }
+}

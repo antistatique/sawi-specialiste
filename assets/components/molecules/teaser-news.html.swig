@@ -8,21 +8,19 @@ notes: |
   - **news** - Object
 ---
 
-<div class="media">
-  <div class="media-left">
+<div class="teaser-news">
+  <div class="teaser-news-cover">
     <a href="#">
-      <img class="media-object" src="{{ news.image }}" alt="" style="width:400px;" />
+      <img class="img-responsive" src="{{ news.image|default('/build/img/placeholder/455x305.png') }}" alt="{{ news.title|default('Ut egestas nec ante sit') }}" />
     </a>
   </div>
-  <div class="media-body">
-    <h6 class="fine-weight media-heading">
-      {{ news.date }}
-    </h6>
-    <h5>
-      <a href="#">{{ news.title }}</a>
-    </h5>
-    <p>
-      {{ news.resume }}
+  <div class="teaser-news-body">
+    <h6 class="teaser-news-date text-muted">{{ news.date|default('18 novembre 2016') }}</h6>
+    <h3 class="media-heading">
+      <a href="#">{{ news.title|default('Ut egestas nec ante sit') }}</a>
+    </h3>
+    <p class="fine-weight">
+      {{ news.resume|default('Vestibulum scelerisque risus eu mauris eleifend, ac laoreet elit maximus. Proin vulputate tincidunt urna, nec semper nunc ullamcorper sed. Mauris id dignissim sem.') }}
     </p>
   </div>
 </div>

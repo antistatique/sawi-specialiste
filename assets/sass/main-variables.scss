@@ -11,6 +11,7 @@ $gray:                   lighten($gray-base, 33.5%) !default;
 $gray-light:             lighten($gray-base, 46.7%) !default;
 $gray-lighter:           #eee !default;
 $white:                  #fff;
+$silver-chalice:         #aaa;
 $white-alpha-80:         rgba(255, 255, 255, 0.8);
 $white-alpha-40:         rgba(255, 255, 255, 0.4);
 $white-alpha-0:          rgba(255, 255, 255, 0);
@@ -50,3 +51,6 @@ $label-link-hover-color:      $gray-base !default;
 $state-info-text:                $white !default;
 $state-info-bg:                  $gray-base !default;
 $state-info-border:              $gray-base !default;
+
+// Colors
+$teaser-news-light: $silver-chalice;
