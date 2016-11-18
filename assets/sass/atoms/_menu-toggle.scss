@@ -7,6 +7,7 @@
   padding: 33px;
   background: $black;
   transition: background 0.2s;
+  z-index: $zindex-modal + 1;
 
   &:hover {
     background: lighten($black, 10%);

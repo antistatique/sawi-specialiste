@@ -42,7 +42,7 @@
     <link rel="mask-icon" href="{{data.path}}/safari-pinned-tab.svg" color="#ffe200">
     <meta name="theme-color" content="#ffffff">
   </head>
-  <body>
+  <body class="menu-push">
     {% if !styleguide %}
         <!-- Google Tag Manager -->
         <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KDWZ3B"
@@ -68,11 +68,11 @@
 
     {% if styleguide %}
       </div>
+    {% endif %}
 
     <script src="//code.jquery.com/jquery-2.2.4.min.js" crossorigin="anonymous"></script>
     <script src="/build/js/vendors.min.js"></script>
     <script src="/build/js/bundle.js"></script>
-    {% endif %}
 
     {% if styleguide %}
       <script>
