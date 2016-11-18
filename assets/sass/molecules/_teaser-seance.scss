@@ -2,7 +2,6 @@
 
 .teaser-seance {
   margin-bottom: 1em;
-  padding: 1em;
   transition: 0.3s;
   background-color: $gray-lighter;
 
@@ -11,21 +10,19 @@
   }
 
   &:hover {
-    box-shadow: inset 0 0 0 5px rgba(0, 0, 0, 0.4);
     .seance-tile { background-position: 95% 48%; }
-    a {
-      text-decoration: none;
-    }
+    a { text-decoration: none; }
   }
 
   &:active {
-    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.4);
     .seance-tile { background-position: 95% 60%; }
+    a { text-decoration: none; }
   }
 
   .seance-tile {
     display: block;
     min-height: 7em;
+    padding: 1em;
     padding-right: 30%;
     background-position: 100% 50%;
     background-size: contain;
@@ -54,5 +51,6 @@
   }
 
   .seance-infos {
+    padding: 1em;
   }
 }
