@@ -3,9 +3,14 @@
 .header{
   .header-container {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: stretch;
+
+    @media only screen and (min-width: $screen-sm-min) {
+      flex-direction: row;
+      align-items: center;
+    }
   }
 
   .logo-container {
@@ -13,6 +18,15 @@
     width: 280px;
     height: 120px;
     padding: 0 $grid-gutter-width 0 $grid-gutter-width;
+
+    img {
+      position: relative;
+      top: 50%;
+      display: block;
+      max-width: 100%;
+      margin: 0 auto;
+      transform: translateY(-50%);
+    }
   }
 
   .left-container,
@@ -21,9 +35,30 @@
     align-items: center;
   }
 
+  .left-container {
+    flex-direction: row;
+
+    @media only screen and (min-width: $screen-md-min) {
+      max-width: 600px;
+    }
+  }
+
+  .right-container {
+    justify-content: space-around;
+    padding: 15px 0;
+
+    @media only screen and (min-width: $screen-sm-min) {
+      padding: 0;
+    }
+  }
+
   .tagline {
-    display: inline-block;
+    display: none;
     padding: 0;
+
+    @media only screen and (min-width: $screen-xs-min) {
+      display: inline-block;
+    }
 
     p {
       font-size: 17px;

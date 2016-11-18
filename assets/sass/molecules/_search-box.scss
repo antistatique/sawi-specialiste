@@ -2,7 +2,8 @@
 
 .search-box {
   display: inline-block;
-  padding: 0 0 0 $grid-gutter-width/2;
+  padding-right: $grid-gutter-width/2;
+
   .toggle-search {
     color: $media-planning;
     font-size: 40px;
