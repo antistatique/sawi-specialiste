@@ -7,8 +7,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>SAWI</title>
-    <meta name="description" content="">
+    <title>SAWI - formation continue en marketing, publicité &amp; communication - sawi.com</title>
+    <meta name="description" content="Depuis 1968, le SAWI Lausanne, Suisse, centre suisse d'enseignement du marketing, de la publicité, de la communication et de la vente, propose une large palette de formations professionnelles répondant aux besoins des entreprises et des personnes actives.">
     <meta name="keywords" content="HTML,CSS,XML,JavaScript">
     <meta name="viewport" content="width=device-width">
 
