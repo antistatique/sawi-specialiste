@@ -24,6 +24,13 @@
     <!--[if lt IE 9]>
       <script src="/build/js/polyfills.min.js"></script>
     <![endif]-->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{data.path}}/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="{{data.path}}/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{data.path}}/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="{{data.path}}/manifest.json">
+    <link rel="mask-icon" href="{{data.path}}/safari-pinned-tab.svg" color="#ffe200">
+    <meta name="theme-color" content="#ffffff">
   </head>
   <body>
     {% if !styleguide %}
