@@ -1,5 +1,6 @@
 {
     "strategiedigital": {
+        "a_partir": "À partir du 11 janvier 2017",
         "title": "Spécialiste en stratégie digitale",
         "subtitle": "Une formation pour devenir un spécialiste du marketing digital au service de la réussite des entreprises, des marques et des produits.",
         "illustration": "/build/img/cover-Strategie-Digitale.png",
@@ -51,11 +52,11 @@
             },
             {
                 "label": "Durée du programme",
-                "value": "6 mois à partir du 21 septembre 2016"
+                "value": "6 mois (y compris le module d'introduction) à partir du 11 janvier 2017. Le module d'introduction aura lieu à Lausanne et le programme à Genève."
             },
             {
                 "label": "Où et quand",
-                "value": "à Lausanne tous les lundi et mercredi de 18h00 à 21h00 + un samedi par mois de 09h00 à 16h30"
+                "value": "tous les lundi et mercredi de 18h00 à 21h00 + un samedi par mois de 09h00 à 16h30"
             },
             {
                 "label": "Prix de la formation",
