@@ -24,7 +24,7 @@ notes: |
           Durée 6 mois
         </h3>
         <h4 class="fine-weight">
-          À partir du 21 septembre 2016
+          {{cours.a_partir|default('À partir du 21 septembre 2016')}}
         </h4>
       </div>
       <h3>Thèmes abordés</h3>
