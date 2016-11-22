@@ -18,8 +18,17 @@
 
     <link rel="stylesheet" href="/build/css/main.css">
 
-    <script src="https://use.typekit.net/tar2gdp.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script>
+       WebFontConfig = {
+          typekit: { id: 'tar2gdp' }
+       };
+
+       (function(d) {
+          var wf = d.createElement('script'), s = d.scripts[0];
+          wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js';
+          s.parentNode.insertBefore(wf, s);
+       })(document);
+    </script>
 
     <!--[if lt IE 9]>
       <script src="/build/js/polyfills.min.js"></script>
