@@ -7,5 +7,5 @@ notes: |
 ---
 
 <div class="search-box">
-  <a href="#" class="toggle-search"><i class="sawi-icons sawi-icons-search"></i></a>
+  <a href="#" class="search-toggle"><i class="sawi-icons sawi-icons-search"></i></a>
 </div>
