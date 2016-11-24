@@ -10,9 +10,10 @@ notes: |
 <div class="row">
   <div class="col-sm-8">
     {% include '../molecules/newsletter.html.swig' %}
-    {% include '../molecules/contact.html.swig' %}    
+    <div class="spacer spacer-xs"></div>
+    {% include '../molecules/contact.html.swig' %}
   </div>
   <div class="col-sm-4">
-    {% include '../molecules/social.html.swig' %}    
+    {% include '../molecules/social.html.swig' %}
   </div>
 </div>
