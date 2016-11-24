@@ -6,19 +6,19 @@ notes: |
   ##### Usage : `facets`
 ---
 <div class="filter">
-  <h2 class="media-heading">Rechercher un intervenant</h2>
+  <h2 class="fine-weight media-heading">Rechercher un intervenant</h2>
   <div class="form-group">
     <input type="text" class="form-control full-width" placeholder="Nom, Prénom"></input>
   </div>
 
-  <h2>Filtrer par spécialité</h2>
+  <h2 class="fine-weight">Filtrer par spécialité</h2>
   <div class="form-group">
     <select class="input-select form-control" name="specialities">
       <option value="Spécialiste en stratégie digital">Spécialiste en stratégie digital</option>
     </select>
   </div>
 
-  <h2>Filtrer par lieux</h2>
+  <h2 class="fine-weight">Filtrer par lieux</h2>
   <div class="form-group">
     <div class="form-checkboxes">
       <div class="input-checkbox">

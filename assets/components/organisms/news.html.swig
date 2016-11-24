@@ -10,7 +10,7 @@ notes: |
 <div class="news">
   <div class="row">
     <div class="col-md-10 news-header">
-      <h2 class="media-heading news-title fine-weight">Actualités</h2>
+      <h2 class="h1 media-heading news-title fine-weight">Actualités</h2>
       <h6 class="media-heading new-more fine-weight"><a href="#">Voir toutes les actualités</a></h6>
     </div>
     <div class="spacer"></div>

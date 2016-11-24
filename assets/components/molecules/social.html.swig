@@ -17,7 +17,7 @@ notes: |
           <a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
         </div>
         <div class="text">
-          <a href="#" target="_blank">Likez-nous "a lot" sur Facebook</a>
+          <a href="#" target="_blank" class="no-underline">Likez-nous "a lot" sur Facebook</a>
         </div>
       </div>
     </li>
@@ -28,7 +28,7 @@ notes: |
           <a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
         </div>
         <div class="text">
-          <a href="#" target="_blank">Attrapez nos gazouillis sur Twitter</a>
+          <a href="#" target="_blank" class="no-underline">Attrapez nos gazouillis sur Twitter</a>
         </div>
       </div>
     </li>
@@ -39,7 +39,7 @@ notes: |
           <a href="#" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
         </div>
         <div class="text">
-          <a href="#" target="_blank">Jouez-nous en boucle sur Youtube</a>
+          <a href="#" target="_blank" class="no-underline">Jouez-nous en boucle sur Youtube</a>
         </div>
       </div>
     </li>
@@ -50,7 +50,7 @@ notes: |
           <a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </div>
         <div class="text">
-          <a href="#" target="_blank">Réseautez avec nous sur Linkedin</a>
+          <a href="#" target="_blank" class="no-underline">Réseautez avec nous sur Linkedin</a>
         </div>
       </div>
     </li>
@@ -61,7 +61,7 @@ notes: |
             <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
           </div>
           <div class="text">
-            <a href="#" target="_blank">Mattez avec nous sur Instagam</a>
+            <a href="#" target="_blank" class="no-underline">Mattez avec nous sur Instagam</a>
           </div>
         </div>
       </li>
