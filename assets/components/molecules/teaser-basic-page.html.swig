@@ -7,14 +7,12 @@ notes: |
   ##### Options :
   - **basic** - Object
 ---
-<div class="row">
-  <div class="col-sm-12">
-    <h2 class="fine-weight">
-      {{ basic.title }}
-    </h2>
-    <p>
-      {{ basic.resume }}
-    </p>
-    {% include '../atoms/button.html.swig' with {label: basic.cta} %}
-  </div>
+<div class="teaser-basic-page">
+  <h2 class="media-heading">
+    {{ basic.title|default('Titre de la page') }}
+  </h2>
+  <p class="fine-weight">
+    {{ basic.resume|default('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua') }}
+  </p>
+  {% include '../atoms/button.html.swig' with {label: basic.cta} %}
 </div>
