@@ -7,7 +7,7 @@ notes: |
   ##### Options :
   - **cours** - object
 ---
-<a href="{{ cours.url }}" class="course-tile {{ cours.colortheme }}">
+<a href="{{ cours.url }}" class="course-tile {{ cours.colortheme }} no-underline">
   {% spaceless %}
     {% if cours.shorttitle %}
       {{ cours.shorttitle }}

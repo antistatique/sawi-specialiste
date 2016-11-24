@@ -8,7 +8,7 @@ notes: |
   - **seance** - object
 ---
 <div class="teaser-seance">
-  <a href="{{ seance.url|default('#') }}" class="">
+  <a href="{{ seance.url|default('#') }}" class="no-underline">
     <div class="seance-tile {{ seance.colortheme|default('theme-strategie-digital') }}">
       {% spaceless %}
         {{ seance.shorttitle|default('Stratégie digitale') }}

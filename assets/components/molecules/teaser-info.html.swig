@@ -13,7 +13,7 @@ notes: |
       {{ info.date }}
     </h6>
     <h5>
-      <a href="#">{{ info.title }}</a>
+      <a href="#" class="no-underline">{{ info.title }}</a>
     </h5>
     <p>
       {{ info.resume }}

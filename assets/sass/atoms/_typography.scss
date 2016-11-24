@@ -24,7 +24,7 @@ h2,
 
 h3,
 .h3 {
-  line-height: 1.25em;
+  line-height: 1em;
 }
 
 h4,
@@ -213,4 +213,8 @@ h6,
     display: inline-block;
     padding-right: 0.6em;
   }
+}
+
+.text-link {
+  color: $link-hover-color;
 }

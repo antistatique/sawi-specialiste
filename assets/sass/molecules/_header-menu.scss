@@ -11,7 +11,7 @@
   color: $white;
   z-index: $zindex-modal + 10;
   transition: all 0.3s ease;
-  overflow: scroll;
+  overflow: auto;
 
   @media only screen and (min-width: $screen-sm-min) {
     left: -40%;

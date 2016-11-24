@@ -1,9 +1,18 @@
 @charset 'UTF-8';
 
+.teaser-news {
+  margin-bottom: $grid-gutter-width;
+}
+
 .teaser-news-cover {
   img { width: 100%; }
 }
 
 .teaser-news-body {
+  padding: $grid-gutter-width / 2;
+  background: $white;
+  border: 1px solid $gray-lighter;
+  border-top: 0;
+
   .teaser-news-date { color: $teaser-news-light; }
 }
