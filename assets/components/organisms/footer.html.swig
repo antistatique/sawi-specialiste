@@ -7,13 +7,15 @@ notes: |
   ##### Options :
   - **option** - Type
 ---
-<div class="row">
-  <div class="col-sm-8">
+<footer class="row">
+  <div class="col-md-8">
     {% include '../molecules/newsletter.html.swig' %}
     <div class="spacer spacer-xs"></div>
     {% include '../molecules/contact.html.swig' %}
   </div>
-  <div class="col-sm-4">
+  <div class="col-md-4">
+    <div class="spacer spacer-lg visible-xs visible-sm"></div>
     {% include '../molecules/social.html.swig' %}
+    {% include '../atoms/signature.html.swig' %}
   </div>
-</div>
+</footer>
