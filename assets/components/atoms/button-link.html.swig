@@ -7,15 +7,11 @@ notes: |
   ##### Options :
   - **label** - String
   - **url** - String
-  - **theme** - String (default `primary`, `succes`, `warning`, ...)
+  - **theme** - String (default `primary`, `secondary`, `succes`, `warning`, ...)
 ---
 {% set chevron = true %}
-<a href="/{% if url %}{{url}}{% else %}#{% endif %}" class="button-link btn btn-lg btn-{% if theme %}{{theme}}{% else %}primary{% endif %}">
+<a href="/{{ url|default('#') }}" class="button-link btn btn-lg btn-{{ theme|default('primary') }}">
   {% spaceless %}
-    {% if label %}
-      {{label}}
-    {% else %}
-      My button
-    {% endif %}
+    {{ label|default('My button') }}
   {% endspaceless %}
 </a>
