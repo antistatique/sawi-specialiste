@@ -18,4 +18,7 @@ layout: page.html.swig
 
   <div class="spacer"></div>
   {% include '../organisms/seances.html.swig' %}
+
+  <div class="spacer spacer-lg"></div>
+  {% include '../organisms/footer.html.swig' %}
 <div>

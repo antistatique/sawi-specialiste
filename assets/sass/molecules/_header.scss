@@ -20,6 +20,7 @@
     padding: 0 $grid-gutter-width 0 $grid-gutter-width;
 
     @media only screen and (min-width: $screen-md-min) {
+      width: 400px;
       height: 120px;
     }
 
@@ -44,6 +45,10 @@
 
     @media only screen and (min-width: $screen-md-min) {
       max-width: 600px;
+    }
+
+    @media only screen and (min-width: $screen-lg-min) {
+      max-width: 700px;
     }
   }
 

@@ -5,11 +5,12 @@ export function menu_toggle () {
     e.preventDefault();
 
     const $this = $(this);
+    const $hamburger = $this.find('.hamburger');
     const $body = $(document.body);
     const $menu = $('.header-menu');
     const $overlay = $('.body-overlay');
 
-    $this.toggleClass('active');
+    $hamburger.toggleClass('is-active');
     $body.toggleClass('menu-push-toright');
     $menu.toggleClass('menu-open');
     $overlay.toggleClass('visible');
