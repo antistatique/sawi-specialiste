@@ -52,5 +52,8 @@
 
   .seance-infos {
     padding: 1em;
+    background: $white;
+    border: 1px solid $gray-lighter;
+    border-top: 0;
   }
 }
