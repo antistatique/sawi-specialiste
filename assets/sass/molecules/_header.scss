@@ -1,6 +1,6 @@
 @charset 'UTF-8';
 
-.header{
+.header {
   .header-container {
     display: flex;
     flex-direction: column;
@@ -16,13 +16,17 @@
   .logo-container {
     display: inline-block;
     width: 280px;
-    height: 120px;
+    height: 100px;
     padding: 0 $grid-gutter-width 0 $grid-gutter-width;
 
+    @media only screen and (min-width: $screen-md-min) {
+      height: 120px;
+    }
+
     img {
+      display: block;
       position: relative;
       top: 50%;
-      display: block;
       max-width: 100%;
       margin: 0 auto;
       transform: translateY(-50%);

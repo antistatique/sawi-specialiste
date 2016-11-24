@@ -2,12 +2,19 @@
 
 .menu-toggle {
   display: inline-block;
-  width: 120px;
-  height: 120px;
-  padding: 33px;
+  width: 100px;
+  height: 100px;
+  padding: 24px;
   background: $black;
+  cursor: pointer;
   transition: background 0.2s;
   z-index: $zindex-modal + 1;
+
+  @media only screen and (min-width: $screen-md-min) {
+    width: 120px;
+    height: 120px;
+    padding: 33px;
+  }
 
   &:hover {
     background: lighten($black, 10%);

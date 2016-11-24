@@ -55,12 +55,13 @@
 body.menu-push {
   position: relative;
   left: 0;
-  overflow-x: hidden;
   transition: all 0.3s ease;
 
   &.menu-push-toright {
-    overflow: hidden;
+    position: fixed;
     left: 70%;
+    height: 100%;
+    overflow: hidden;
 
     @media only screen and (min-width: $screen-sm-min) {
       left: 40%;

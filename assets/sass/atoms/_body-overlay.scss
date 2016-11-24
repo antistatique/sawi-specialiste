@@ -15,4 +15,8 @@
     opacity: 0.4;
     z-index: $zindex-modal + 1;
   }
+
+  &.delay {
+    transition-delay: 0.2s;
+  }
 }

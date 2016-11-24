@@ -10,7 +10,7 @@
     <title>SAWI - formation continue en marketing, publicité &amp; communication - sawi.com</title>
     <meta name="description" content="Depuis 1968, le SAWI Lausanne, Suisse, centre suisse d'enseignement du marketing, de la publicité, de la communication et de la vente, propose une large palette de formations professionnelles répondant aux besoins des entreprises et des personnes actives.">
     <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     {% if styleguide %}
       <link rel="stylesheet" href="/build/css/styleguide.css">
