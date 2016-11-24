@@ -7,6 +7,8 @@
 
 // atoms:
 @import 'atoms/table';
+@import 'atoms/input-select';
+@import 'atoms/input-checkbox';
 @import 'atoms/link';
 @import 'atoms/signature';
 @import 'atoms/icon-text';
@@ -24,6 +26,7 @@
 @import 'atoms/button';
 
 // molecules:
+@import 'molecules/facets';
 @import 'molecules/teaser-partner';
 @import 'molecules/teaser-profil';
 @import 'molecules/search';
