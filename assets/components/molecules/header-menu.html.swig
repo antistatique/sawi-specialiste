@@ -9,7 +9,7 @@ notes: |
 ---
 <div class="header-menu">
   <div class="header-menu-container">
-    <ul class="">
+    <ul class="nav">
       <li class="">
         <h3 class="media-heading"><a href="#">Formations</a></h3>
         <ul class="children">
