@@ -1,1 +1,20 @@
 @charset 'UTF-8';
+
+.social {
+  ul {
+    margin: $grid-gutter-width 0 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    color: $black;
+    text-decoration: underline;
+    transition: 0.25s color ease-in-out;
+
+    &:hover,
+    &:active {
+      color: $brand-primary;
+    }
+  }
+}
