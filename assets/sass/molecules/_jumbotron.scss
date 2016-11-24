@@ -9,6 +9,18 @@
 
   .jumbotron-sawi-picture {
     order: 1;
+    min-width: 75%;
+  }
+}
+
+@media only screen and (min-width: $screen-md-min) {
+  .jumbotron-sawi-intro {
+    width: 50%;
+  }
+
+  .jumbotron-sawi-picture {
+    width: 50%;
+    min-width: 50%;
   }
 }
 
@@ -23,7 +35,7 @@
 @media only screen and (min-height: 30em) {
   .jumbotron-sawi-h1 {
     font-size: 9vh;
-    line-height: 8.8vh;
+    line-height: 0.9em;
 
     @media only screen and (max-width: $screen-sm-max) {
       font-size: 6vh;
