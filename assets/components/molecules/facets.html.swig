@@ -6,7 +6,7 @@ notes: |
   ##### Usage : `facets`
 ---
 <div class="filter">
-  <h2>Rechercher un intervenant</h2>
+  <h2 class="media-heading">Rechercher un intervenant</h2>
   <div class="form-group">
     <input type="text" class="form-control full-width" placeholder="Nom, Prénom"></input>
   </div>
