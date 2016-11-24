@@ -1,5 +1,9 @@
 @charset 'UTF-8';
 
+.jumbotron-sawi {
+  overflow: hidden;
+}
+
 @media only screen and (min-width: $screen-sm-min) {
   .jumbotron-sawi-container {
     display: flex;
