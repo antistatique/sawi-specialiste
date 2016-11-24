@@ -6,6 +6,11 @@ notes: |
   ##### Usage : `teaser-profil`
 ---
 <div class="media teaser-profil">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object img-circle" src="/build/img/face-avatar.png" alt="Alberto Gomez">
+    </a>
+  </div>
   <div class="media-body">
     <h3 class="media-heading">Alberto Gomez</h3>
     <h5 class="media-heading"><a href="#">Spécialiste en stratégie digital</a></h5>
