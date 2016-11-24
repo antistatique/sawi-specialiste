@@ -55,3 +55,8 @@ $state-info-border:              $gray-base !default;
 
 // Colors
 $teaser-news-light: $silver-chalice;
+
+// forms
+$input-bg-focus: $white;
+$input-border-disabled: lighten($gray, 50%);
+$input-border-size: 1px;
