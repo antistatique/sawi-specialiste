@@ -20,7 +20,7 @@ layout: page.html.swig
 
   <div class="spacer spacer-md"></div>
   {% include '../organisms/seances.html.swig' %}
+</div>
 
-  <div class="spacer spacer-lg"></div>
-  {% include '../organisms/footer.html.swig' %}
-<div>
+<div class="spacer spacer-lg"></div>
+{% include '../organisms/footer.html.swig' %}
