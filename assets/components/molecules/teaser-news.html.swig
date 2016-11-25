@@ -19,7 +19,7 @@ notes: |
     <h3 class="m-t-1 m-b-1 ">
       <a href="#" class="no-underline">
         {{ news.title|default('Ut egestas nec ante sit') }}
-        <i class="fa fa-angle-right text-link" aria-hidden="true"></i>
+        <i class="fa fa-angle-right text-link icon-spacer-sm" aria-hidden="true"></i>
       </a>
     </h3>
     <p class="text-book">
