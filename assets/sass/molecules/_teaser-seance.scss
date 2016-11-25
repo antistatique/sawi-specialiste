@@ -3,7 +3,21 @@
 .teaser-seance {
   max-width: 600px;
   padding: $grid-gutter-width;
-  border: 1px solid $gray-lighter;
+  background-color: $gray-lighter;
+  border: none;
+  box-shadow: inset 0 0 0 1px darken($gray-lighter, 5%);
+  transition: box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    color: $text-color;
+    box-shadow: inset 0 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+
+  &:active,
+  &:focus {
+    color: $text-color;
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.4);
+  }
 
   .label {
     padding: $grid-gutter-width / 2;
