@@ -5,8 +5,10 @@ collection: molecules
 notes: |
   ##### Usage : `alert`
 ---
-<div class="alert alert-info" style="margin-bottom:0;">
+<div class="alert alert-info alert-dismissible" style="margin-bottom:0;">
   <div class="container">
+    <div class="close pull-right" data-dismiss="alert" aria-label="Close"></div>
+
     <div class="row">
       <div class="col-xs-12">
         <h3>

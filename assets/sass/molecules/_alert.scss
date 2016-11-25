@@ -3,11 +3,8 @@
 .alert {
   padding: $grid-gutter-width;
 
-  @media only screen and (min-width: $screen-sm-min) {
-    // padding-left: 120px;
-  }
-
   &.alert-dismissible {
+    position: relative;
     padding-right: $grid-gutter-width * 2;
   }
 
@@ -18,6 +15,7 @@
     width: 32px;
     height: 32px;
     opacity: 0.3;
+    transition: opacity 0.3s ease-in-out;
   }
 
   .close:hover {

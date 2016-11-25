@@ -7,7 +7,7 @@ notes: |
 ---
 <div class="seances">
   <div class="row">
-    <div class="col-md-10 seances-header">
+    <div class="col-md-12 seances-header">
       <h2 class="h1 media-heading seances-title fine-weight">Séances d’informations</h2>
     </div>
     <div class="spacer"></div>
@@ -18,7 +18,7 @@ notes: |
     {% if loop.index % 2 %}
       </div><div class="row">
     {% endif %}
-    <div class="col-md-5">
+    <div class="col-md-6">
       {% include '../molecules/teaser-seance.html.swig' with {seance: currentseance} %}
       <div class="spacer spacer-sm"></div>
     </div>
