@@ -5,16 +5,15 @@ a {
   text-decoration: underline;
   transition: color 0.25s ease-in-out;
 
-  // &:hover {
-  //   color: $link-hover-color;
-  // }
-  //
-
   &.active {
     color: $gray;
   }
 
   &.no-underline {
     text-decoration: none;
+  }
+
+  &.link-invert {
+    color: $white;
   }
 }

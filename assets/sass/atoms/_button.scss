@@ -29,3 +29,16 @@
     box-shadow: inset 0 0 0 3px $brand-primary;
   }
 }
+
+&.btn-outline {
+  background-color: none;
+  border: none;
+  color: $black;
+  box-shadow: inset 0 0 0 2px $gray-base;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $gray-base;
+    color: $white;
+  }
+}

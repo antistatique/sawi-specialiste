@@ -49,9 +49,12 @@ $label-color:                 $gray-base !default;
 //** Default text color of a linked label
 $label-link-hover-color:      $gray-base !default;
 
-$state-info-text:                $white !default;
-$state-info-bg:                  $gray-base !default;
-$state-info-border:              $gray-base !default;
+$state-info-text:                $gray-base !default;
+$state-info-bg:                  #fff087 !default;
+$state-info-border:              #fff087 !default;
+
+$state-success-border:           #dff0d8 !default;
+$state-danger-border:            #fcf8e3 !default;
 
 // Colors
 $teaser-news-light: $silver-chalice;

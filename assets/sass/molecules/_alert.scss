@@ -1,1 +1,45 @@
 @charset 'UTF-8';
+
+.alert {
+  padding: $grid-gutter-width;
+
+  @media only screen and (min-width: $screen-sm-min) {
+    // padding-left: 120px;
+  }
+
+  &.alert-dismissible {
+    padding-right: $grid-gutter-width * 2;
+  }
+
+  .close {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+  }
+
+  .close:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
+
+  .close:before,
+  .close:after {
+    content: ' ';
+    position: absolute;
+    left: 15px;
+    width: 2px;
+    height: 33px;
+    background-color: $gray-base;
+  }
+
+  .close:before {
+    transform: rotate(45deg);
+  }
+
+  .close:after {
+    transform: rotate(-45deg);
+  }
+}
