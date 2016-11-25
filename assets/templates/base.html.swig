@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="//cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
     <link rel="stylesheet" href="/build/css/vendors.min.css">
     <link rel="stylesheet" href="/build/css/main.css">
-
     <script>
        WebFontConfig = {
           typekit: { id: 'tar2gdp' }
@@ -32,7 +31,7 @@
        })(document);
     </script>
 
-    <script src="https://use.askit.net/tar2gdp.js"></script>
+    <script src="https://use.typekit.net/tar2gdp.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <!--[if lt IE 9]>

@@ -1,5 +1,8 @@
 @charset 'UTF-8';
 
+/* stylelint-disable declaration-no-important, max-nesting-depth */
+/* Override plugin  */
+
 .timeline-sawi {
   .tl-text-content-container {
     .tl-headline {
@@ -11,6 +14,10 @@
     .tl-text-content .text-seance {
       font-size: $font-size-h6;
     }
+
+    .tl-text-content p {
+      color: $text-color;
+    }
   }
 
   .tl-timemarker {
@@ -21,9 +28,33 @@
       box-shadow: none;
     }
 
+    &:hover {
+      .tl-timemarker-content-container {
+        background-color: lighten($brand-primary, 20);
+        transition: background 0.3s ease-in-out;
+      }
+
+      .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+        color: $gray-base;
+      }
+
+      .tl-timemarker-text h2.tl-headline {
+        color: $text-color;
+      }
+
+      .tl-timemarker-line-left {
+        border-left-color: lighten($brand-primary, 20);
+        transition: border 0.3s ease-in-out;
+
+        &:after {
+          border: 2px solid lighten($brand-primary, 20);
+          transition: border 0.3s ease-in-out;
+        }
+      }
+    }
+
     .tl-timemarker-content {
       display: flex;
-      // align-items: center;
     }
 
     .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
@@ -48,7 +79,7 @@
         left: -8px;
         width: 15px;
         height: 15px;
-        background: $white!important;
+        background: $white !important;
         border: 2px solid $gray-lighter;
       }
     }
@@ -61,14 +92,43 @@
       border-left-color: $brand-primary;
 
       &:after {
-        background: $white!important;
+        background: $white !important;
         border: 2px solid $brand-primary;
       }
     }
   }
 
+  .tl-slidenav-previous .tl-slidenav-title,
+  .tl-slidenav-next .tl-slidenav-title {
+    font-size: $font-size-base;
+    line-height: 1em;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .tl-slidenav-content-container {
+    .tl-slidenav-icon {
+      transition:
+        color 0.3s ease-in-out,
+        margin 0.3s ease-in-out;
+    }
+
+    &:hover .tl-slidenav-icon {
+      color: $brand-primary;
+
+    }
+  }
+
+  .tl-slidenav-previous .tl-slidenav-description,
+  .tl-slidenav-next .tl-slidenav-description {
+    display: none;
+  }
+
   .tl-timenav {
     background-color: transparent;
+  }
+
+  .tl-attribution {
+    display: none;
   }
 
   .tl-timeaxis {
@@ -79,5 +139,5 @@
   .tl-timeaxis-background {
     border-top-color: $gray-lighter;
   }
-
 }
+/* stylelint-enable declaration-no-important, max-nesting-depth */
