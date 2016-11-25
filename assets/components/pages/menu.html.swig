@@ -14,10 +14,11 @@ layout: page.html.swig
 {% include '../molecules/jumbotron.html.swig' with {cours: cours} %}
 
 <div class="container">
-  <div class="spacer"></div>
+  <div class="spacer spacer-sm"></div>
+  <div class="spacer spacer-md"></div>
   {% include '../organisms/news.html.swig' %}
 
-  <div class="spacer"></div>
+  <div class="spacer spacer-md"></div>
   {% include '../organisms/seances.html.swig' %}
 
   <div class="spacer spacer-lg"></div>

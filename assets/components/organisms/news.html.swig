@@ -15,8 +15,8 @@ notes: |
         <a href="#" class="no-underline">Voir toutes les actualités <i class="fa fa-angle-right text-link icon-spacer-sm" aria-hidden="true"></i></a>
       </h4>
     </div>
-    <div class="spacer"></div>
   </div>
+  <div class="spacer spacer-md"></div>
 
   <div class="row">
   {% for currentnews in data.news %}
