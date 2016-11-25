@@ -32,8 +32,8 @@
        })(document);
     </script>
 
-    {# <script src="https://use.askit.net/tar2gdp.js"></script> #}
-    {# <script>try{Typekit.load({ async: true });}catch(e){}</script> #}
+    <script src="https://use.askit.net/tar2gdp.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <!--[if lt IE 9]>
       <script src="/build/js/polyfills.min.js"></script>
