@@ -1,0 +1,83 @@
+@charset 'UTF-8';
+
+.timeline-sawi {
+  .tl-text-content-container {
+    .tl-headline {
+      font-size: $font-size-h1;
+      font-weight: 800;
+      color: $text-color;
+    }
+
+    .tl-text-content .text-seance {
+      font-size: $font-size-h6;
+    }
+  }
+
+  .tl-timemarker {
+    .tl-timemarker-content-container {
+      background-color: $gray-lighter;
+      border-radius: 0;
+      border: 0;
+      box-shadow: none;
+    }
+
+    .tl-timemarker-content {
+      display: flex;
+      // align-items: center;
+    }
+
+    .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+      font-size: 18px;
+      line-height: 1;
+      font-weight: 800;
+      color: $gray-base;
+    }
+
+    &.tl-timemarker-active .tl-timemarker-content-container {
+      background-color: $brand-primary;
+      box-shadow: none;
+    }
+
+    .tl-timemarker-timespan {
+      background: none;
+      &:after { display: none; }
+    }
+
+    .tl-timemarker-line-left {
+      &:after {
+        left: -8px;
+        width: 15px;
+        height: 15px;
+        background: $white!important;
+        border: 2px solid $gray-lighter;
+      }
+    }
+
+    .tl-timemarker-line-right {
+      display: none;
+    }
+
+    &.tl-timemarker-active .tl-timemarker-line-left {
+      border-left-color: $brand-primary;
+
+      &:after {
+        background: $white!important;
+        border: 2px solid $brand-primary;
+      }
+    }
+  }
+
+  .tl-timenav {
+    background-color: transparent;
+  }
+
+  .tl-timeaxis {
+    .tl-timeaxis-content-container .tl-timeaxis-minor .tl-timeaxis-tick:before { border: 0; }
+    .tl-timeaxis-content-container .tl-timeaxis-major .tl-timeaxis-tick:before { border: 0; }
+  }
+
+  .tl-timeaxis-background {
+    border-top-color: $gray-lighter;
+  }
+
+}

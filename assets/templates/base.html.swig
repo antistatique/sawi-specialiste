@@ -16,6 +16,7 @@
       <link rel="stylesheet" href="/build/css/styleguide.css">
     {% endif %}
 
+    <link rel="stylesheet" href="//cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
     <link rel="stylesheet" href="/build/css/vendors.min.css">
     <link rel="stylesheet" href="/build/css/main.css">
 
@@ -30,6 +31,9 @@
           s.parentNode.insertBefore(wf, s);
        })(document);
     </script>
+
+    {# <script src="https://use.askit.net/tar2gdp.js"></script> #}
+    {# <script>try{Typekit.load({ async: true });}catch(e){}</script> #}
 
     <!--[if lt IE 9]>
       <script src="/build/js/polyfills.min.js"></script>
@@ -71,6 +75,7 @@
     {% endif %}
 
     <script src="//code.jquery.com/jquery-2.2.4.min.js" crossorigin="anonymous"></script>
+    <script src="//cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
     <script src="/build/js/vendors.min.js"></script>
     <script src="/build/js/bundle.js"></script>
 
