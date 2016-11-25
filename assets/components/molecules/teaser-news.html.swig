@@ -22,7 +22,7 @@ notes: |
         <i class="fa fa-angle-right text-link" aria-hidden="true"></i>
       </a>
     </h3>
-    <p class="fine-weight">
+    <p class="text-book">
       {{ news.resume|default('Vestibulum scelerisque risus eu mauris eleifend, ac laoreet elit maximus. Proin vulputate tincidunt urna, nec semper nunc ullamcorper sed. Mauris id dignissim sem.') }}
     </p>
   </div>

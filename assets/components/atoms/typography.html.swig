@@ -18,4 +18,5 @@ notes: |
 <h5>H5 - Heading level 5 sur plusieurs ligne pour tester l'interlignage aussi</h1>
 <h5 class="fine-weight">H5 - Heading level 5 sur plusieurs ligne pour tester l'interlignage aussi</h1>
 <h6>H6 - Heading level 6 sur plusieurs ligne pour tester l'interlignage aussi</h1>
+<h6 class="text-book">H6 - Heading level 6 sur plusieurs ligne pour tester l'interlignage aussi</h1>
 <h6 class="fine-weight">H6 - Heading level 6 sur plusieurs ligne pour tester l'interlignage aussi</h1>
