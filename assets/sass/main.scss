@@ -4,8 +4,8 @@
 @import 'main-variables';
 @import 'bootstrap';
 
-
 // atoms:
+@import 'atoms/table';
 @import 'atoms/language-picker';
 @import 'atoms/menu-toggle';
 @import 'atoms/page-title';
@@ -17,6 +17,7 @@
 @import 'atoms/button';
 
 // molecules:
+@import 'molecules/header-light';
 @import 'molecules/search-box';
 @import 'molecules/header-menu';
 @import 'molecules/social';
@@ -47,5 +48,3 @@
 @import 'pages/media-planning';
 @import 'pages/brand-design-management';
 @import 'pages/strategie-digitale';
-
-

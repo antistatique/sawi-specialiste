@@ -1,0 +1,20 @@
+@charset 'UTF-8';
+
+.table {
+  @media only screen and (max-width: $screen-xs-max) {
+    display: block;
+
+    tr,
+    td {
+      display: block;
+    }
+
+    td.text-right {
+      text-align: left !important;
+
+      + td {
+        border-top: 0;
+      }
+    }
+  }
+}

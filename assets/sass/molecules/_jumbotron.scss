@@ -24,6 +24,11 @@
   .jumbotron-sawi-h1 {
     font-size: 9vh;
     line-height: 8.8vh;
+
+    @media only screen and (max-width: $screen-sm-max) {
+      font-size: 6vh;
+      line-height: 6vh;
+    }
   }
 
   .jumbotron-sawi-p {

@@ -26,6 +26,18 @@
     {
       "name": "$media-planning",
       "hexa": "#746BFE"
+    },
+    {
+    "name": "$communication",
+    "hexa": "#eeeeee"
+    },
+    {
+    "name": "$marketing",
+    "hexa": "#3fb5dd"
+    },
+    {
+    "name": "$vente",
+    "hexa": "#b64926"
     }
   ]
 }

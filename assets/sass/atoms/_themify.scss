@@ -34,3 +34,24 @@ a.theme-media-planning:hover {
   background-color: $media-planning;
   color: $white;
 }
+
+.theme-communication,
+a.theme-communication,
+a.theme-communication:hover {
+  background-color: $communication;
+  color: $gray-base;
+}
+
+.theme-marketing,
+a.theme-marketing,
+a.theme-marketing:hover {
+  background-color: $marketing;
+  color: $white;
+}
+
+.theme-vente,
+a.theme-vente,
+a.theme-vente:hover {
+  background-color: $vente;
+  color: $white;
+}
