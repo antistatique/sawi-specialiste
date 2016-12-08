@@ -17,12 +17,12 @@ notes: |
       </div>
     </div>
     <div class="row">
-      <div class="col-md-10">
+      <div class="col-md-9">
         <h3 class="media-heading fine-weight">
         Venez poser vos questions et discuter avec les responsables du cours à <a class="" href="https://goo.gl/maps/cxR4nmTFRn42">La Maison de la communication, Lausanne</a>.
         </h3>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-3 col-lg-2 col-lg-offset-1">
         <div class="spacer spacer-md visible-sm visible-xs"></div>
         <a href="http://www.sawi.com/fr/seances-dinformation/form/?uid=215" class="btn btn-outline btn-lg">Inscription</a>
       </div>
