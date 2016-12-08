@@ -12,7 +12,7 @@ export function timeline () {
     marker_padding: 10
   };
 
-  const timeline = new TL.Timeline('timeline-embed', 'https://docs.google.com/spreadsheets/d/1YfRcZiOeuq28RaxmxxHssYET6fgjALgI9Nygk8_cwo8/pubhtml', options);
-
-  console.log(timeline);
+  if (typeof TL !== 'undefined') {
+    const timeline = new TL.Timeline('timeline-embed', 'https://docs.google.com/spreadsheets/d/1YfRcZiOeuq28RaxmxxHssYET6fgjALgI9Nygk8_cwo8/pubhtml', options);
+  }
 }
