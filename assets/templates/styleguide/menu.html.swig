@@ -21,6 +21,17 @@
     </li> -->
 
     <li>
+      <span class="styleguide-menu-heading">Samples</span>
+      <ul>
+        {% for sample in collections.samples %}
+          <li>
+            <a href="/{{sample.title|lower}}">{{sample.title}}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
+
+    <li>
       <a href="/atoms/" class="styleguide-menu-heading">Atoms</a>
       <ul>
         {% for atom in collections.atoms %}

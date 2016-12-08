@@ -9,11 +9,11 @@ notes: |
 ---
 <div class="row">
   <div class="col-sm-12">
-    <h6 class="fine-weight">
+    <h6 class="text-book">
       {{ info.date }}
     </h6>
     <h5>
-      <a href="#">{{ info.title }}</a>
+      <a href="#" class="no-underline">{{ info.title }}</a>
     </h5>
     <p>
       {{ info.resume }}

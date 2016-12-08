@@ -6,13 +6,10 @@ notes: |
   ##### Usage : `button`
   ##### Options :
   - **label** - String
+  - **theme** - String (default `primary`, `secondary`, `succes`, `warning`, ...)
 ---
-<button class="btn btn-lg btn-primary">
+<button class="btn btn-lg btn-{{ theme|default('primary') }}">
   {% spaceless %}
-    {% if label %}
-      {{label}}
-    {% else %}
-      Inscrivez-vous
-    {% endif %}
+    {{ label|default('Inscrivez-vous') }}
   {% endspaceless %}
 </button>

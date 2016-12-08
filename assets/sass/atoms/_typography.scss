@@ -8,8 +8,17 @@
   -webkit-font-smoothing: antialiased;
 }
 
+.text-light,
 .fine-weight {
   font-weight: 100;
+}
+
+.text-book {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 400;
 }
 
 h1,
@@ -19,12 +28,12 @@ h1,
 
 h2,
 .h2 {
-  line-height: 1.25em;
+  line-height: 1em;
 }
 
 h3,
 .h3 {
-  line-height: 1.25em;
+  line-height: 1em;
 }
 
 h4,
@@ -213,4 +222,8 @@ h6,
     display: inline-block;
     padding-right: 0.6em;
   }
+}
+
+.text-link {
+  color: $link-hover-color;
 }

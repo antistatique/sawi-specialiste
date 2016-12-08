@@ -8,6 +8,7 @@
   "dependencies": {
     "bootstrap-sass": "~3.3.5",
     "html5shiv": "^3.7.3",
+    "font-awesome": "^4.6.3",
     "jquery": "^2.2.4",
     "respond.js": "^1.4.2"
   },
@@ -52,7 +53,7 @@
     "gulp-sass": "^2.0.0",
     "gulp-size": "^2.0.0",
     "gulp-sourcemaps": "^1.5.2",
-    "gulp-stylelint": "^2.0.2",
+    "gulp-stylelint": "^3.4.0",
     "gulp-uglify": "~1.5.1",
     "gulp-util": "^3.0.4",
     "imagemin-pngquant": "^5.0.0",
@@ -77,7 +78,7 @@
     "sinon": "^1.14.1",
     "sinon-chai": "^2.7.0",
     "slug": "^0.9.1",
-    "stylelint": "^6.2.2",
+    "stylelint": "^7.6.0",
     "swig": "^1.4.2",
     "toolbox-utils": "^0.0.2",
     "vinyl-buffer": "^1.0.0",

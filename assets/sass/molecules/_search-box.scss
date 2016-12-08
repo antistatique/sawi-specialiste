@@ -2,9 +2,9 @@
 
 .search-box {
   display: inline-block;
-  padding: 0 0 0 $grid-gutter-width/2;
-  .toggle-search {
-    color: $media-planning;
+  padding-right: $grid-gutter-width/2;
+
+  .search-toggle {
     font-size: 40px;
   }
 }
