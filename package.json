@@ -15,7 +15,7 @@
     "url": "https://github.com/antistatique/sawi-styleguide.git"
   },
   "scripts": {
-    "build": "npm install && gulp build --production"
+    "build": "npm install && gulp build"
   },
   "dependencies": {
     "bootstrap-sass": "~3.3.5",
