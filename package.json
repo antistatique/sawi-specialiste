@@ -1,6 +1,6 @@
 {
   "name": "@antistatique/sawi-styleguide",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.html",
   "browserify-shim": {
     "jquery": "global:jQuery"
@@ -15,7 +15,7 @@
     "url": "https://github.com/antistatique/sawi-styleguide.git"
   },
   "scripts": {
-    "build": "npm install && gulp --production"
+    "build": "npm install && gulp build --production"
   },
   "dependencies": {
     "bootstrap-sass": "~3.3.5",
