@@ -11,6 +11,10 @@
     min-height: 66vh;
   }
 
+  .jumbotron-sawi-container.jumbotron-sawi-container-mini {
+    min-height: 0;
+  }
+
   .jumbotron-sawi-picture {
     order: 1;
     min-width: 75%;
@@ -18,7 +22,11 @@
 }
 
 @media only screen and (min-width: $screen-md-min) {
-  .jumbotron-sawi-intro {
+  .jumbotron-sawi-intro.jumbotron-sawi-intro-full-width {
+    width: 100%;
+  }
+
+  .jumbotron-sawi-intro:not(.jumbotron-sawi-intro-full-width) {
     width: 50%;
   }
 
