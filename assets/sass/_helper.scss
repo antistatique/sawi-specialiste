@@ -103,4 +103,14 @@
   display: inline-block !important;
 }
 
+/**
+ * Lists
+ */
+
+ul.unstyled-list,
+ol.unstyled-list {
+  list-style: none;
+  padding-left: 0.5em;
+}
+
 /* stylelint-enable declaration-no-important */
