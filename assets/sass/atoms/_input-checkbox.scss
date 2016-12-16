@@ -1,0 +1,14 @@
+@charset 'UTF-8';
+
+.input-checkbox {
+  min-height: 28px;
+
+  label {
+    font-size: $font-size-base;
+    line-height: 1em;
+  }
+
+  input {
+    margin-right: $font-size-base / 1.5;
+  }
+}

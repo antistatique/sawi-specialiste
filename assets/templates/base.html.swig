@@ -7,16 +7,29 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>SAWI</title>
-    <meta name="description" content="">
+    <title>SAWI - formation continue en marketing, publicité &amp; communication - sawi.com</title>
+    <meta name="description" content="Depuis 1968, le SAWI Lausanne, Suisse, centre suisse d'enseignement du marketing, de la publicité, de la communication et de la vente, propose une large palette de formations professionnelles répondant aux besoins des entreprises et des personnes actives.">
     <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     {% if styleguide %}
       <link rel="stylesheet" href="/build/css/styleguide.css">
     {% endif %}
 
+    <link rel="stylesheet" href="//cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <link rel="stylesheet" href="/build/css/vendors.min.css">
     <link rel="stylesheet" href="/build/css/main.css">
+    <script>
+       WebFontConfig = {
+          typekit: { id: 'tar2gdp' }
+       };
+
+       (function(d) {
+          var wf = d.createElement('script'), s = d.scripts[0];
+          wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js';
+          s.parentNode.insertBefore(wf, s);
+       })(document);
+    </script>
 
     <script src="https://use.typekit.net/tar2gdp.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -24,8 +37,15 @@
     <!--[if lt IE 9]>
       <script src="/build/js/polyfills.min.js"></script>
     <![endif]-->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{data.path}}/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="{{data.path}}/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{data.path}}/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="{{data.path}}/manifest.json">
+    <link rel="mask-icon" href="{{data.path}}/safari-pinned-tab.svg" color="#ffe200">
+    <meta name="theme-color" content="#ffffff">
   </head>
-  <body>
+  <body class="menu-push">
     {% if !styleguide %}
         <!-- Google Tag Manager -->
         <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KDWZ3B"
@@ -51,11 +71,12 @@
 
     {% if styleguide %}
       </div>
+    {% endif %}
 
     <script src="//code.jquery.com/jquery-2.2.4.min.js" crossorigin="anonymous"></script>
+    <script src="//cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
     <script src="/build/js/vendors.min.js"></script>
     <script src="/build/js/bundle.js"></script>
-    {% endif %}
 
     {% if styleguide %}
       <script>

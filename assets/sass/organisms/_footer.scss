@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+
+footer {
+  background-image: url('../img/footer-background.png');
+  background-repeat: no-repeat;
+  background-position: 33% 144%;
+  border-bottom: 5px solid $brand-primary;
+  transition: 0.5s ease-in-out;
+
+  @media screen and (min-width: $screen-md-min) {
+    background-position: 85% 45%;
+  }
+
+  @media screen and (min-width: $screen-lg-min+400) {
+    background-position: 60% 100%;
+  }
+
+  .footer-inner {
+    position: relative;
+    padding-bottom: 4em;
+
+    @media only screen and (min-width: $screen-md-min) {
+      display: flex;
+    }
+  }
+
+  a {
+    color: $black;
+    text-decoration: underline;
+  }
+
+  .signature {
+    margin-top: $grid-gutter-width;
+
+    @media only screen and (min-width: $screen-md-min) {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}

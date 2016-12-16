@@ -11,15 +11,22 @@ $gray:                   lighten($gray-base, 33.5%) !default;
 $gray-light:             lighten($gray-base, 46.7%) !default;
 $gray-lighter:           #eee !default;
 $white:                  #fff;
+$silver-chalice:         #aaa;
 $white-alpha-80:         rgba(255, 255, 255, 0.8);
 $white-alpha-40:         rgba(255, 255, 255, 0.4);
 $white-alpha-0:          rgba(255, 255, 255, 0);
+$black-alpha-40:         rgba(0, 0, 0, 0.4);
+
+$black:                 #000;
 
 $strategie-digital:           #eeeeee;
 $brand-design-management:     #ec6d71;
 $marketing-operationnel:      #9dbdbb;
 $retail-merchandising:        #8dafb7;
-$media-planning:              #0ba2e5;
+$media-planning:              #746BFE;
+$communication:               #eeeeee;
+$marketing:                   #3fb5dd;
+$vente:                       #b64926;
 
 $btn-primary-color:              $gray-base !default;
 $btn-primary-bg:                 $brand-primary !default;
@@ -31,9 +38,9 @@ $font-family-sans-serif:  "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-
 $font-size-base:          20px !default;
 
 //** Global textual link color.
-$link-color:            $brand-info !default;
+$link-color:            $gray-base !default;
 //** Link hover color set via `darken()` function.
-$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-color:      $brand-info !default;
 
 //** Default label background color
 $label-default-bg:   $gray-lighter;
@@ -42,6 +49,17 @@ $label-color:                 $gray-base !default;
 //** Default text color of a linked label
 $label-link-hover-color:      $gray-base !default;
 
-$state-info-text:                $white !default;
-$state-info-bg:                  $gray-base !default;
-$state-info-border:              $gray-base !default;
+$state-info-text:                $gray-base !default;
+$state-info-bg:                  $brand-primary !default;
+$state-info-border:              $brand-primary !default;
+
+$state-success-border:           #dff0d8 !default;
+$state-danger-border:            #fcf8e3 !default;
+
+// Colors
+$teaser-news-light: $silver-chalice;
+
+// forms
+$input-bg-focus: $white;
+$input-border-disabled: lighten($gray, 50%);
+$input-border-size: 1px;

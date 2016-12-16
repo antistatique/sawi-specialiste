@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+
+.language-picker {
+  display: inline-block;
+  margin: 0 $grid-gutter-width/2 0;
+
+  a,
+  span {
+    margin-right: $grid-gutter-width/2;
+    font-size: 26px;
+    line-height: 1;
+    font-weight: 700;
+    // color: $link-color;
+
+    &.active {
+      color: $gray;
+    }
+  }
+}

@@ -1,0 +1,72 @@
+@charset 'UTF-8';
+
+.header-menu {
+  position: fixed;
+  top: 0;
+  left: -70%;
+  width: 70%;
+  height: 100%;
+  padding: $grid-gutter-width;
+  background: $black;
+  color: $white;
+  z-index: $zindex-modal + 10;
+  transition: all 0.3s ease;
+  overflow: auto;
+
+  @media only screen and (min-width: $screen-sm-min) {
+    left: -40%;
+    width: 40%;
+  }
+
+  &.menu-open {
+    left: 0;
+  }
+
+  .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      padding: $grid-gutter-width/4 0;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: $grid-gutter-width/1.5 0;
+    }
+  }
+
+  h3,
+  h4,
+  a {
+    color: $white;
+    text-decoration: none;
+
+    &.active,
+    &:hover {
+      color: $brand-primary;
+      transition: color 0.25s ease-in-out;
+    }
+  }
+}
+
+/* Trick the body to allow push from left */
+
+body.menu-push {
+  position: relative;
+  left: 0;
+  transition: all 0.3s ease;
+
+  &.menu-push-toright {
+    position: fixed;
+    left: 70%;
+    height: 100%;
+    overflow: hidden;
+
+    @media only screen and (min-width: $screen-sm-min) {
+      left: 40%;
+    }
+  }
+}

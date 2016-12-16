@@ -7,12 +7,8 @@ notes: |
   ##### Options :
   - **cours** - object
 ---
-<a href="{{ cours.url }}" class="course-tile {{ cours.colortheme }}">
+<a href="{{ cours.url|default('#') }}" class="course-tile {{ cours.colortheme|default('theme-strategie-digital') }} no-underline">
   {% spaceless %}
-    {% if cours.shorttitle %}
-      {{ cours.shorttitle }}
-    {% else %}
-      Stratégie digitale
-    {% endif %}
+    {{ cours.shorttitle|default('Stratégie digitale') }}
   {% endspaceless %}
 </a>

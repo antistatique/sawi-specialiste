@@ -1,0 +1,143 @@
+@charset 'UTF-8';
+
+/* stylelint-disable declaration-no-important, max-nesting-depth */
+/* Override plugin  */
+
+.timeline-sawi {
+  .tl-text-content-container {
+    .tl-headline {
+      font-size: $font-size-h1;
+      font-weight: 800;
+      color: $text-color;
+    }
+
+    .tl-text-content .text-seance {
+      font-size: $font-size-h6;
+    }
+
+    .tl-text-content p {
+      color: $text-color;
+    }
+  }
+
+  .tl-timemarker {
+    .tl-timemarker-content-container {
+      background-color: $gray-lighter;
+      border-radius: 0;
+      border: 0;
+      box-shadow: none;
+    }
+
+    &:hover {
+      .tl-timemarker-content-container {
+        background-color: lighten($brand-primary, 20);
+        transition: background 0.3s ease-in-out;
+      }
+
+      .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+        color: $gray-base;
+      }
+
+      .tl-timemarker-text h2.tl-headline {
+        color: $text-color;
+      }
+
+      .tl-timemarker-line-left {
+        border-left-color: lighten($brand-primary, 20);
+        transition: border 0.3s ease-in-out;
+
+        &:after {
+          border: 2px solid lighten($brand-primary, 20);
+          transition: border 0.3s ease-in-out;
+        }
+      }
+    }
+
+    .tl-timemarker-content {
+      display: flex;
+    }
+
+    .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+      font-size: 18px;
+      line-height: 1;
+      font-weight: 800;
+      color: $gray-base;
+    }
+
+    &.tl-timemarker-active .tl-timemarker-content-container {
+      background-color: $brand-primary;
+      box-shadow: none;
+    }
+
+    .tl-timemarker-timespan {
+      background: none;
+      &:after { display: none; }
+    }
+
+    .tl-timemarker-line-left {
+      &:after {
+        left: -8px;
+        width: 15px;
+        height: 15px;
+        background: $white !important;
+        border: 2px solid $gray-lighter;
+      }
+    }
+
+    .tl-timemarker-line-right {
+      display: none;
+    }
+
+    &.tl-timemarker-active .tl-timemarker-line-left {
+      border-left-color: $brand-primary;
+
+      &:after {
+        background: $white !important;
+        border: 2px solid $brand-primary;
+      }
+    }
+  }
+
+  .tl-slidenav-previous .tl-slidenav-title,
+  .tl-slidenav-next .tl-slidenav-title {
+    font-size: $font-size-base;
+    line-height: 1em;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .tl-slidenav-content-container {
+    .tl-slidenav-icon {
+      transition:
+        color 0.3s ease-in-out,
+        margin 0.3s ease-in-out;
+    }
+
+    &:hover .tl-slidenav-icon {
+      color: $brand-primary;
+
+    }
+  }
+
+  .tl-slidenav-previous .tl-slidenav-description,
+  .tl-slidenav-next .tl-slidenav-description {
+    display: none;
+  }
+
+  .tl-timenav {
+    background-color: transparent;
+  }
+
+  .tl-attribution {
+    display: none;
+  }
+
+  .tl-timeaxis {
+    .tl-timeaxis-content-container .tl-timeaxis-minor .tl-timeaxis-tick:before { border: 0; }
+    .tl-timeaxis-content-container .tl-timeaxis-major .tl-timeaxis-tick:before { border: 0; }
+  }
+
+  .tl-timeaxis-background {
+    border-top-color: $gray-lighter;
+  }
+}
+/* stylelint-enable declaration-no-important, max-nesting-depth */

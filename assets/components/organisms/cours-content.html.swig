@@ -21,10 +21,10 @@ notes: |
       <div class="well">
         <h3>
           <img src="/build/img/icon-chronometer.svg" onerror="this.onerror=null; this.src='/build/img/icon-chronometer.png'" class="inline-icon" />
-          Durée 6 mois
+          {{ cours.period|default('Durée 6 mois') }}
         </h3>
         <h4 class="fine-weight">
-          À partir du 21 septembre 2016
+          {{ cours.begin|default('À partir du 21 septembre 2016') }}
         </h4>
       </div>
       <h3>Thèmes abordés</h3>
@@ -33,6 +33,7 @@ notes: |
       {% endfor %}
     </div>
   </div>
+  {% if cours.video %}
   <div class="row">
     <div class="col-sm-10">
       <h3>Vidéo de présentation</h3>
@@ -41,6 +42,7 @@ notes: |
       </div>
     </div>
   </div>
+  {% endif %}
   <div class="row">
     <div class="col-sm-10">
     <h3>Information pratiques</h3>

@@ -1,0 +1,10 @@
+@charset 'UTF-8';
+
+.search-box {
+  display: inline-block;
+  padding-right: $grid-gutter-width/2;
+
+  .search-toggle {
+    font-size: 40px;
+  }
+}

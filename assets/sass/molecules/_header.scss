@@ -1,39 +1,86 @@
 @charset 'UTF-8';
 
-.header-link {
-  color: $gray-base;
+.header {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
 
-  &:hover {
-    color: $gray-base;
+    @media only screen and (min-width: $screen-sm-min) {
+      flex-direction: row;
+      align-items: center;
+    }
   }
 
-  img {
-    max-height: 0.8em;
-    max-width: 1em;
-    float: right;
-    margin: 0.1em 0 0 0.2em;
+  .logo-container {
+    display: inline-block;
+    width: 280px;
+    height: 100px;
+    padding: 0 $grid-gutter-width 0 $grid-gutter-width;
+
+    @media only screen and (min-width: $screen-md-min) {
+      width: 400px;
+      height: 120px;
+    }
+
+    img {
+      display: block;
+      position: relative;
+      top: 50%;
+      max-width: 100%;
+      margin: 0 auto;
+      transform: translateY(-50%);
+    }
   }
-}
 
-.header-logo {
-  max-height: 80px;
-  max-width: 160px;
-}
+  .left-container,
+  .right-container {
+    display: flex;
+    align-items: center;
+  }
 
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  .left-container {
+    flex-direction: row;
 
-h3.header-title {
-  float: right;
-  margin: 0 0 0 1em;
-  padding: 0.5em 0;
-  min-width: 7em; // fix flex issue
-  line-height: 1em;
+    @media only screen and (min-width: $screen-md-min) {
+      max-width: 600px;
+    }
 
-  @media only screen and (max-width: $screen-xs-max) {
-    min-width: 4em;
+    @media only screen and (min-width: $screen-lg-min) {
+      max-width: 700px;
+    }
+  }
+
+  .right-container {
+    justify-content: space-around;
+    padding: 15px 0;
+
+    @media only screen and (min-width: $screen-sm-min) {
+      padding: 0;
+    }
+  }
+
+  .tagline {
+    display: none;
+    padding: 0;
+
+    @media only screen and (min-width: $screen-xs-min) {
+      display: inline-block;
+    }
+
+    @media only screen and (min-width: $screen-sm-min) {
+      display: none;
+    }
+
+    @media only screen and (min-width: $screen-md-min) {
+      display: inline-block;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 24px;
+      font-weight: 400;
+    }
   }
 }

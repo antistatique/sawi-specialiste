@@ -1,11 +1,24 @@
-@charset "UTF-8";
+@charset 'UTF-8';
 
 // init:
 @import 'main-variables';
 @import 'bootstrap';
-
+@import 'helper';
 
 // atoms:
+@import 'atoms/table';
+@import 'atoms/timeline';
+@import 'atoms/input-select';
+@import 'atoms/input-checkbox';
+@import 'atoms/link';
+@import 'atoms/signature';
+@import 'atoms/icon-text';
+@import 'atoms/input-text';
+@import 'atoms/body-overlay';
+@import 'atoms/spacer';
+@import 'atoms/language-picker';
+@import 'atoms/menu-toggle';
+@import 'atoms/page-title';
 @import 'atoms/inline-icon';
 @import 'atoms/course-tile';
 @import 'atoms/typography';
@@ -14,6 +27,25 @@
 @import 'atoms/button';
 
 // molecules:
+@import 'molecules/teaser-lesson';
+@import 'molecules/facets';
+@import 'molecules/teaser-partner';
+@import 'molecules/teaser-profil';
+@import 'molecules/search';
+@import 'molecules/breadcrumb';
+@import 'molecules/socials-icons';
+@import 'molecules/teaser-seance';
+@import 'molecules/header-light';
+@import 'molecules/search-box';
+@import 'molecules/header-menu';
+@import 'molecules/social';
+@import 'molecules/contact';
+@import 'molecules/newsletter';
+@import 'molecules/teaser-formations';
+@import 'molecules/teaser-info';
+@import 'molecules/teaser-basic-page';
+@import 'molecules/alert-language';
+@import 'molecules/teaser-news';
 @import 'molecules/alert';
 @import 'molecules/inline-cta';
 @import 'molecules/tags';
@@ -22,13 +54,17 @@
 @import 'molecules/header';
 
 // organisms:
+@import 'organisms/list-speakers';
+@import 'organisms/seances';
+@import 'organisms/footer';
+@import 'organisms/infos';
+@import 'organisms/news';
 @import 'organisms/cours-content';
 
 // pages:
+@import 'pages/homepage';
 @import 'pages/retail-merchandising';
 @import 'pages/marketing-operationel';
 @import 'pages/media-planning';
 @import 'pages/brand-design-management';
 @import 'pages/strategie-digitale';
-
-

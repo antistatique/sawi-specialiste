@@ -27,7 +27,7 @@ notes: |
           {% endif %}
           {% endspaceless %}
         </h1>
-        <p class="jumbotron-sawi-p">
+        <p class="text-light jumbotron-sawi-p">
           {% spaceless %}
           {% if cours.subtitle %}
           {{cours.subtitle}}

@@ -1,0 +1,14 @@
+@charset 'UTF-8';
+
+.teaser-profil {
+  padding: $grid-gutter-width / 2 $grid-gutter-width;
+  border: 1px solid $gray-lighter;
+
+  .media-left {
+    img {
+      min-width: 64px;
+      width: 100%;
+      border: 1px solid $gray-lighter;
+    }
+  }
+}
