@@ -34,7 +34,7 @@ module.exports = function() {
    * With error reporting on compiling (so that there's no crash)
    * And jshint check to highlight errors as we go.
    */
-  gulp.task('scripts', ['scripts-lint', 'scripts-json'], function() {
+  gulp.task('scripts', ['scripts-lint'], function() {
     if (argv.local) {
       return browserify(
         {
@@ -88,11 +88,4 @@ module.exports = function() {
       .pipe($.eslint.format());
   });
 
-  /**
-   * JSON Copy
-   */
-  gulp.task('scripts-json', function() {
-    return gulp.src(config.assets + 'json/*.json')
-      .pipe(gulp.dest(config.build + '/json'));
-  });
 };
