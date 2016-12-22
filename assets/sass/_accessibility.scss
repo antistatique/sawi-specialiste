@@ -4,7 +4,6 @@ a,
 .btn,
 .form-control {
   &:focus {
-    outline-color: red;
     outline: thin dotted;
   }
 }
