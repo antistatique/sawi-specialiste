@@ -35,6 +35,9 @@ module.exports = function() {
     gulp.watch([config.assets + 'js/**/*.js'], function() {
       runSequence('scripts', 'metalsmith', reload);
     });
+    gulp.watch([config.assets + 'json/*.json'], function() {
+      runSequence('scripts-json', reload);
+    });
     gulp.watch([
       config.assets + 'components/**/*.{html,hbs,md,swig}',
       config.assets + 'templates/**/*.{html,hbs,md,swig}',

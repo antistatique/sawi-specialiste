@@ -1,4 +1,4 @@
-import $ from 'jquery';
+/* globals TL */
 
 export function timeline () {
 
@@ -13,6 +13,12 @@ export function timeline () {
   };
 
   if (typeof TL !== 'undefined') {
-    const timeline = new TL.Timeline('timeline-embed', 'https://docs.google.com/spreadsheets/d/1YfRcZiOeuq28RaxmxxHssYET6fgjALgI9Nygk8_cwo8/pubhtml', options);
+    if (typeof drupalSettings !== 'undefined') {
+      const timeline = new TL.Timeline('timeline-embed', drupalSettings.sawi_site.timeline, options);
+    }
+    else {
+      // Parameter used to avoid caching
+      const timeline = new TL.Timeline('timeline-embed', '../build/json/timeline.json?v='+Math.random(), options);
+    }
   }
 }
