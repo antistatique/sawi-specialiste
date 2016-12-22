@@ -17,7 +17,8 @@ export function timeline () {
       const timeline = new TL.Timeline('timeline-embed', drupalSettings.sawi_site.timeline, options);
     }
     else {
-      const timeline = new TL.Timeline('timeline-embed', '../build/json/timeline.json?url='+Math.random(), options);
+      // Parameter used to avoid caching
+      const timeline = new TL.Timeline('timeline-embed', '../build/json/timeline.json?v='+Math.random(), options);
     }
   }
 }
