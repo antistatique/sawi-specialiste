@@ -1,6 +1,7 @@
 import $ from 'jquery';
 
 export function timeline () {
+  console.log(drupalSettings.sawi_site.timeline);
 
   const options = {
     debug: true,
