@@ -4,6 +4,9 @@
 /* Override plugin  */
 
 .timeline-sawi {
+  position: relative;
+  border: 1px solid $gray-lighter;
+
   .tl-text-content-container {
     .tl-headline {
       font-size: $font-size-h1;
