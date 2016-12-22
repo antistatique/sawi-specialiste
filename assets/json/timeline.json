@@ -1,0 +1,90 @@
+{
+  "title": {
+    "text": {
+      "headline": "A nice title",
+      "text": "<p>Some random text. Omnis consequatur qui vel cum sit. Expedita enim et quo qui. Nobis voluptatem aperiam facere alias quibusdam.</p>"
+    }
+  },
+  "events": [
+    {
+      "start_date": {
+        "month": "2",
+        "day": "7",
+        "year": "2016"
+      },
+      "end_date": {
+        "month": "2",
+        "day": "9",
+        "year": "2016"
+      },
+      "text": {
+        "headline": "Planification SAWI",
+        "text": "<div class='row'><div class='col-xs-12'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div></div>"
+      }
+    },
+    {
+      "start_date": {
+        "month": "2",
+        "day": "7",
+        "year": "2017"
+      },
+      "end_date": {
+        "month": "2",
+        "day": "9",
+        "year": "2017"
+      },
+      "text": {
+        "headline": "MarKom",
+        "text": "MarKom <div class='row'><div class='col-xs-12 col-md-6'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div><div class='col-xs-12 col-md-6'><div class='text-danger'><i class='fa fa-info-circle' aria-hidden='true'></i><span class='text-seance'><strong>SÉANCE D'INFORMATION: 31 AOÛT 2016</strong></span></div><div class='spacer spacer-sm'></div><div class='btn btn-lg btn-primary'>En savoir plus</div></div></div>"
+      }
+    },
+    {
+      "start_date": {
+        "month": "9",
+        "day": "2",
+        "year": "2017"
+      },
+      "end_date": {
+        "month": "11",
+        "day": "",
+        "year": "2017"
+      },
+      "text": {
+        "headline": "Spécialiste en marketing"
+      }
+    },
+    {
+      "start_date": {
+        "month": "2",
+        "day": "10",
+        "year": "2017"
+      },
+      "end_date": {
+        "month": "3",
+        "day": "",
+        "year": "2018"
+      },
+      "text": {
+        "headline": "Spécialiste en stratégie digitale",
+        "text": "<div class='row'><div class='col-xs-12 col-md-6'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div><div class='col-xs-12 col-md-6'><div class='text-danger'><i class='fa fa-info-circle' aria-hidden='true'></i><span class='text-seance'><strong>SÉANCE D'INFORMATION: 31 AOÛT 2016</strong></span></div><div class='spacer spacer-sm'></div><div class='btn btn-lg btn-primary'>En savoir plus</div></div></div>"
+
+      }
+    },
+    {
+      "start_date": {
+        "month": "2",
+        "day": "23",
+        "year": "2017"
+      },
+      "end_date": {
+        "month": "6",
+        "day": "",
+        "year": "2017"
+      },
+      "text": {
+        "headline": "Spécialiste en marketing",
+        "text": "<div class='row'><div class='col-xs-12 col-md-6'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div><div class='col-xs-12 col-md-6'><div class='text-danger'><i class='fa fa-info-circle' aria-hidden='true'></i><span class='text-seance'><strong>SÉANCE D'INFORMATION: 31 AOÛT 2016</strong></span></div><div class='spacer spacer-sm'></div><div class='btn btn-lg btn-primary'>En savoir plus</div></div></div>"
+      }
+    }
+  ]
+}
