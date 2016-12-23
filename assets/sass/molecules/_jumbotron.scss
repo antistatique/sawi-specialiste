@@ -4,6 +4,33 @@
   overflow: hidden;
 }
 
+.jumbotron-sawi-intro:not(.jumbotron-sawi-intro-full-width) {
+  .inline-cta-container {
+    flex-direction: column;
+  }
+
+  .inline-cta-legend {
+    margin-top: $grid-gutter-width / 2;
+  }
+
+  @media only screen and (min-width: $screen-md-min) {
+    .inline-cta-legend {
+      margin-top: 0;
+    }
+
+    .inline-cta-container {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+
+  @media only screen and (min-width: $screen-lg-min) {
+    .inline-cta-container {
+      flex-direction: row;
+    }
+  }
+}
+
 @media only screen and (min-width: $screen-sm-min) {
   .jumbotron-sawi-container {
     display: flex;

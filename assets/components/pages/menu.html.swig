@@ -8,6 +8,7 @@ layout: page.html.swig
 {% set cours = data.portail %}
 
 {% include '../atoms/body-overlay.html.swig' %}
+{% include '../molecules/menu-access.html.swig' %}
 {% include '../molecules/header-menu.html.swig' %}
 {% include '../molecules/header.html.swig' %}
 {% include '../molecules/alert.html.swig' %}

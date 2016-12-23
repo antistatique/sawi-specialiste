@@ -3,5 +3,8 @@ import { timeline } from './timeline.js';
 
 (function(){
   menu_toggle();
-  timeline();
+
+  window.addEventListener('load', function() {
+    timeline();
+  });
 }());

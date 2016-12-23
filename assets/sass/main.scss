@@ -4,8 +4,10 @@
 @import 'main-variables';
 @import 'bootstrap';
 @import 'helper';
+@import 'accessibility';
 
 // atoms:
+@import 'atoms/pagination';
 @import 'atoms/table';
 @import 'atoms/timeline';
 @import 'atoms/input-select';
@@ -27,6 +29,8 @@
 @import 'atoms/button';
 
 // molecules:
+@import 'molecules/menu-access';
+@import 'molecules/teaser-timeline';
 @import 'molecules/teaser-lesson';
 @import 'molecules/facets';
 @import 'molecules/teaser-partner';

@@ -44,11 +44,25 @@
 
   .teaser-seance-infos {
     display: flex;
+    flex-direction: column;
     position: relative;
     z-index: 2;
 
-    > div {
-      margin-right: $grid-gutter-width;
+    @media only screen and (min-width: $screen-sm-min) {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    > div:not(:last-child) {
+      margin-bottom: $grid-gutter-width / 2;
+    }
+
+    @media only screen and (min-width: $screen-sm-min) {
+      > div,
+      > div:not(:last-child) {
+        margin-right: $grid-gutter-width;
+        margin-bottom: 0;
+      }
     }
   }
 
