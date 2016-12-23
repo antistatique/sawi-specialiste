@@ -8,7 +8,7 @@ notes: |
 <div class="timeline-sawi" aria-hidden="true">
   <div id='timeline-embed' style="width: 100%; height: 600px"></div>
 </div>
-<div class="timeline-sawi-accessible ">
+<div class="timeline-sawi-accessible sr-only">
   <div class="event">
     <h2>Spécialiste en stratégie digitale</h2>
     Du <time datetime="2017-02-10">10 février 2017</time> au <time datetime="2017-02-11">11 février 2017</time>
