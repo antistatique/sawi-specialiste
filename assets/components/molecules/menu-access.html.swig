@@ -1,5 +1,5 @@
 ---
-title: Menu-access
+title: menu-access
 name: menu-access
 collection: molecules
 notes: |
