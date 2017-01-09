@@ -18,6 +18,7 @@ export function search_box () {
   $('.search-box-modal .close').click(function(e){
     $('.search-toggle').removeClass('open');
     $('.search-box-modal').removeClass('visible');
+    $('html').removeClass('modal-open');
     e.preventDefault();
   });
 }
