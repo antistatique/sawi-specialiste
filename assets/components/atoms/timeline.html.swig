@@ -5,7 +5,7 @@ collection: atoms
 notes: |
   ##### Usage : `timeline`
 ---
-<div class="timeline-sawi" aria-hidden="true">
+<div id="timeline-sawi" aria-hidden="true">
   <div id='timeline-embed' style="width: 100%; height: 600px"></div>
 </div>
 <div class="timeline-sawi-accessible sr-only">
