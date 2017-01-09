@@ -4,6 +4,9 @@ import { search_box } from './search_box.js';
 
 (function(){
   menu_toggle();
-  timeline();
   search_box();
+
+  window.addEventListener('load', function() {
+    timeline();
+  });
 }());

@@ -3,7 +3,9 @@
 /* stylelint-disable declaration-no-important, max-nesting-depth */
 /* Override plugin  */
 
-.timeline-sawi {
+#timeline-sawi {
+  position: relative;
+
   .tl-text-content-container {
     .tl-headline {
       font-size: $font-size-h1;
@@ -34,10 +36,7 @@
         transition: background 0.3s ease-in-out;
       }
 
-      .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
-        color: $gray-base;
-      }
-
+      .tl-timemarker-content .tl-timemarker-text h2.tl-headline,
       .tl-timemarker-text h2.tl-headline {
         color: $text-color;
       }
@@ -62,6 +61,10 @@
       line-height: 1;
       font-weight: 800;
       color: $gray-base;
+    }
+
+    .tl-timemarker-content .tl-timemarker-text h2.tl-headline:after {
+      display: none;
     }
 
     &.tl-timemarker-active .tl-timemarker-content-container {
@@ -100,9 +103,13 @@
 
   .tl-slidenav-previous .tl-slidenav-title,
   .tl-slidenav-next .tl-slidenav-title {
+    width: 100%;
+    margin: 0;
     font-size: $font-size-base;
     line-height: 1em;
     transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+    word-wrap: break-word;
   }
 
   .tl-slidenav-content-container {
@@ -114,7 +121,6 @@
 
     &:hover .tl-slidenav-icon {
       color: $brand-primary;
-
     }
   }
 
@@ -134,10 +140,15 @@
   .tl-timeaxis {
     .tl-timeaxis-content-container .tl-timeaxis-minor .tl-timeaxis-tick:before { border: 0; }
     .tl-timeaxis-content-container .tl-timeaxis-major .tl-timeaxis-tick:before { border: 0; }
+
+    .tl-timeaxis-content-container .tl-timeaxis-minor .tl-timeaxis-tick .tl-timeaxis-tick-text,
+    .tl-timeaxis-content-container .tl-timeaxis-major .tl-timeaxis-tick .tl-timeaxis-tick-text {
+      color: $text-color;
+    }
   }
 
   .tl-timeaxis-background {
-    border-top-color: $gray-lighter;
+    border-top-color: $text-color;
   }
 }
 /* stylelint-enable declaration-no-important, max-nesting-depth */
