@@ -11,7 +11,7 @@ export function timeline () {
       timenav_height: 250,
       marker_height_min: 40,
       marker_padding: 10,
-      start_at_slide: 0
+      start_at_slide: 1
     };
 
     if (typeof drupalSettings !== 'undefined' && typeof drupalSettings.sawi_site.timeline !== 'undefined') {
@@ -20,6 +20,7 @@ export function timeline () {
       const target_date = new Date(); // set the current date you want as your start date
       for (const x in drupalSettings.sawi_site.timeline.events) {
         let slide_date = new Date( drupalSettings.sawi_site.timeline.events[x].start_date.year, drupalSettings.sawi_site.timeline.events[x].start_date.month, drupalSettings.sawi_site.timeline.events[x].start_date.day);
+
         if (slide_date < target_date) options.start_at_slide++;
       }
 
