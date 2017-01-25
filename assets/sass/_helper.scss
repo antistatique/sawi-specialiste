@@ -113,4 +113,17 @@ ol.unstyled-list {
   padding-left: 0.5em;
 }
 
+/**
+ * Ckeditor
+ */
+
+.entity-content {
+  img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
+
 /* stylelint-enable declaration-no-important */
