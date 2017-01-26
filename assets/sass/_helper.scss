@@ -136,6 +136,16 @@ ol.unstyled-list {
 ul.filters-list,
 ol.filters-list {
   padding-left: 22px;
+  list-style: none;
+
+  .sawi-icons {
+    font-size: 0.6em;
+  }
+}
+
+ul.unspaced-list,
+ol.unspaced-list {
+  padding-left: 22px;
 }
 
 /**
