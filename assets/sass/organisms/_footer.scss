@@ -29,6 +29,20 @@ footer {
     text-decoration: underline;
   }
 
+  .contact {
+    h1,
+    .h1 {
+      font-size: floor($font-size-h1 * 0.5);
+    }
+
+    @media only screen and (min-width: $screen-md-min) {
+      h1,
+      .h1 {
+        font-size: ceil($font-size-h1 * 0.8);
+      }
+    }
+  }
+
   .signature {
     margin-top: $grid-gutter-width;
 

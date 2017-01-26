@@ -236,5 +236,9 @@ h6,
 }
 
 .text-xlg {
-  font-size: 250px;
+  font-size: 50vw;
+
+  @media only screen and (min-width: $screen-md-min) {
+    font-size: 250px;
+  }
 }
