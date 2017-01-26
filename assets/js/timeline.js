@@ -19,7 +19,9 @@ export function timeline () {
       // Select the most closest match to now
       const target_date = new Date(); // set the current date you want as your start date
       for (const x in drupalSettings.sawi_site.timeline.events) {
-        let slide_date = new Date( drupalSettings.sawi_site.timeline.events[x].start_date.year, drupalSettings.sawi_site.timeline.events[x].start_date.month, drupalSettings.sawi_site.timeline.events[x].start_date.day);
+
+        // Warning, month in JS start with 0
+        let slide_date = new Date( drupalSettings.sawi_site.timeline.events[x].start_date.year, drupalSettings.sawi_site.timeline.events[x].start_date.month-1, drupalSettings.sawi_site.timeline.events[x].start_date.day);
 
         if (slide_date < target_date) options.start_at_slide++;
       }
