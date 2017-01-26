@@ -146,7 +146,7 @@ ol.filters-list {
   img {
     display: block;
     height: auto;
-    margin: 0 auto;
+    margin: $grid-gutter-width auto;
     max-width: 100%;
   }
 }
