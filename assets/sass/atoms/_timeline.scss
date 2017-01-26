@@ -101,6 +101,11 @@
     }
   }
 
+  .tl-slidenav-previous,
+  .tl-slidenav-next {
+    display: none !important;
+  }
+
   .tl-slidenav-previous .tl-slidenav-title,
   .tl-slidenav-next .tl-slidenav-title {
     width: 100%;
