@@ -38,7 +38,8 @@
     min-height: 66vh;
   }
 
-  .jumbotron-sawi-container.jumbotron-sawi-container-mini {
+  .jumbotron-sawi-container.jumbotron-sawi-container-thin {
+    padding: 45px 0;
     min-height: 0;
   }
 
@@ -69,6 +70,12 @@
 
 .jumbotron-sawi-h1 {
   margin-top: 20px;
+}
+
+.jumbotron-sawi-container.jumbotron-sawi-container-thin {
+  .jumbotron-sawi-h1 {
+    margin-top: 20px;
+  }
 }
 
 @media only screen and (min-height: 30em) {

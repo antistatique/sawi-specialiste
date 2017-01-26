@@ -27,6 +27,26 @@
   margin-left: 0 !important;
 }
 
+.m-05 {
+  margin: $grid-gutter-width / 4 !important;
+}
+
+.m-t-05 {
+  margin-top: $grid-gutter-width / 4 !important;
+}
+
+.m-r-05 {
+  margin-right: $grid-gutter-width / 4 !important;
+}
+
+.m-b-05 {
+  margin-bottom: $grid-gutter-width / 4 !important;
+}
+
+.m-l-05 {
+  margin-left: $grid-gutter-width / 4 !important;
+}
+
 .m-1 {
   margin: $grid-gutter-width / 2 !important;
 }
@@ -111,6 +131,11 @@ ul.unstyled-list,
 ol.unstyled-list {
   list-style: none;
   padding-left: 0.5em;
+}
+
+ul.filters-list,
+ol.filters-list {
+  padding-left: 22px;
 }
 
 /**
