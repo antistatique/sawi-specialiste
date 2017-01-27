@@ -66,6 +66,13 @@
 }
 
 .form-inline {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: $screen-xs-min) {
+    flex-direction: row;
+  }
+
   .form-group {
     margin: 10px 5px;
 
