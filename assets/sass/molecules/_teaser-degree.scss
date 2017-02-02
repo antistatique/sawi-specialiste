@@ -55,6 +55,11 @@
     bottom: calc(0px - #{$grid-gutter-width*2});
     width: 40%;
     z-index: -1;
+
+    @media screen and (min-width: $screen-md-min) {
+      right: calc(0px - #{$grid-gutter-width});
+      width: 60%;
+    }
     /* stylelint-enable length-zero-no-unit */
 
     svg {
