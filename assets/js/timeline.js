@@ -5,12 +5,12 @@ export function timeline () {
     const embed = document.getElementById('timeline-embed');
 
     const options = {
-      debug: true,
+      debug: false,
       optimal_tick_width: 300,
       base_class: 'sawi-timeline',
       language: typeof drupalSettings != 'undefined' ? drupalSettings.language : 'fr',
       timenav_height_percentage: 50,
-      marker_height_min: 40,
+      marker_height_min: 47,
       marker_padding: 10,
       start_at_slide: 1
     };
@@ -25,7 +25,6 @@ export function timeline () {
 
       // Set the embed height
       embed.style.height = options.timenav_height_min + slide_height + 'px';
-      console.log(embed.style.height);
 
       // Select the most closest match to now
       const target_date = new Date(); // set the current date you want as your start date
@@ -55,7 +54,7 @@ export function timeline () {
  *   Maximum of stacked element.
  */
 function overlapse(events) {
-  let max_stacked = 0;
+  let max_stacked = 1;
 
   // Get first date.
   const first = events[0];
@@ -76,7 +75,7 @@ function overlapse(events) {
 
       const event_date_end = new Date(events[x].end_date.year, events[x].end_date.month-1, events[x].end_date.day);
 
-      if (start > event_date_start && start < event_date_end) {
+      if (start >= event_date_start && start <= event_date_end) {
         stacked++;
       }
     }
@@ -89,6 +88,8 @@ function overlapse(events) {
     // date increase by 1 day
     start = new Date(start.setDate(start.getDate() + 1));
   }
+
+  console.log(max_stacked);
 
   return max_stacked;
 }
