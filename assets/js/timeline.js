@@ -6,7 +6,7 @@ export function timeline () {
 
     const options = {
       debug: false,
-      optimal_tick_width: 300,
+      optimal_tick_width: 600,
       base_class: 'sawi-timeline',
       language: typeof drupalSettings != 'undefined' ? drupalSettings.language : 'fr',
       timenav_height_percentage: 50,
@@ -21,7 +21,7 @@ export function timeline () {
     if (typeof drupalSettings !== 'undefined' && typeof drupalSettings.sawi_site.timeline !== 'undefined') {
 
       const max_stacked = overlapse(drupalSettings.sawi_site.timeline.events);
-      options.timenav_height_min = max_stacked * options.marker_height_min + options.marker_padding;
+      options.timenav_height_min = max_stacked * options.marker_height_min + options.marker_padding * 10;
 
       // Set the embed height
       embed.style.height = options.timenav_height_min + slide_height + 'px';

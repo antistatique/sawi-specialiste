@@ -165,4 +165,16 @@ ol.unspaced-list {
   }
 }
 
+/**
+ * Flex same-height
+ */
+
+.same-height-group {
+  display: flex;
+}
+
+.same-height-group .same-height {
+  display: flex;
+}
+
 /* stylelint-enable declaration-no-important */
