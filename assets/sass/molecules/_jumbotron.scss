@@ -35,7 +35,7 @@
   .jumbotron-sawi-container {
     display: flex;
     align-items: center;
-    min-height: 66vh;
+    min-height: 25vh;
   }
 
   .jumbotron-sawi-container.jumbotron-sawi-container-thin {
@@ -80,18 +80,13 @@
 
 @media only screen and (min-height: 30em) {
   .jumbotron-sawi-h1 {
-    font-size: 9vh;
+    font-size: $font-size-h1 * 1.2;
     line-height: 0.9em;
-
-    @media only screen and (max-width: $screen-sm-max) {
-      font-size: 6vh;
-      line-height: 6vh;
-    }
   }
 
   .jumbotron-sawi-p {
     margin-top: 1em;
-    font-size: 3.5vh;
+    font-size: $font-size-h2;
     line-height: 1.1em;
   }
 }
