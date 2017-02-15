@@ -55,3 +55,10 @@ a.theme-vente:hover {
   background-color: $vente;
   color: $white;
 }
+
+.theme-corporate,
+a.theme-corporate,
+a.theme-corporate:hover {
+  background-color: $brand-primary;
+  color: $black;
+}
