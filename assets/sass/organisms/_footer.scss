@@ -44,7 +44,13 @@ footer {
   }
 
   .footer-certifications {
+    display: flex;
+    max-width: 450px;
     align-items: center;
+
+    @media only screen and (min-width: $screen-md-min) {
+      max-width: 100%;
+    }
   }
 
   .signature {

@@ -21,13 +21,13 @@ notes: |
 
         <div class="spacer spacer-md"></div>
         <div class="row same-height-group footer-certifications">
-          <div class="col-md-4 same-height">
+          <div class="col-xs-4 same-height">
             {% include '../molecules/teaser-certification.html.swig' %}
           </div>
-          <div class="col-md-4 same-height">
+          <div class="col-xs-4 same-height">
             {% include '../molecules/teaser-certification.html.swig' %}
           </div>
-          <div class="col-md-4 same-height">
+          <div class="col-xs-4 same-height">
             {% include '../molecules/teaser-certification.html.swig' %}
           </div>
         </div>

@@ -80,13 +80,13 @@
 
 @media only screen and (min-height: 30em) {
   .jumbotron-sawi-h1 {
-    font-size: $font-size-h1 * 1.2;
-    line-height: 0.9em;
+    font-size: $font-size-h1 * 1.1;
+    line-height: 1em;
   }
 
   .jumbotron-sawi-p {
     margin-top: 1em;
-    font-size: $font-size-h2;
+    font-size: $font-size-h3;
     line-height: 1.1em;
   }
 }

@@ -36,6 +36,10 @@
       margin: 0;
       padding: $grid-gutter-width/1.5 0;
     }
+
+    .children {
+      h4 { font-weight: 400; }
+    }
   }
 
   h3,

@@ -12,7 +12,8 @@ export function timeline () {
       timenav_height_percentage: 50,
       marker_height_min: 47,
       marker_padding: 10,
-      start_at_slide: 1
+      start_at_slide: 1,
+      initial_zoom: 4,
     };
 
     // Base timeline height of slide
