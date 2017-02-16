@@ -90,7 +90,5 @@ function overlapse(events) {
     start = new Date(start.setDate(start.getDate() + 1));
   }
 
-  console.log(max_stacked);
-
   return max_stacked;
 }
