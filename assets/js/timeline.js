@@ -13,7 +13,7 @@ export function timeline () {
       marker_height_min: 47,
       marker_padding: 10,
       start_at_slide: 1,
-      initial_zoom: 4,
+      initial_zoom: 5
     };
 
     // Base timeline height of slide
