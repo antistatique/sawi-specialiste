@@ -47,3 +47,7 @@
     color: $white;
   }
 }
+
+.form-inline .form-group {
+  .btn { height: 100%; }
+}

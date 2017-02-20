@@ -4,6 +4,10 @@
   padding: $grid-gutter-width / 2 $grid-gutter-width;
   border: 1px solid $gray-lighter;
 
+  &.teaser-profil-no-border {
+    border: none;
+  }
+
   .media-left {
     img {
       min-width: 64px;

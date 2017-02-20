@@ -77,6 +77,7 @@
     <script src="//cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
     <script src="/build/js/vendors.min.js"></script>
     <script src="/build/js/bundle.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEhBVBgOur7E8GQpF-CPsa2ZX4W02F1EI"></script>
 
     {% if styleguide %}
       <script>

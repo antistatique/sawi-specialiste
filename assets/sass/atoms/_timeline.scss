@@ -3,29 +3,26 @@
 /* stylelint-disable declaration-no-important, max-nesting-depth */
 /* Override plugin  */
 
-.timeline-sawi {
+#timeline-sawi {
   position: relative;
-  border: 1px solid $gray-lighter;
+  background: $wild-sand;
 
   .tl-text-content-container {
+    .tl-headline-date,
     .tl-headline {
-      font-size: $font-size-h1;
-      font-weight: 800;
-      color: $text-color;
+      display: none;
     }
+  }
 
-    .tl-text-content .text-seance {
-      font-size: $font-size-h6;
-    }
-
-    .tl-text-content p {
-      color: $text-color;
+  .tl-storyslider {
+    .tl-slider-container-mask {
+      background: $wild-sand;
     }
   }
 
   .tl-timemarker {
     .tl-timemarker-content-container {
-      background-color: $gray-lighter;
+      background-color: $white;
       border-radius: 0;
       border: 0;
       box-shadow: none;
@@ -37,10 +34,7 @@
         transition: background 0.3s ease-in-out;
       }
 
-      .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
-        color: $gray-base;
-      }
-
+      .tl-timemarker-content .tl-timemarker-text h2.tl-headline,
       .tl-timemarker-text h2.tl-headline {
         color: $text-color;
       }
@@ -67,6 +61,10 @@
       color: $gray-base;
     }
 
+    .tl-timemarker-content .tl-timemarker-text h2.tl-headline:after {
+      display: none;
+    }
+
     &.tl-timemarker-active .tl-timemarker-content-container {
       background-color: $brand-primary;
       box-shadow: none;
@@ -78,12 +76,14 @@
     }
 
     .tl-timemarker-line-left {
+      border-left: 1px solid $white;
+
       &:after {
         left: -8px;
         width: 15px;
         height: 15px;
         background: $white !important;
-        border: 2px solid $gray-lighter;
+        border: 2px solid $gray;
       }
     }
 
@@ -101,11 +101,20 @@
     }
   }
 
+  .tl-slidenav-previous,
+  .tl-slidenav-next {
+    display: none !important;
+  }
+
   .tl-slidenav-previous .tl-slidenav-title,
   .tl-slidenav-next .tl-slidenav-title {
+    width: 100%;
+    margin: 0;
     font-size: $font-size-base;
     line-height: 1em;
     transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+    word-wrap: break-word;
   }
 
   .tl-slidenav-content-container {
@@ -117,13 +126,16 @@
 
     &:hover .tl-slidenav-icon {
       color: $brand-primary;
-
     }
   }
 
   .tl-slidenav-previous .tl-slidenav-description,
   .tl-slidenav-next .tl-slidenav-description {
     display: none;
+  }
+
+  .tl-slide {
+    background: $wild-sand;
   }
 
   .tl-timenav {
@@ -137,10 +149,15 @@
   .tl-timeaxis {
     .tl-timeaxis-content-container .tl-timeaxis-minor .tl-timeaxis-tick:before { border: 0; }
     .tl-timeaxis-content-container .tl-timeaxis-major .tl-timeaxis-tick:before { border: 0; }
+
+    .tl-timeaxis-content-container .tl-timeaxis-minor .tl-timeaxis-tick .tl-timeaxis-tick-text,
+    .tl-timeaxis-content-container .tl-timeaxis-major .tl-timeaxis-tick .tl-timeaxis-tick-text {
+      color: $text-color;
+    }
   }
 
   .tl-timeaxis-background {
-    border-top-color: $gray-lighter;
+    border-top-color: $gray;
   }
 }
 /* stylelint-enable declaration-no-important, max-nesting-depth */

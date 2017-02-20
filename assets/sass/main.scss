@@ -7,6 +7,8 @@
 @import 'accessibility';
 
 // atoms:
+@import 'atoms/_fieldset';
+@import 'atoms/separator';
 @import 'atoms/pagination';
 @import 'atoms/table';
 @import 'atoms/timeline';
@@ -29,9 +31,12 @@
 @import 'atoms/button';
 
 // molecules:
+@import 'molecules/media-profil';
+@import 'molecules/googlemap';
 @import 'molecules/menu-access';
 @import 'molecules/teaser-timeline';
 @import 'molecules/teaser-lesson';
+@import 'molecules/teaser-degree';
 @import 'molecules/facets';
 @import 'molecules/teaser-partner';
 @import 'molecules/teaser-profil';
@@ -48,6 +53,7 @@
 @import 'molecules/teaser-formations';
 @import 'molecules/teaser-info';
 @import 'molecules/teaser-basic-page';
+@import 'molecules/teaser-certification';
 @import 'molecules/alert-language';
 @import 'molecules/teaser-news';
 @import 'molecules/alert';
@@ -63,6 +69,7 @@
 @import 'organisms/footer';
 @import 'organisms/infos';
 @import 'organisms/news';
+@import 'organisms/lessons';
 @import 'organisms/cours-content';
 
 // pages:

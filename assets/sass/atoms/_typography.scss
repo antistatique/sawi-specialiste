@@ -101,7 +101,7 @@ h6,
   }
 }
 
-@media only screen and (max-width: $screen-sm-max) {
+@media only screen and (max-width: $screen-xs-max) {
   h1,
   .h1 {
     font-size: ceil($font-size-h1 * 0.75);
@@ -152,6 +152,7 @@ h6,
   }
 }
 
+/*
 @media only screen and (max-width: $screen-xs-max) {
   h1,
   .h1 {
@@ -220,6 +221,7 @@ h6,
     }
   }
 }
+*/
 
 .table-label {
   min-width: 30%;
@@ -227,9 +229,18 @@ h6,
   strong {
     display: inline-block;
     padding-right: 0.6em;
+    line-height: 1em;
   }
 }
 
 .text-link {
   color: $link-hover-color;
+}
+
+.text-xlg {
+  font-size: 50vw;
+
+  @media only screen and (min-width: $screen-md-min) {
+    font-size: 250px;
+  }
 }

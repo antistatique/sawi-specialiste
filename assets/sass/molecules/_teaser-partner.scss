@@ -1,7 +1,11 @@
 @charset 'UTF-8';
 
 .teaser-partner {
+  margin: 0 auto;
   max-width: 300px;
 
-  img { opacity: 0.5; }
+  img {
+    margin: 0 auto;
+    opacity: 0.5;
+  }
 }

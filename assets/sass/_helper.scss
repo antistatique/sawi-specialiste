@@ -7,6 +7,10 @@
 * Spacers
 */
 
+.m-0-auto {
+  margin: 0 auto;
+}
+
 .m-0 {
   margin: 0 !important;
 }
@@ -25,6 +29,26 @@
 
 .m-l-0 {
   margin-left: 0 !important;
+}
+
+.m-05 {
+  margin: $grid-gutter-width / 4 !important;
+}
+
+.m-t-05 {
+  margin-top: $grid-gutter-width / 4 !important;
+}
+
+.m-r-05 {
+  margin-right: $grid-gutter-width / 4 !important;
+}
+
+.m-b-05 {
+  margin-bottom: $grid-gutter-width / 4 !important;
+}
+
+.m-l-05 {
+  margin-left: $grid-gutter-width / 4 !important;
 }
 
 .m-1 {
@@ -111,6 +135,48 @@ ul.unstyled-list,
 ol.unstyled-list {
   list-style: none;
   padding-left: 0.5em;
+}
+
+ul.filters-list,
+ol.filters-list {
+  padding-left: 22px;
+  list-style: none;
+
+  .sawi-icons {
+    font-size: 0.6em;
+  }
+}
+
+ul.unspaced-list,
+ol.unspaced-list {
+  padding-left: 22px;
+}
+
+/**
+ * Ckeditor
+ */
+
+.entity-content {
+  img {
+    display: block;
+    height: auto;
+    margin: $grid-gutter-width auto;
+    max-width: 100%;
+  }
+}
+
+/**
+ * Flex same-height
+ */
+
+ @media screen and (min-width: $screen-md-min) {
+  .same-height-group {
+    display: flex;
+  }
+
+  .same-height-group .same-height {
+    display: flex;
+  }
 }
 
 /* stylelint-enable declaration-no-important */

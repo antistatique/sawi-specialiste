@@ -18,6 +18,20 @@ notes: |
       <div class="col-md-4">
         <div class="spacer spacer-lg visible-xs visible-sm"></div>
         {% include '../molecules/social.html.swig' %}
+
+        <div class="spacer spacer-md"></div>
+        <div class="row same-height-group footer-certifications">
+          <div class="col-xs-4 same-height">
+            {% include '../molecules/teaser-certification.html.swig' %}
+          </div>
+          <div class="col-xs-4 same-height">
+            {% include '../molecules/teaser-certification.html.swig' %}
+          </div>
+          <div class="col-xs-4 same-height">
+            {% include '../molecules/teaser-certification.html.swig' %}
+          </div>
+        </div>
+
         {% include '../atoms/signature.html.swig' %}
       </div>
     </div>

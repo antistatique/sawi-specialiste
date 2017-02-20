@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+
+.teaser-certification {
+  display: block;
+  max-width: 80px;
+
+  @media screen and (min-width: $screen-md-min) {
+    margin: 0 auto;
+    max-width: 150px;
+  }
+
+  img {
+    width: 100%;
+    opacity: 0.7;
+
+    &:hover,
+    &:active {
+      cursor: pointer;
+    }
+  }
+}

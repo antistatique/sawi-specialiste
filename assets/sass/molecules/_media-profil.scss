@@ -1,0 +1,23 @@
+@charset 'UTF-8';
+
+.media-profil {
+  .media-left {
+    display: block;
+  }
+
+  .media-object {
+    margin: 0 auto;
+  }
+  
+  @media only screen and (min-width: $screen-md-min) {
+    .media-left {
+      display: table-cell;
+    }
+
+    .media-object {
+      margin: auto;
+    }
+
+    .media-left { padding-right: 60px; }
+  }
+}
