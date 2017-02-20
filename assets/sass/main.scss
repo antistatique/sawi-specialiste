@@ -22,25 +22,19 @@
 @import 'atoms/spacer';
 @import 'atoms/language-picker';
 @import 'atoms/menu-toggle';
-@import 'atoms/page-title';
 @import 'atoms/inline-icon';
 @import 'atoms/course-tile';
 @import 'atoms/typography';
 @import 'atoms/themify';
-@import 'atoms/button-link';
 @import 'atoms/button';
 
 // molecules:
 @import 'molecules/media-profil';
 @import 'molecules/googlemap';
 @import 'molecules/menu-access';
-@import 'molecules/teaser-timeline';
-@import 'molecules/teaser-lesson';
 @import 'molecules/teaser-degree';
-@import 'molecules/facets';
 @import 'molecules/teaser-partner';
 @import 'molecules/teaser-profil';
-@import 'molecules/search';
 @import 'molecules/breadcrumb';
 @import 'molecules/socials-icons';
 @import 'molecules/teaser-seance';
@@ -49,12 +43,7 @@
 @import 'molecules/header-menu';
 @import 'molecules/social';
 @import 'molecules/contact';
-@import 'molecules/newsletter';
-@import 'molecules/teaser-formations';
-@import 'molecules/teaser-info';
-@import 'molecules/teaser-basic-page';
 @import 'molecules/teaser-certification';
-@import 'molecules/alert-language';
 @import 'molecules/teaser-news';
 @import 'molecules/alert';
 @import 'molecules/inline-cta';
@@ -64,18 +53,9 @@
 @import 'molecules/header';
 
 // organisms:
-@import 'organisms/list-speakers';
 @import 'organisms/seances';
 @import 'organisms/footer';
-@import 'organisms/infos';
 @import 'organisms/news';
 @import 'organisms/lessons';
-@import 'organisms/cours-content';
 
 // pages:
-@import 'pages/homepage';
-@import 'pages/retail-merchandising';
-@import 'pages/marketing-operationel';
-@import 'pages/media-planning';
-@import 'pages/brand-design-management';
-@import 'pages/strategie-digitale';
