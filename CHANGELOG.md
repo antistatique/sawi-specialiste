@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+## 1.0.3 (2017-02-22)
+ - Improved animations menu open for very large screen
+
 ## 1.0.2 (2017-02-22)
  - Improved animations menu
  - Improved animations search-box
