@@ -6,7 +6,12 @@
   },
   "vendors": {
     "css": [
-      "node_modules/font-awesome/css/font-awesome.min.css"
+      "node_modules/font-awesome/css/font-awesome.min.css",
+      "node_modules/photoswipe/dist/photoswipe.css",
+      "node_modules/photoswipe/dist/default-skin/default-skin.css"
+    ],
+    "img": [
+      "node_modules/photoswipe/dist/default-skin/*.{png,gif,svg}"
     ],
     "js": [
       "node_modules/bootstrap-sass/assets/javascripts/bootstrap/affix.js",
@@ -20,7 +25,9 @@
       "node_modules/bootstrap-sass/assets/javascripts/bootstrap/popover.js",
       "node_modules/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js",
       "node_modules/bootstrap-sass/assets/javascripts/bootstrap/tab.js",
-      "node_modules/bootstrap-sass/assets/javascripts/bootstrap/transition.js"
+      "node_modules/bootstrap-sass/assets/javascripts/bootstrap/transition.js",
+      "node_modules/photoswipe/dist/photoswipe.js",
+      "node_modules/photoswipe/dist/photoswipe-ui-default.js"
     ],
     "fonts": [
       "node_modules/bootstrap-sass/assets/fonts/bootstrap/*",
