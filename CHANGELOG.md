@@ -1,7 +1,10 @@
 CHANGELOG
 =========
 
-## 1.0.4 (2017-02-xx)
+## 1.0.x (2017-02-xx)
+ - Added Photoswip "download" label translations
+
+## 1.0.4 (2017-02-21)
  - Added Gallery
  
 ## 1.0.3 (2017-02-22)

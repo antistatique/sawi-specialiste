@@ -22,18 +22,18 @@ export function gallery () {
     });
 
     // Define object and gallery options
-    let $pswp = $('.pswp')[0],
+    let $pswp = $('.pswp'),
+        $share_btn = $pswp.find('.pswp__button--share'),
         options = {
           index: $(this).data('index'),
           bgOpacity: 0.85,
           showHideOpacity: true,
           shareEl: true,
-          shareButtons: [{id: 'download', label: 'Download', url:'{{raw_image_url}}', download:true}]
+          shareButtons: [{id: 'download', label: $share_btn.data('downloadLabel'), url:'{{raw_image_url}}', download:true}]
         };
 
-    console.log(container);
     // Initialize PhotoSwipe
-    let gallery = new PhotoSwipe($pswp, PhotoSwipeUI_Default, container, options);
+    let gallery = new PhotoSwipe($pswp[0], PhotoSwipeUI_Default, container, options);
     gallery.init();
   });
 }
