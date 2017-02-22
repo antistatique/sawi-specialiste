@@ -1,6 +1,6 @@
 {
   "name": "@antistatique/sawi-styleguide",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.html",
   "browserify-shim": {
     "jquery": "global:jQuery"
@@ -22,7 +22,8 @@
     "html5shiv": "^3.7.3",
     "font-awesome": "^4.6.3",
     "jquery": "^2.2.4",
-    "respond.js": "^1.4.2"
+    "respond.js": "^1.4.2",
+    "photoswipe": "^4.1.1"
   },
   "devDependencies": {
     "async": "^2.0.0-rc.2",

@@ -163,6 +163,10 @@ ol.unspaced-list {
     margin: $grid-gutter-width auto;
     max-width: 100%;
   }
+
+  p:empty {
+    display: none;
+  }
 }
 
 /**

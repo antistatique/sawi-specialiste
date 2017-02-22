@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+## 1.0.4 (2017-02-xx)
+ - Added Gallery
+ 
 ## 1.0.3 (2017-02-22)
  - Improved animations menu open for very large screen
 
