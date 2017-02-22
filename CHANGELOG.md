@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+## 1.0.2 (2017-02-22)
+ - Improved animations menu
+ - Improved animations search-box
+ - Fix Bug search-box iOS
+
 ## 1.0.1 (2017-02-20)
  - Remove empty scss components
 
