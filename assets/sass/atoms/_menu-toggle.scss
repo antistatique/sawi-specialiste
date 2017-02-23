@@ -2,7 +2,7 @@
 
 .menu-toggle {
   display: inline-block;
-  width: 100px;
+  min-width: 100px;
   height: 100px;
   padding: 24px;
   background: $black;
@@ -11,7 +11,7 @@
   z-index: $zindex-modal + 1;
 
   @media only screen and (min-width: $screen-md-min) {
-    width: 120px;
+    min-width: 120px;
     height: 120px;
     padding: 33px;
   }

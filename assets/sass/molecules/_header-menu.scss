@@ -13,6 +13,13 @@
   overflow: auto;
   -webkit-overflow-scrolling: touch; // Smooth scroll iOS
 
+  /* stylelint-disable selector-no-vendor-prefix, selector-root-no-composition */
+  /* Hack IE 11 */
+
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { position: absolute; }
+
+  /* stylelint-enable selector-no-vendor-prefix, selector-root-no-composition */
+
   @media only screen and (min-width: $screen-sm-min) {
     left: -30vw;
     width: 30vw;
