@@ -1,8 +1,9 @@
 CHANGELOG
 =========
 
-## 1.0.x (2017-02-xx)
+## 1.0.5 (2017-02-23)
  - Added Photoswip "download" label translations
+ - Improvments for IE11 & IE10
 
 ## 1.0.4 (2017-02-21)
  - Added Gallery
