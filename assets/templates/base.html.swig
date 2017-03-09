@@ -13,12 +13,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     {% if styleguide %}
-      <link rel="stylesheet" href="/build/css/styleguide.css">
+      <link rel="stylesheet" href="{{data.path}}build/css/styleguide.css">
     {% endif %}
 
     <link rel="stylesheet" href="//cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
-    <link rel="stylesheet" href="/build/css/vendors.min.css">
-    <link rel="stylesheet" href="/build/css/main.css">
+    <link rel="stylesheet" href="{{data.path}}build/css/vendors.min.css">
+    <link rel="stylesheet" href="{{data.path}}build/css/main.css">
     <script>
        WebFontConfig = {
           typekit: { id: 'tar2gdp' }
@@ -35,7 +35,7 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <!--[if lt IE 9]>
-      <script src="/build/js/polyfills.min.js"></script>
+      <script src="{{data.path}}build/js/polyfills.min.js"></script>
     <![endif]-->
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{data.path}}/apple-touch-icon.png">
@@ -75,8 +75,8 @@
 
     <script src="//code.jquery.com/jquery-2.2.4.min.js" crossorigin="anonymous"></script>
     <script src="//cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
-    <script src="/build/js/vendors.min.js"></script>
-    <script src="/build/js/bundle.js"></script>
+    <script src="{{data.path}}build/js/vendors.min.js"></script>
+    <script src="{{data.path}}build/js/bundle.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEhBVBgOur7E8GQpF-CPsa2ZX4W02F1EI"></script>
 
     {% if styleguide %}
@@ -89,7 +89,7 @@
           });
         }(jQuery));
       </script>
-      <script src="/build/js/styleguide.min.js"></script>
+      <script src="{{data.path}}build/js/styleguide.min.js"></script>
     {% endif %}
     {% if !styleguide %}
     <script>

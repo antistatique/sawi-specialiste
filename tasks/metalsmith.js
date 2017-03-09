@@ -64,6 +64,8 @@ module.exports = function() {
                 delete files[file];
               }
             }
+            console.log(config.metalsmith.url);
+            metadatas['path'] = argv.ghpages ? config.metalsmith.url : '/';
             done();
           },
           define({

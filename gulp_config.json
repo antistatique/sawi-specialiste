@@ -53,6 +53,7 @@
   "metalsmith": {
     "assets": "node_modules/toolbox-utils/styleguide/",
     "dist": "styleguide",
+    "url": "https://antistatique.github.io/sawi-styleguide/",
     "plugins": {
       "permalinks": {
         "pattern": ":title",
