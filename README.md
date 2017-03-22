@@ -87,3 +87,9 @@ $ git flow release finish -p 0.0.1
 # Publish on NPM your last release
 $ npm publish
 ````
+
+## Deploy on gh-pages
+
+  ```shell
+  $ gulp --ghpages && gulp deploy
+  ```
