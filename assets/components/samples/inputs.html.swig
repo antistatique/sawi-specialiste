@@ -23,5 +23,22 @@ layout: samples.html.swig
       <input type="text" class="form-control full-width" placeholder="Houston… Nous avons un problème! Houston?"></input>
       <div class="input-error-desc">Voici comment résoudre ton problème.</div>
     </div>
+
+    <div class="input-radio">
+      <input type="radio" name="sessions" class="form-radio">
+      <label class="option">SAWI - Lausanne</label>
+    </div>
+
+    <div class="input-checkbox">
+      <input type="checkbox" name="sessions" class="form-radio">
+      <label class="option">SAWI - Lausanne</label>
+    </div>
+
+
+    <div class="form-group">
+      <select class="input-select form-control" name="specialities">
+        <option value="Spécialiste en stratégie digital">Spécialiste en stratégie digital</option>
+      </select>
+    </div>
   </div>
 </div>

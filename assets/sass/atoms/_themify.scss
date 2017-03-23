@@ -2,63 +2,72 @@
 
 .theme-strategie-digital,
 a.theme-strategie-digital,
-a.theme-strategie-digital:hover {
+a.theme-strategie-digital:hover,
+.theme-strategie-digital .inline-cta-legend a {
   background-color: $strategie-digital;
   color: $gray-base;
 }
 
 .theme-brand-design-management,
 a.theme-brand-design-management,
-a.theme-brand-design-management:hover {
+a.theme-brand-design-management:hover,
+.theme-brand-design-management .inline-cta-legend a {
   background-color: $brand-design-management;
   color: $white;
 }
 
 .theme-marketing-operationnel,
 a.theme-marketing-operationnel,
-a.theme-marketing-operationnel:hover {
+a.theme-marketing-operationnel:hover,
+.theme-marketing-operationnel .inline-cta-legend a {
   background-color: $marketing-operationnel;
   color: $white;
 }
 
 .theme-retail-merchandising,
 a.theme-retail-merchandising,
-a.theme-retail-merchandising:hover {
+a.theme-retail-merchandising:hover,
+.theme-retail-merchandising .inline-cta-legend a {
   background-color: $retail-merchandising;
   color: $white;
 }
 
 .theme-media-planning,
 a.theme-media-planning,
-a.theme-media-planning:hover {
+a.theme-media-planning:hover,
+.theme-media-planning .inline-cta-legend a {
   background-color: $media-planning;
   color: $white;
 }
 
 .theme-communication,
 a.theme-communication,
-a.theme-communication:hover {
+a.theme-communication:hover,
+.theme-communication .inline-cta-legend a {
   background-color: $communication;
   color: $gray-base;
 }
 
 .theme-marketing,
 a.theme-marketing,
-a.theme-marketing:hover {
+a.theme-marketing:hover,
+.theme-marketing .inline-cta-legend a {
   background-color: $marketing;
   color: $white;
 }
 
 .theme-vente,
 a.theme-vente,
-a.theme-vente:hover {
+a.theme-vente:hover,
+.theme-vente .inline-cta-legend a {
   background-color: $vente;
   color: $white;
 }
 
 .theme-corporate,
 a.theme-corporate,
-a.theme-corporate:hover {
+a.theme-corporate:hover,
+.theme-corporate .inline-cta-legend a {
   background-color: $brand-primary;
   color: $black;
 }

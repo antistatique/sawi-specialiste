@@ -6,9 +6,7 @@ notes: |
   ##### Usage : `input-select`
 ---
 <div class="form-group">
-  <div class="form-group">
-    <select class="input-select form-control" name="specialities">
-      <option value="Spécialiste en stratégie digital">Spécialiste en stratégie digital</option>
-    </select>
-  </div>
+  <select class="input-select form-control" name="specialities">
+    <option value="Spécialiste en stratégie digital">Spécialiste en stratégie digital</option>
+  </select>
 </div>
