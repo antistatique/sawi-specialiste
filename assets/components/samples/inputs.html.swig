@@ -40,5 +40,35 @@ layout: samples.html.swig
         <option value="Spécialiste en stratégie digital">Spécialiste en stratégie digital</option>
       </select>
     </div>
+
+    <div class="input-rangeslider input-rangeslider-container">
+      <div class="input-rangeslider-label">Pourcentage</div>
+      <div class="input-rangeslider-range" data-start=0 data-min=0 data-max=100 data-input="input-rangeslider-value"></div>
+      <input type="text" class="input-rangeslider-value" name="input-rangeslider-value" value="">
+    </div>
+
   </div>
 </div>
+
+<div class="spacer spacer-sm"></div>
+<div class="spacer spacer-sm"></div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <div class="input-rangeslider input-rangeslider-container">
+      <div class="input-rangeslider-label">Privé</div>
+      <div class="input-rangeslider-range input-rangeslider-range-1" data-start=6000 data-min=0 data-max=6000 data-linked-slider="input-rangeslider-range-2" data-input="input-rangeslider-value-1"></div>
+      <input type="text" class="input-rangeslider-value" name="input-rangeslider-value-1" value="">
+    </div>
+
+    <div class="spacer spacer-sm"></div>
+
+    <div class="input-rangeslider input-rangeslider-container">
+      <div class="input-rangeslider-label">Tiers</div>
+      <div class="input-rangeslider-range input-rangeslider-range-2" data-start=0 data-min=0 data-max=6000 data-linked-slider="input-rangeslider-range-1" data-input="input-rangeslider-value-2"></div>
+      <input type="text" class="input-rangeslider-value" name="input-rangeslider-value-2" value="">
+    </div>
+  </div>
+</div>
+
+<div class="spacer spacer-md"></div>
