@@ -10,9 +10,6 @@ export function rangeslider () {
   // binding
   if ($rangeSliders != null) {
     for (let $rangeSlider of $rangeSliders) {
-
-      console.log($rangeSlider.getAttribute('data-min'));
-      console.log($rangeSlider.getAttribute('data-max'));
       noUiSlider.create($rangeSlider, {
         start: parseInt($rangeSlider.getAttribute('data-start')),
         step: 1,

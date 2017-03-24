@@ -1,0 +1,67 @@
+@charset 'UTF-8';
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  margin-top: $grid-gutter-width;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  counter-reset: step;
+
+  li {
+    position: relative;
+    width: 100%;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: $font-size-small;
+
+    @media screen and (min-width: $screen-md-min) {
+      font-size: $font-size-base;
+    }
+  }
+
+  li.active:before,
+  li.active:after {
+    background: $brand-primary;
+    border-color: $brand-primary;
+  }
+
+  li:before {
+    content: counter(step);
+    display: block;
+    counter-increment: step;
+    max-width: 20px;
+    margin: 0 auto 5px;
+    padding: 2px;
+    background: $white;
+    border: 2px solid $input-border;
+    border-radius: 3px;
+    font-size: $font-size-small;
+    line-height: 20px;
+    font-weight: 800;
+    color: $text-color;
+
+    @media screen and (min-width: $screen-md-min) {
+      padding: 10px;
+      max-width: 40px;
+      font-size: $font-size-base;
+    }
+  }
+
+  li:after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: -50%;
+    width: 100%;
+    height: 2px;
+    background: $input-border;
+    z-index: -1;
+  }
+
+  li:first-child:after {
+    display: none;
+  }
+
+}
