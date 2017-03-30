@@ -45,7 +45,7 @@ notes: |
   {% endif %}
   <div class="row">
     <div class="col-sm-10">
-    <h3>Information pratiques</h3>
+    <h3>Informations pratiques</h3>
     <table class="table table-striped">
       {% for info in cours.infos %}
       <tr>

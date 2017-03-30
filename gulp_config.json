@@ -8,7 +8,8 @@
     "css": [
       "node_modules/font-awesome/css/font-awesome.min.css",
       "node_modules/photoswipe/dist/photoswipe.css",
-      "node_modules/photoswipe/dist/default-skin/default-skin.css"
+      "node_modules/photoswipe/dist/default-skin/default-skin.css",
+      "node_modules/nouislider/distribute/nouislider.min.css"
     ],
     "img": [
       "node_modules/photoswipe/dist/default-skin/*.{png,gif,svg}"
@@ -27,7 +28,8 @@
       "node_modules/bootstrap-sass/assets/javascripts/bootstrap/tab.js",
       "node_modules/bootstrap-sass/assets/javascripts/bootstrap/transition.js",
       "node_modules/photoswipe/dist/photoswipe.js",
-      "node_modules/photoswipe/dist/photoswipe-ui-default.js"
+      "node_modules/photoswipe/dist/photoswipe-ui-default.js",
+      "node_modules/nouislider/distribute/nouislider.min.js"
     ],
     "fonts": [
       "node_modules/bootstrap-sass/assets/fonts/bootstrap/*",
@@ -53,6 +55,7 @@
   "metalsmith": {
     "assets": "node_modules/toolbox-utils/styleguide/",
     "dist": "styleguide",
+    "url": "https://antistatique.github.io/sawi-styleguide/",
     "plugins": {
       "permalinks": {
         "pattern": ":title",

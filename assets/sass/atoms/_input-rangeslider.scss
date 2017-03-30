@@ -1,0 +1,37 @@
+@charset 'UTF-8';
+
+.input-rangeslider-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.input-rangeslider-range {
+  top: 5px;
+  width: 80%;
+  margin: 0 auto;
+
+  .noUi-handle {
+    background-color: $brand-primary;
+    border-color: $brand-primary;
+    box-shadow: none;
+  }
+
+  .noUi-handle:before,
+  .noUi-handle:after {
+    background: $black;
+  }
+}
+
+.input-rangeslider-value {
+  position: relative;
+  width: 90px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 13px;
+  line-height: 14px;
+  text-align: center;
+  text-overflow: ellipsis;
+}
