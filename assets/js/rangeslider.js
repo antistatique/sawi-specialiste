@@ -26,6 +26,12 @@ export function rangeslider () {
       $rangeSlider.noUiSlider.on('update', function(values, handle){
         const $rangeSliderInput = document.querySelector('input[name="'+this.target.getAttribute('data-input')+'"]');
         $rangeSliderInput.value = Math.round(values[handle]);
+
+        if (this.target.getAttribute('data-input-percent') != null) {
+          const $rangeSliderInputPercent = document.querySelector('input[name="'+this.target.getAttribute('data-input-percent')+'"]');
+          const percent = $rangeSliderInput.value / this.target.getAttribute('data-max') * 100;
+          $rangeSliderInputPercent.value = Math.round(percent);
+        }
       });
 
       $rangeSlider.noUiSlider.on('slide', function(values, handle){
@@ -59,7 +65,7 @@ export function rangeslider () {
     const total = slider.getAttribute('data-max') - value;
     slider.noUiSlider.set(total);
     const $rangeSliderInput = document.querySelector('input[name="'+slider.getAttribute('data-input')+'"]');
-    $rangeSliderInput.value = total;
+    $rangeSliderInput.value = total ;
   }
 
 }

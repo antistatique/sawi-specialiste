@@ -2,13 +2,15 @@
 
 .input-rangeslider-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  text-align: center;
 }
 
 .input-rangeslider-range {
   top: 5px;
-  width: 100%;
-  margin: 0 $grid-gutter-width;
+  width: 80%;
+  margin: 0 auto;
 
   .noUi-handle {
     background-color: $brand-primary;
@@ -24,10 +26,10 @@
 
 .input-rangeslider-value {
   position: relative;
-  width: 60px;
-  margin-left: 3px;
-  padding-left: 10px;
-  padding-right: 10px;
+  width: 90px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px;
   font-size: 13px;
   line-height: 14px;
   text-align: center;
