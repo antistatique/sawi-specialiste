@@ -1,14 +1,18 @@
 @charset 'UTF-8';
 
 .input-checkbox {
+  display: flex;
+  align-items: center;
   min-height: 28px;
 
   label {
+    margin-bottom: 0;
     font-size: $font-size-base;
     line-height: 1em;
   }
 
   input {
+    margin-top: 0;
     margin-right: $font-size-base / 1.5;
   }
 }
