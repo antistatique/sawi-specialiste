@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+## 1.0.6 (2017-03-30)
+ - Added Slider component
+ - Added Steps component
+ - Improved inputs components
+
 ## 1.0.5 (2017-02-23)
  - Added Photoswip "download" label translations
  - Improvments for IE11 & IE10
