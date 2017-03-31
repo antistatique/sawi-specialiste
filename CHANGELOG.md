@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+## 1.0.61 (2017-03-31)
+ - Improved forms inputs
+
 ## 1.0.6 (2017-03-30)
  - Added Slider component
  - Added Steps component
@@ -12,7 +15,7 @@ CHANGELOG
 
 ## 1.0.4 (2017-02-21)
  - Added Gallery
- 
+
 ## 1.0.3 (2017-02-22)
  - Improved animations menu open for very large screen
 
