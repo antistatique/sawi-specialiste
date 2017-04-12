@@ -1,6 +1,6 @@
 {
   "name": "@antistatique/sawi-styleguide",
-  "version": "1.0.61",
+  "version": "1.0.70",
   "main": "index.html",
   "browserify-shim": {
     "jquery": "global:jQuery"

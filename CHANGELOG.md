@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+## 1.0.70 (2017-04-12)
+ - Fix IE bugs with ES6
+
 ## 1.0.61 (2017-03-31)
  - Improved forms inputs
 
