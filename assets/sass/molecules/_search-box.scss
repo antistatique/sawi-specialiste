@@ -49,6 +49,8 @@ html.modal-open {
   body { overflow-y: hidden; }
 }
 
+body { overflow-x: hidden; }
+
 .search-box-modal {
   position: fixed;
   max-width: 100vw;
