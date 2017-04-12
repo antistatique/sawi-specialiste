@@ -29,7 +29,7 @@
       "node_modules/bootstrap-sass/assets/javascripts/bootstrap/transition.js",
       "node_modules/photoswipe/dist/photoswipe.js",
       "node_modules/photoswipe/dist/photoswipe-ui-default.js",
-      "node_modules/nouislider/distribute/nouislider.min.js"
+      "node_modules/nouislider/distribute/nouislider.js"
     ],
     "fonts": [
       "node_modules/bootstrap-sass/assets/fonts/bootstrap/*",
