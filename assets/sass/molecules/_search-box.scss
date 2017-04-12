@@ -4,6 +4,13 @@
   display: inline-block;
   padding-right: $grid-gutter-width/2;
 
+  /* stylelint-disable all */
+  /* Hack: Internet Explorer/Edge ≥ 10 */
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    padding-right: $grid-gutter-width;
+  }
+  /* stylelint-enable all */
+
   .search-toggle {
     position: relative;
     font-size: 40px;
