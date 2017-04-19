@@ -15,6 +15,10 @@ select.input-select {
   appearance: none;
 
   &:focus {
+    background: none;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 20px);
+    background-position-y: 50%;
     background-image: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSdibGFjaycgaGVpZ2h0PScyNCcgdmlld0JveD0nMCAwIDI0IDI0JyB3aWR0aD0nMjQnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PHBhdGggZD0nTTcgMTBsNSA1IDUtNXonLz48cGF0aCBkPSdNMCAwaDI0djI0SDB6JyBmaWxsPSdub25lJy8+PC9zdmc+');
   }
 }

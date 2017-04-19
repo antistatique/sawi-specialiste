@@ -175,11 +175,28 @@ ol.unspaced-list {
 
  @media screen and (min-width: $screen-md-min) {
   .same-height-group {
+    display: block; /** graceful degradation **/
     display: flex;
+
+    &:before,
+    &:after {
+      content: none;
+    }
   }
 
   .same-height-group .same-height {
+    display: block; /** graceful degradation **/
     display: flex;
+    flex: 1 0 auto;
+
+    &:before,
+    &:after {
+      content: none;
+    }
+
+    > div {
+      width: 100%;
+    }
   }
 }
 

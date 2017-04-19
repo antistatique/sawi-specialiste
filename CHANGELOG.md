@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+## 1.0.71 (2017-04-19)
+ - Fix IE 10 Flex with graceful degradation
+
 ## 1.0.70 (2017-04-12)
  - Fix IE bugs with ES6
 
@@ -12,17 +15,17 @@ CHANGELOG
  - Added Steps component
  - Improved inputs components
 
-## 1.0.5 (2017-02-23)
+## 1.0.5 (2017-02-23)
  - Added Photoswip "download" label translations
  - Improvments for IE11 & IE10
 
-## 1.0.4 (2017-02-21)
+## 1.0.4 (2017-02-21)
  - Added Gallery
 
-## 1.0.3 (2017-02-22)
+## 1.0.3 (2017-02-22)
  - Improved animations menu open for very large screen
 
-## 1.0.2 (2017-02-22)
+## 1.0.2 (2017-02-22)
  - Improved animations menu
  - Improved animations search-box
  - Fix Bug search-box iOS
