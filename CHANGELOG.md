@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+## 1.0.72 (2017-04-19)
+ - Fix issue with master conflict thanks @zufrieden for pushing on master
+
 ## 1.0.71 (2017-04-19)
  - Fix IE 10 Flex with graceful degradation
 
