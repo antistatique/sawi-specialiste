@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+## 1.0.73 (2017-05-24)
+ - Added new helper "text-square-separation"
+ - Added new image cover image for static jumbotron 
+
 ## 1.0.72 (2017-04-19)
  - Fix issue with master conflict thanks @zufrieden for pushing on master
 
