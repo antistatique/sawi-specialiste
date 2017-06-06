@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+## 1.0.74 (2017-06-06)
+ - Fixed click zone of search-box
+
 ## 1.0.73 (2017-05-24)
  - Added new helper "text-square-separation"
  - Added new image cover image for static jumbotron 
