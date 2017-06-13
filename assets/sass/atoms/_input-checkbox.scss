@@ -5,15 +5,18 @@
   display: flex;
   align-items: center;
   min-height: 28px;
+  margin-bottom: $grid-gutter-width / 4;
 
   label {
+    flex: 2;
     margin-bottom: 0;
     font-size: $font-size-base;
-    line-height: 1em;
+    line-height: 1.2em;
   }
 
   input {
+    max-width: 35px;
+    flex: 1;
     margin-top: 0;
-    margin-right: $font-size-base / 1.5;
   }
 }

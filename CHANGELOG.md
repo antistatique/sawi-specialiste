@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+## 1.0.75 (2017-06-13)
+ - Improved checkbox
+
 ## 1.0.74 (2017-06-06)
  - Fixed click zone of search-box
 
