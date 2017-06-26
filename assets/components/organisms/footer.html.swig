@@ -7,7 +7,31 @@ notes: |
   ##### Options :
   - **option** - Type
 ---
+<div class="spacer spacer-md"></div>
+<div class="footer-certifications">
+  <div class="spacer spacer-md"></div>
+  <div class="container">
+
+    <h3 class="h1 media-heading fine-weight">Accréditations</h3>
+
+    <div class="footer-certifications-logos">
+      <div class="teaser-certification">
+        <img class="img-responsive" src="/themes/sawi/build/img/certification-EDUQUA.png" alt="Certification EDUQUA">
+      </div>
+
+      <div class="teaser-certification">
+        <img class="img-responsive" src="/themes/sawi/build/img/certification-SQS.png" alt="Certification SQS ISO 9001">
+      </div>
+
+      <div class="teaser-certification">
+        <img class="img-responsive" src="/themes/sawi/build/img/certification-IAA.png" alt="Certification IAA">
+      </div>
+    </div>
+    <div class="spacer spacer-md"></div>
+  </div>
+</div>
 <footer>
+  <div class="spacer spacer-md"></div>
   <div class="container">
     <div class="footer-inner row">
       <div class="col-md-8">

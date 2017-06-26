@@ -43,16 +43,6 @@ footer {
     }
   }
 
-  .footer-certifications {
-    display: flex;
-    max-width: 450px;
-    align-items: center;
-
-    @media only screen and (min-width: $screen-md-min) {
-      max-width: 100%;
-    }
-  }
-
   .signature {
     margin-top: $grid-gutter-width;
 
@@ -60,5 +50,21 @@ footer {
       position: absolute;
       bottom: 0;
     }
+  }
+}
+
+.footer-certifications {
+  background-color: $gray-lighter;
+  border-top: 3px solid  darken($gray-lighter, 5%);
+}
+
+.footer-certifications-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  @media only screen and (min-width: $screen-sm-min) {
+    flex-direction: row;
   }
 }
