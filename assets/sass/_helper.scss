@@ -216,4 +216,18 @@ ol.unspaced-list {
   }
 }
 
+/**
+ * Flex
+ */
+
+.flex {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+
 /* stylelint-enable declaration-no-important */
