@@ -71,3 +71,35 @@ a.theme-corporate:hover,
   background-color: $brand-primary;
   color: $black;
 }
+
+.school-sms,
+a.school-sms,
+a.school-sms:hover,
+.school-sms .inline-cta-legend a {
+  background-color: $sms-secondary;
+  color: $black;
+}
+
+.school-polycom,
+a.school-polycom,
+a.school-polycom:hover,
+.school-polycom .inline-cta-legend a {
+  background-color: $polycom-secondary;
+  color: $white;
+}
+
+.school-procom,
+a.school-procom,
+a.school-procom:hover,
+.school-procom .inline-cta-legend a {
+  background-color: $brand-primary;
+  color: $black;
+}
+
+.school-supdelux,
+a.school-supdelux,
+a.school-supdelux:hover,
+.school-supdelux .inline-cta-legend a {
+  background-color: $brand-primary;
+  color: $black;
+}
