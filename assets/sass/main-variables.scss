@@ -31,17 +31,52 @@ $vente:                       #b64926;
 
 // Schools
 $schools: (
-  polycom:             #d8001d,
-  sms:                 #b50f1f,
-  procom:              #d8001d,
-  supdeluxe:           #e2001a,
+  polycom,
+  sms,
+  procom,
+  supdeluxe,
+);
+
+$schools-color: (
+  procom-background-color:#eee,
+  procom-border-bottom:#1b959a,
+  procom-color: #383636,
+  procom-btn-primary-background-color: #1b959a,
+  procom-btn-primary-background-color-hover: #138388,
+  procom-btn-primary-color: #fff,
+  procom-btn-primary-box-shadow-hover: #98968b,
+
+  supdeluxe-background-color:#eee,
+  supdeluxe-border-bottom:#e2001a ,
+  supdeluxe-color: #333,
+  supdeluxe-btn-primary-background-color: #e2001a ,
+  supdeluxe-btn-primary-background-color-hover: #e31327 ,
+  supdeluxe-btn-primary-color: #fff,
+  supdeluxe-btn-primary-box-shadow-hover: #98968b ,
+
+  sms-background-color:#1377b8 ,
+  sms-border-bottom:#98968b ,
+  sms-color: #fff,
+  sms-btn-primary-background-color: #b50f1f ,
+  sms-btn-primary-background-color-hover: #e31327 ,
+  sms-btn-primary-color: #fff,
+  sms-btn-primary-box-shadow-hover: #98968b ,
+
+  polycom-background-color:#000,
+  polycom-border-bottom:#d8001d ,
+  polycom-color: #fff,
+  polycom-btn-primary-background-color: #d8001d ,
+  polycom-btn-primary-background-color-hover: #fa0324 ,
+  polycom-btn-primary-color: #fff,
+  polycom-btn-primary-box-shadow-hover: #fff,
 );
 
 $schools-secondary: (
-  polycom-secondary:   black,
-  sms-secondary:       #1377b8,
-  procom-secondary:    #1377b8,
-  supdeluxe-secondary: #eee,
+  polycom:   black,
+  sms:       #1377b8,
+  procom:    #eee,
+  procom-hover: #138388,
+  supdeluxe: #eee,
 );
 
 $btn-primary-color:              $gray-base !default;
