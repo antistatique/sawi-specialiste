@@ -237,4 +237,12 @@ ol.unspaced-list {
   justify-content: space-between;
 }
 
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-no-wrap {
+  flex-wrap: nowrap;
+}
+
 /* stylelint-enable declaration-no-important */
