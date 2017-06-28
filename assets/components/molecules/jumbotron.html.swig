@@ -9,7 +9,7 @@ notes: |
 ---
 <div class="jumbotron-sawi theme-school-procom">
   <div class="container">
-    <div class="jumbotron-sawi-container">
+    <div class="jumbotron-sawi-container jumbotron-sawi-container-thin">
       <div class="jumbotron-sawi-intro jumbotron-sawi-intro-full-width">
         <h1 class="jumbotron-sawi-h1">
           {% spaceless %}
