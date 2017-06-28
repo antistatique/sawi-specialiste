@@ -7,7 +7,7 @@ notes: |
   ##### Options :
   - **cours** - object
 ---
-<div class="jumbotron-sawi {% if cours.colortheme %}{{ cours.colortheme }}{% endif %}">
+<div class="jumbotron-sawi school-polycom">
   <div class="container">
     <div class="jumbotron-sawi-container">
       <div class="jumbotron-sawi-picture">

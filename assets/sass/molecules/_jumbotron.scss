@@ -90,3 +90,14 @@
     line-height: 1.1em;
   }
 }
+
+// Themified jumbotrons
+
+.jumbotron {
+  @each $item in $schools {
+    &.school-#{$item} {
+      border-bottom: 3px solid map-get($schools, #{$item});
+    }
+  }
+}
+

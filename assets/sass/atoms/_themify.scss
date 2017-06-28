@@ -76,7 +76,7 @@ a.theme-corporate:hover,
 a.school-sms,
 a.school-sms:hover,
 .school-sms .inline-cta-legend a {
-  background-color: $sms-secondary;
+  background-color: map-get($schools, sms-secondary);
   color: $black;
 }
 
@@ -84,7 +84,7 @@ a.school-sms:hover,
 a.school-polycom,
 a.school-polycom:hover,
 .school-polycom .inline-cta-legend a {
-  background-color: $polycom-secondary;
+  background-color: map-get($schools, polycom-secondary);
   color: $white;
 }
 
@@ -100,6 +100,6 @@ a.school-procom:hover,
 a.school-supdelux,
 a.school-supdelux:hover,
 .school-supdelux .inline-cta-legend a {
-  background-color: $supdeluxe-secondary;
+  background-color: map-get($schools, supdeluxe-secondary);
   color: $silver-chalice;
 }
