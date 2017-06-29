@@ -12,6 +12,7 @@
   @each $school in $schools {
     &.theme-school-#{$school} {
       border-bottom: 3px solid theme($school, border-bottom);
+      color: theme($school, color);
 
       .btn-primary {
         background-color: theme($school, btn-primary-background-color);
