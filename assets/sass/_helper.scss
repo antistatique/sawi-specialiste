@@ -216,4 +216,33 @@ ol.unspaced-list {
   }
 }
 
+.text-underline {
+  text-decoration: underline !important;
+}
+
+/**
+ * Flex
+ */
+
+.flex {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-no-wrap {
+  flex-wrap: nowrap;
+}
+
 /* stylelint-enable declaration-no-important */

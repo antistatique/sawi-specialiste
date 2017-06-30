@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+## 1.0.76 (2017-06-30)
+ - Improved cards
+ - Improved jumbotrons
+ - Improved alerts informations sessions
+
 ## 1.0.75 (2017-06-13)
  - Improved checkbox
 

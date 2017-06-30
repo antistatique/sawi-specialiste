@@ -29,6 +29,56 @@ $communication:               #eeeeee;
 $marketing:                   #3fb5dd;
 $vente:                       #b64926;
 
+// Schools
+$schools: (
+  polycom,
+  sms,
+  procom,
+  supdeluxe,
+);
+
+$schools-color: (
+  procom-background-color:#eee,
+  procom-border-bottom:#1b959a,
+  procom-color: #383636,
+  procom-btn-primary-background-color: #1b959a,
+  procom-btn-primary-background-color-hover: #138388,
+  procom-btn-primary-color: #fff,
+  procom-btn-primary-box-shadow-hover: #98968b,
+
+  supdeluxe-background-color:#e2001a,
+  supdeluxe-border-bottom: $brand-primary,
+  supdeluxe-color: #fff,
+  supdeluxe-btn-primary-background-color: $brand-primary,
+  supdeluxe-btn-primary-background-color-hover: $brand-primary,
+  supdeluxe-btn-primary-color: $gray-base,
+  supdeluxe-btn-primary-box-shadow-hover: $gray-base,
+
+  sms-background-color:#1377b8 ,
+  sms-border-bottom:#b50f1f ,
+  sms-color: #fff,
+  sms-btn-primary-background-color: #b50f1f ,
+  sms-btn-primary-background-color-hover: #e31327 ,
+  sms-btn-primary-color: #fff,
+  sms-btn-primary-box-shadow-hover: #98968b ,
+
+  polycom-background-color:#000,
+  polycom-border-bottom:#d8001d ,
+  polycom-color: #fff,
+  polycom-btn-primary-background-color: #d8001d ,
+  polycom-btn-primary-background-color-hover: #fa0324 ,
+  polycom-btn-primary-color: #fff,
+  polycom-btn-primary-box-shadow-hover: #fff,
+);
+
+$schools-secondary: (
+  polycom:   black,
+  sms:       #1377b8,
+  procom:    #eee,
+  procom-hover: #138388,
+  supdeluxe: #eee,
+);
+
 $btn-primary-color:              $gray-base !default;
 $btn-primary-bg:                 $brand-primary !default;
 $btn-primary-border:             $brand-primary !default;

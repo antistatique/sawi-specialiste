@@ -7,17 +7,10 @@ notes: |
   ##### Options :
   - **cours** - object
 ---
-<div class="jumbotron-sawi {% if cours.colortheme %}{{ cours.colortheme }}{% endif %}">
+<div class="jumbotron-sawi theme-school-procom">
   <div class="container">
-    <div class="jumbotron-sawi-container">
-      <div class="jumbotron-sawi-picture">
-        {% if cours.illustration %}
-        <img src="{{ cours.illustration }}" alt="" width="100%"/>
-        {% else %}
-        <img src="/build/img/cover-Strategie-Digitale.png" alt="" width="100%"/>
-        {% endif %}
-      </div>
-      <div class="jumbotron-sawi-intro">
+    <div class="jumbotron-sawi-container jumbotron-sawi-container-thin">
+      <div class="jumbotron-sawi-intro jumbotron-sawi-intro-full-width">
         <h1 class="jumbotron-sawi-h1">
           {% spaceless %}
           {% if cours.title %}

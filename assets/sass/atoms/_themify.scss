@@ -53,7 +53,7 @@ a.theme-marketing,
 a.theme-marketing:hover,
 .theme-marketing .inline-cta-legend a {
   background-color: $marketing;
-  color: $white;
+  color: $black;
 }
 
 .theme-vente,
@@ -69,5 +69,37 @@ a.theme-corporate,
 a.theme-corporate:hover,
 .theme-corporate .inline-cta-legend a {
   background-color: $brand-primary;
+  color: $black;
+}
+
+.theme-school-sms,
+a.theme-school-sms,
+a.theme-school-sms:hover,
+.theme-school-sms .inline-cta-legend a {
+  background-color: map-get($schools-color, sms-background-color);
+  color: $white;
+}
+
+.theme-school-polycom,
+a.theme-school-polycom,
+a.theme-school-polycom:hover,
+.theme-school-polycom .inline-cta-legend a {
+  background-color: map-get($schools-color, polycom-background-color);
+  color: $white;
+}
+
+.theme-school-procom,
+a.theme-school-procom,
+a.theme-school-procom:hover,
+.theme-school-procom .inline-cta-legend a {
+  background-color: map-get($schools-color, procom-background-color);
+  color: $black;
+}
+
+.theme-school-supdeluxe,
+a.theme-school-supdeluxe,
+a.theme-school-supdeluxe:hover,
+.theme-school-supdeluxe .inline-cta-legend a {
+  background-color: map-get($schools-color, supdeluxe-background-color);
   color: $black;
 }
