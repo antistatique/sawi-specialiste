@@ -5,6 +5,7 @@ import { googlemap } from './googlemap.js';
 import { gallery } from './gallery.js';
 import { rangeslider } from './rangeslider.js';
 import { input_files } from './input_files.js';
+import { video } from './video.js';
 
 (function(){
   menu_toggle();
@@ -12,6 +13,7 @@ import { input_files } from './input_files.js';
   gallery();
   rangeslider();
   input_files();
+  video();
 
   window.addEventListener('load', function() {
     timeline();
