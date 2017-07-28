@@ -4,8 +4,10 @@ export function video () {
   const screenWidth = $(window).width();
 
   if (screenWidth < 800){
-    $('video').removeAttr('autoplay');
-  } else {
-    $('video').attr('autoplay');
+    $('.jumbotron-sawi video')
+      .removeAttr('autoplay')
+      .on('click', function () {
+        $(this).get(0).play();
+      });
   }
 }
