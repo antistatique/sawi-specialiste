@@ -228,20 +228,15 @@ $phone-spacer-y: 145px;
     top: $desktop-height/2;
     left: $desktop-width/2;
 
+    &:before,
     &:after {
       top: 50%;
-      left: 0;
       width: $desktop-width/2;
       height: $stroke * 2;
     }
 
-    &:before {
-      top: 50%;
-      right: 0;
-      width: $desktop-width/2;
-      height: $stroke * 2;
-    }
-
+    &:after { left: 0; }
+    &:before { right: 0; }
 
     &.half-line {
       &:after,
@@ -273,9 +268,13 @@ $phone-spacer-y: 145px;
     }
   }
 
+  .diagram-position-left-center-1,
+  .diagram-position-left-center-3 {
+    left: $desktop-width/2 - $desktop-spacer-x;
+  }
+
   .diagram-position-left-center-1 {
     top: $desktop-height/2 - $desktop-spacer-y;
-    left: $desktop-width/2 - $desktop-spacer-x;
   }
 
   .diagram-position-left-center-2 {
@@ -285,7 +284,6 @@ $phone-spacer-y: 145px;
 
   .diagram-position-left-center-3 {
     top: $desktop-height/2 + $desktop-spacer-y;
-    left: $desktop-width/2 - $desktop-spacer-x;
   }
 
   .diagram-position-right-center {
@@ -299,9 +297,13 @@ $phone-spacer-y: 145px;
     }
   }
 
+  .diagram-position-right-center-1,
+  .diagram-position-right-center-3 {
+    left: $desktop-width/2 + $desktop-spacer-x;
+  }
+
   .diagram-position-right-center-1 {
     top: $desktop-height/2 - $desktop-spacer-y;
-    left: $desktop-width/2 + $desktop-spacer-x;
   }
 
   .diagram-position-right-center-2 {
@@ -311,21 +313,24 @@ $phone-spacer-y: 145px;
 
   .diagram-position-right-center-3 {
     top: $desktop-height/2 + $desktop-spacer-y;
-    left: $desktop-width/2 + $desktop-spacer-x;
   }
 
-  .diagram-position-center-bottom-left {
+  .diagram-position-center-bottom-left,
+  .diagram-position-center-bottom-right {
     top: $desktop-height/2 + $desktop-spacer-y * 1.6;
-    left: $desktop-width/2 - $desktop-spacer-x * 0.3;
 
     &:after {
       bottom: 100%;
       width: $stroke * 2;
       height: $desktop-height/18;
     }
+  }
+
+  .diagram-position-center-bottom-left {
+    left: $desktop-width/2 - $desktop-spacer-x * 0.3;
 
     &:before {
-      left: 50px;
+      left: 51px;
       top: -$desktop-height/18;
       width: 150px;
       height: $stroke * 2;
@@ -333,14 +338,7 @@ $phone-spacer-y: 145px;
   }
 
   .diagram-position-center-bottom-right {
-    top: $desktop-height/2 + $desktop-spacer-y * 1.6;
     left: $desktop-width/2 + $desktop-spacer-x * 0.3;
-
-    &:after {
-      bottom: 100%;
-      width: $stroke * 2;
-      height: $desktop-height/18;
-    }
   }
 }
 
@@ -403,22 +401,27 @@ $phone-spacer-y: 145px;
     }
   }
 
-  .diagram-position-center-top-2 {
+  .diagram-position-center-top-2,
+  .diagram-position-center-top-3 {
     top: $phone-height/2 - $phone-spacer-y;
-    left: $phone-width/2 - $phone-spacer-x * 0.7;
 
     @media screen and (min-width: $screen-sm-min) {
       top: $tablet-height/2 - $tablet-spacer-y;
+    }
+  }
+
+  .diagram-position-center-top-2 {
+    left: $phone-width/2 - $phone-spacer-x * 0.7;
+
+    @media screen and (min-width: $screen-sm-min) {
       left: $tablet-width/2 - $tablet-spacer-x * 0.7;
     }
   }
 
   .diagram-position-center-top-3 {
-    top: $phone-height/2 - $phone-spacer-y;
     left: $phone-width/2 + $phone-spacer-x * 0.7;
 
     @media screen and (min-width: $screen-sm-min) {
-      top: $tablet-height/2 - $tablet-spacer-y;
       left: $tablet-width/2 + $tablet-spacer-x * 0.7;
     }
   }
@@ -452,22 +455,27 @@ $phone-spacer-y: 145px;
     }
   }
 
-  .diagram-position-center-bottom-2 {
+  .diagram-position-center-bottom-2,
+  .diagram-position-center-bottom-3 {
     top: $phone-height/2 + $phone-spacer-y;
-    left: $phone-width/2 - $phone-spacer-x * 0.7;
 
     @media screen and (min-width: $screen-sm-min) {
       top: $tablet-height/2 + $tablet-spacer-y;
+    }
+  }
+
+  .diagram-position-center-bottom-2 {
+    left: $phone-width/2 - $phone-spacer-x * 0.7;
+
+    @media screen and (min-width: $screen-sm-min) {
       left: $tablet-width/2 - $tablet-spacer-x * 0.7;
     }
   }
 
   .diagram-position-center-bottom-3 {
-    top: $phone-height/2 + $phone-spacer-y;
     left: $phone-width/2 + $phone-spacer-x * 0.7;
 
     @media screen and (min-width: $screen-sm-min) {
-      top: $tablet-height/2 + $tablet-spacer-y;
       left: $tablet-width/2 + $tablet-spacer-x * 0.7;
     }
   }
@@ -492,12 +500,11 @@ $phone-spacer-y: 145px;
     }
   }
 
-  .diagram-position-right-top {
-    top: $phone-height/2 + $phone-spacer-y * 0.35;
+  .diagram-position-right-top,
+  .diagram-position-right-bottom {
     left: $phone-width/2 + $phone-spacer-x;
 
     @media screen and (min-width: $screen-sm-min) {
-      top: $tablet-height/2 + $tablet-spacer-y * 0.3;
       left: $tablet-width/2 + $tablet-spacer-x;
     }
 
@@ -505,7 +512,6 @@ $phone-spacer-y: 145px;
       right: 100%;
       width: $phone-spacer-x;
       height: $stroke * 2;
-      transform: rotate(25deg);
       transform-origin: 100% 100%;
 
       @media screen and (min-width: $screen-sm-min) {
@@ -514,26 +520,24 @@ $phone-spacer-y: 145px;
     }
   }
 
+  .diagram-position-right-top {
+    top: $phone-height/2 + $phone-spacer-y * 0.35;
+
+    @media screen and (min-width: $screen-sm-min) {
+      top: $tablet-height/2 + $tablet-spacer-y * 0.3;
+    }
+
+    &:after { transform: rotate(25deg); }
+  }
+
   .diagram-position-right-bottom {
     top: $phone-height/2 - $phone-spacer-y * 0.35;
-    left: $phone-width/2 + $phone-spacer-x;
 
     @media screen and (min-width: $screen-sm-min) {
       top: $tablet-height/2 - $tablet-spacer-y * 0.3;
-      left: $tablet-width/2 + $tablet-spacer-x;
     }
 
-    &:after {
-      right: 100%;
-      width: $phone-spacer-x;
-      height: $stroke * 2;
-      transform: rotate(-25deg);
-      transform-origin: 100% 100%;
-
-      @media screen and (min-width: $screen-sm-min) {
-        width: $tablet-spacer-x;
-      }
-    }
+    &:after { transform: rotate(-25deg); }
   }
 }
 
