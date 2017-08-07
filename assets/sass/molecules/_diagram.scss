@@ -313,6 +313,12 @@ $tablet-spacer-y: 250px;
       width: $stroke * 2;
       height: $tablet-height - 100;
     }
+
+    &.half-line {
+      &:after {
+        height: $width-wide/2 - $wide-spacer-y;
+      }
+    }
   }
 
   .diagram-position-center-top {

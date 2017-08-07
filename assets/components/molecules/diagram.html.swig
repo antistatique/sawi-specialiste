@@ -4,7 +4,7 @@ name: diagram
 collection: molecules
 notes:
 ---
-
+<!-- Romandie Desktop -->
 <div class="diagram diagram-wide diagram-sawi-hub">
   <div class="diagram-circle diagram-circle-1 diagram-position diagram-position-center-center">
     <div class="circle-ring circle-ring-outer circle-ring-sawi"></div>
@@ -70,7 +70,7 @@ notes:
   </div>
 </div>
 
-
+<!-- Deutschschweiz Desktop -->
 <div class="diagram diagram-wide diagram-sawi-hub">
   <div class="diagram-circle diagram-circle-1 diagram-position diagram-position-center-center half-line">
     <div class="circle-ring circle-ring-outer circle-ring-sawi"></div>
@@ -104,7 +104,7 @@ notes:
   </div>
 </div>
 
-
+<!-- Romandie Tablet -->
 <div class="diagram diagram-tablet diagram-sawi-hub">
   <div class="diagram-circle diagram-circle-1 diagram-position diagram-position-center-center">
     <div class="circle-ring circle-ring-outer circle-ring-sawi"></div>
@@ -169,3 +169,38 @@ notes:
     <a class="circle-link" href="https://www.sawi.com/romandie"></a>
   </div>
 </div>
+
+<!-- Romandie Tablet -->
+<div class="diagram diagram-tablet diagram-sawi-hub">
+  <div class="diagram-circle diagram-circle-1 diagram-position diagram-position-center-center half-line">
+    <div class="circle-ring circle-ring-outer circle-ring-sawi"></div>
+    <img src="/build/svg/logo-sawi-hub.svg" alt="Swiss Marketing Hub & Schools" class="tiny">
+    <a class="circle-link" href="https://www.sawi.com/romandie"></a>
+  </div>
+
+  <div class="diagram-circle diagram-circle-2 diagram-position diagram-position-center-top no-line">
+    <div class="inner-text text-word-break">Berufsbegleitende weiterbildung</div>
+    <a class="circle-link" href="https://www.sawi.com/romandie"></a>
+  </div>
+
+  <div class="diagram-circle diagram-circle-2 diagram-position diagram-position-center-bottom no-line">
+    <div class="inner-text text-word-break">Vollzeitausbildung</div>
+    <a class="circle-link" href="https://www.sawi.com/romandie"></a>
+  </div>
+
+  <div class="diagram-circle diagram-circle-2 diagram-position diagram-position-left-center">
+    <div class="inner-text text-word-break">Firmenseminare</div>
+    <a class="circle-link" href="https://www.sawi.com/romandie"></a>
+  </div>
+
+  <div class="diagram-circle diagram-circle-2 diagram-position diagram-position-right-top">
+    <div class="inner-text">Speed learning</div>
+    <a class="circle-link" href="https://www.sawi.com/romandie"></a>
+  </div>
+
+  <div class="diagram-circle diagram-circle-2 diagram-position diagram-position-right-bottom">
+    <div class="inner-text">Bildung <br> À la carte</div>
+    <a class="circle-link" href="https://www.sawi.com/romandie"></a>
+  </div>
+</div>
+
