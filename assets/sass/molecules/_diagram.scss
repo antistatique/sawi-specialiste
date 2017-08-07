@@ -1,0 +1,296 @@
+@charset 'UTF-8';
+
+$stroke: 6px;
+
+$circle-size: (
+  '1': 175px,
+  '2': 125px,
+  '3': 100px,
+);
+
+$width-wide: 1140px;
+$height-wide: 750px;
+$wide-spacer-x: 245px;
+$wide-spacer-y: 165px;
+
+.diagram {
+  position: relative;
+  margin: 0 auto;
+
+  &-wide {
+    width: $width-wide;
+    height: $height-wide;
+  }
+}
+
+%diagram-circle-margins {
+  @each $i, $size in $circle-size {
+    &.diagram-circle-#{$i} {
+      margin-top: -$size / 2;
+      margin-left: -$size / 2;
+    }
+  }
+}
+
+.diagram-circle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: $stroke solid $black;
+  border-radius: 100%;
+  background-color: white;
+
+  @each $i, $size in $circle-size {
+    &-#{$i} {
+      width: $size;
+      height: $size;
+    }
+  }
+
+  > img {
+    max-width: 80%;
+    z-index: 2;
+
+    &.tiny {
+      max-width: calc(80% - 20px);
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+    .circle-ring { transform: scale(1); border-width: $stroke; }
+  }
+
+  .circle-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+  }
+
+  .inner-text {
+    padding: 0 10px;
+    font-family: $font-family-sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1em;
+    z-index: 2;
+
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      width: calc(80% - 20px);
+      height: $stroke / 1.5;
+      background: currentColor;
+      transition: transform 0.25s ease-in-out,
+    }
+
+    &:before {
+      top: 25%;
+      transform: translate(-50%, -25%);
+    }
+
+    &:after {
+      top: 75%;
+      transform: translate(-50%, -75%);
+    }
+  }
+}
+
+.circle-ring {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 10px solid;
+  border-radius: 100%;
+  z-index: 2;
+  transform: scale(0.94);
+  transition:
+    transform 0.25s ease-in-out,
+    border 0.25s ease-out;
+
+  &-outer {
+    background-color: white !important;
+  }
+
+  &-sawi {
+    background-color: $brand-primary;
+    border-color: $brand-primary;
+  }
+
+  &-polycom {
+    background-color: map-get($schools-color, polycom-background-color);
+    border-color: map-get($schools-color, polycom-background-color);
+  }
+
+  &-procom {
+    background-color: map-get($schools-color, procom-btn-primary-background-color);
+    border-color: map-get($schools-color, procom-btn-primary-background-color);
+  }
+
+  &-supdeluxe {
+    background-color: map-get($schools-color, supdeluxe-background-color);
+    border-color: map-get($schools-color, supdeluxe-background-color);
+  }
+
+  &-arc {
+    background-color: map-get($schools-color, arc-background-color);
+    border-color: map-get($schools-color, arc-background-color);
+  }
+
+  &-sms {
+    background-color: map-get($schools-color, sms-background-color);
+    border-color: map-get($schools-color, sms-background-color);
+  }
+
+  &:hover { transform: scale(1); }
+}
+
+.diagram-position {
+  position: absolute;
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    background-color: currentColor;
+    z-index: -1;
+  }
+
+  &.no-line {
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+
+  @extend %diagram-circle-margins
+}
+
+.diagram-wide {
+  .diagram-position-center-center {
+    top: $height-wide/2;
+    left: $width-wide/2;
+
+    &:after {
+      top: 50%;
+      left: 0;
+      width: $width-wide/2;
+      height: $stroke * 2;
+    }
+
+    &:before {
+      top: 50%;
+      right: 0;
+      width: $width-wide/2;
+      height: $stroke * 2;
+    }
+
+
+    &.half-line {
+      &:after,
+      &:before {
+        width: $width-wide/2 - $wide-spacer-x;
+      }
+    }
+  }
+
+  .diagram-position-center-top {
+    top: $height-wide/2 - $wide-spacer-y * 1.6;
+    left: $width-wide/2;
+
+    &:after {
+      top: 0;
+      width: $stroke * 2;
+      height: $height-wide/1.51;
+    }
+  }
+
+  .diagram-position-left-center {
+    top: $height-wide/2;
+    left: $width-wide/2 - $wide-spacer-x;
+
+    &:after {
+      top: -100%;
+      width: $stroke * 2;
+      height: $height-wide/2;
+    }
+  }
+
+  .diagram-position-left-center-1 {
+    top: $height-wide/2 - $wide-spacer-y;
+    left: $width-wide/2 - $wide-spacer-x;
+  }
+
+  .diagram-position-left-center-2 {
+    top: $height-wide/2;
+    left: $width-wide/2 - $wide-spacer-x * 1.8;
+  }
+
+  .diagram-position-left-center-3 {
+    top: $height-wide/2 + $wide-spacer-y;
+    left: $width-wide/2 - $wide-spacer-x;
+  }
+
+  .diagram-position-right-center {
+    top: $height-wide/2;
+    left: $width-wide/2 + $wide-spacer-x;
+
+    &:after {
+      top: -100%;
+      width: $stroke * 2;
+      height: $height-wide/2;
+    }
+  }
+
+  .diagram-position-right-center-1 {
+    top: $height-wide/2 - $wide-spacer-y;
+    left: $width-wide/2 + $wide-spacer-x;
+  }
+
+  .diagram-position-right-center-2 {
+    top: $height-wide/2;
+    left: $width-wide/2 + $wide-spacer-x * 1.8;
+  }
+
+  .diagram-position-right-center-3 {
+    top: $height-wide/2 + $wide-spacer-y;
+    left: $width-wide/2 + $wide-spacer-x;
+  }
+
+  .diagram-position-center-bottom-left {
+    top: $height-wide/2 + $wide-spacer-y * 1.6;
+    left: $width-wide/2 - $wide-spacer-x * 0.3;
+
+    &:after {
+      bottom: 100%;
+      width: $stroke * 2;
+      height: $height-wide/18;
+    }
+
+    &:before {
+      left: 50px;
+      top: -$height-wide/18;
+      width: 150px;
+      height: $stroke * 2;
+    }
+  }
+
+  .diagram-position-center-bottom-right {
+    top: $height-wide/2 + $wide-spacer-y * 1.6;
+    left: $width-wide/2 + $wide-spacer-x * 0.3;
+
+    &:after {
+      bottom: 100%;
+      width: $stroke * 2;
+      height: $height-wide/18;
+    }
+  }
+}
+
