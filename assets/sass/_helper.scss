@@ -111,6 +111,10 @@
   padding-left: $grid-gutter-width / 2 !important;
 }
 
+.text-word-break {
+  word-break: break-all;
+}
+
 /**
 * Blocks
 */
