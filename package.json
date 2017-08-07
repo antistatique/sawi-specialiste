@@ -99,7 +99,7 @@
     "vinyl-source-stream": "^1.1.0",
     "yargs": "^4.3.2"
   },
-    "stylelint": {
+  "stylelint": {
     "ignoreFiles": [
       "assets/sass/main.scss",
       "assets/sass/main-variables.scss"
