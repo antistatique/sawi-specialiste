@@ -5,7 +5,7 @@ collection: molecules
 notes:
 ---
 <!-- Romandie Desktop -->
-<div class="diagram diagram-wide diagram-sawi-hub">
+<div class="diagram diagram-horizontal">
   <div class="diagram-circle diagram-circle-1 diagram-position diagram-position-center-center">
     <div class="circle-ring circle-ring-outer circle-ring-sawi"></div>
     <img src="/build/svg/logo-sawi-hub.svg" alt="Swiss Marketing Hub & Schools" class="tiny">
@@ -70,8 +70,8 @@ notes:
   </div>
 </div>
 
-<!-- Deutschschweiz Desktop -->
-<div class="diagram diagram-wide diagram-sawi-hub">
+<!-- Deutschschweiz horizontal -->
+<div class="diagram diagram-horizontal">
   <div class="diagram-circle diagram-circle-1 diagram-position diagram-position-center-center half-line">
     <div class="circle-ring circle-ring-outer circle-ring-sawi"></div>
     <img src="/build/svg/logo-sawi-hub.svg" alt="Swiss Marketing Hub & Schools" class="tiny">
@@ -104,8 +104,8 @@ notes:
   </div>
 </div>
 
-<!-- Romandie Tablet -->
-<div class="diagram diagram-tablet diagram-sawi-hub">
+<!-- Romandie -->
+<div class="diagram diagram-vertical">
   <div class="diagram-circle diagram-circle-1 diagram-position diagram-position-center-center">
     <div class="circle-ring circle-ring-outer circle-ring-sawi"></div>
     <img src="/build/svg/logo-sawi-hub.svg" alt="Swiss Marketing Hub & Schools" class="tiny">
@@ -170,8 +170,8 @@ notes:
   </div>
 </div>
 
-<!-- Romandie Tablet -->
-<div class="diagram diagram-tablet diagram-sawi-hub">
+<!-- Deutschschweiz vertical -->
+<div class="diagram diagram-vertical">
   <div class="diagram-circle diagram-circle-1 diagram-position diagram-position-center-center half-line">
     <div class="circle-ring circle-ring-outer circle-ring-sawi"></div>
     <img src="/build/svg/logo-sawi-hub.svg" alt="Swiss Marketing Hub & Schools" class="tiny">
@@ -203,4 +203,5 @@ notes:
     <a class="circle-link" href="https://www.sawi.com/romandie"></a>
   </div>
 </div>
+
 
