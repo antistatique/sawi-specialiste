@@ -44,8 +44,8 @@ $phone-spacer-y: 145px;
     max-width: 100%;
 
     @media screen and (min-width: $screen-xs-min) {
-      overflow-x: none;
-      max-width: auto;
+      overflow-x: visible;
+      max-width: initial;
     }
 
     @media screen and (min-width: $screen-sm-min) {
