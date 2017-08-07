@@ -13,6 +13,11 @@ $height-wide: 750px;
 $wide-spacer-x: 245px;
 $wide-spacer-y: 165px;
 
+$tablet-width: 720px;
+$tablet-height: 850px;
+$tablet-spacer-x: 195px;
+$tablet-spacer-y: 250px;
+
 .diagram {
   position: relative;
   margin: 0 auto;
@@ -20,6 +25,11 @@ $wide-spacer-y: 165px;
   &-wide {
     width: $width-wide;
     height: $height-wide;
+  }
+
+  &-tablet {
+    width: $tablet-width;
+    height: $tablet-height;
   }
 }
 
@@ -291,6 +301,106 @@ $wide-spacer-y: 165px;
       width: $stroke * 2;
       height: $height-wide/18;
     }
+  }
+}
+
+.diagram-tablet {
+  .diagram-position-center-center {
+    top: $tablet-height/2;
+    left: $tablet-width/2;
+
+    &:after {
+      width: $stroke * 2;
+      height: $tablet-height - 100;
+    }
+  }
+
+  .diagram-position-center-top {
+    top: $tablet-height/2 - $tablet-spacer-y;
+    left: $tablet-width/2;
+
+    &:after {
+      width: $tablet-spacer-x;
+      height: $stroke * 2;
+    }
+  }
+
+  .diagram-position-center-top-1 {
+    top: $tablet-height/2 - $tablet-spacer-y * 1.5;
+    left: $tablet-width/2;
+  }
+
+  .diagram-position-center-top-2 {
+    top: $tablet-height/2 - $tablet-spacer-y;
+    left: $tablet-width/2 - $tablet-spacer-x * 0.7;
+  }
+
+  .diagram-position-center-top-3 {
+    top: $tablet-height/2 - $tablet-spacer-y;
+    left: $tablet-width/2 + $tablet-spacer-x * 0.7;
+  }
+
+  .diagram-position-center-bottom {
+    top: $tablet-height/2 + $tablet-spacer-y;
+    left: $tablet-width/2;
+
+    &:after {
+      width: $tablet-spacer-x;
+      height: $stroke * 2;
+    }
+  }
+
+  .diagram-position-center-bottom-1 {
+    top: $tablet-height/2 + $tablet-spacer-y * 1.5;
+    left: $tablet-width/2;
+  }
+
+  .diagram-position-center-bottom-2 {
+    top: $tablet-height/2 + $tablet-spacer-y;
+    left: $tablet-width/2 - $tablet-spacer-x * 0.7;
+  }
+
+  .diagram-position-center-bottom-3 {
+    top: $tablet-height/2 + $tablet-spacer-y;
+    left: $tablet-width/2 + $tablet-spacer-x * 0.7;
+  }
+
+  .diagram-position-left-center {
+    top: $tablet-height/2;
+    left: $tablet-width/2 - $tablet-spacer-x;
+
+    &:after {
+      left: 0;
+      width: $tablet-spacer-x;
+      height: $stroke * 2;
+    }
+  }
+
+  .diagram-position-right-top {
+    top: $tablet-height/2 + $tablet-spacer-y * 0.3;
+    left: $tablet-width/2 + $tablet-spacer-x;
+
+    &:after {
+      right: 100%;
+      width: $tablet-spacer-x;
+      height: $stroke * 2;
+      transform: rotate(25deg);
+      transform-origin: 100% 100%;
+    }
+  }
+
+  .diagram-position-right-bottom {
+    top: $tablet-height/2 - $tablet-spacer-y * 0.3;
+    left: $tablet-width/2 + $tablet-spacer-x;
+
+    &:after {
+      right: 100%;
+      width: $tablet-spacer-x;
+      height: $stroke * 2;
+      transform: rotate(-25deg);
+      transform-origin: 100% 100%;
+    }
+
   }
 }
 
