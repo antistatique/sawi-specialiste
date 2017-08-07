@@ -107,6 +107,18 @@ $phone-spacer-y: 145px;
   &:hover {
     cursor: pointer;
     .circle-ring { transform: scale(1); border-width: $stroke; }
+
+    .inner-text {
+      &:before {
+        top: 30%;
+        transform: translate(-50%, -30%);
+      }
+
+      &:after {
+        top: 70%;
+        transform: translate(-50%, -70%);
+      }
+    }
   }
 
   .circle-link {
@@ -138,7 +150,7 @@ $phone-spacer-y: 145px;
       width: calc(80% - 20px);
       height: $stroke / 1.5;
       background: currentColor;
-      transition: transform 0.25s ease-in-out,
+      transition: all 0.25s ease-in-out,
     }
 
     &:before {
@@ -160,13 +172,14 @@ $phone-spacer-y: 145px;
   border: 10px solid;
   border-radius: 100%;
   z-index: 2;
-  transform: scale(0.94);
+  transform: scale(0.85);
   transition:
     transform 0.25s ease-in-out,
     border 0.25s ease-out;
 
   &-outer {
     background-color: white !important;
+    transform: scale(0.94);
   }
 
   &-sawi {
