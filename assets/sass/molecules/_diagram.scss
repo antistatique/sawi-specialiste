@@ -62,8 +62,8 @@ $phone-spacer-y: 145px;
 %diagram-circle-margins {
   @each $i, $size in $circle-size {
     &.diagram-circle-#{$i} {
-      margin-top: -$size * 0.8 / 2;
-      margin-left: -$size * 0.8 / 2;
+      margin-top: -$size * 0.7 / 2;
+      margin-left: -$size * 0.7 / 2;
 
       @media screen and (min-width: $screen-sm-min) {
         margin-top: -$size / 2;
@@ -519,7 +519,7 @@ $phone-spacer-y: 145px;
 
   .diagram-position-left-center {
     top: $phone-height/2;
-    left: $phone-width/1.8 - $phone-spacer-x;
+    left: $phone-width/1.7 - $phone-spacer-x;
 
     @media screen and (min-width: $screen-sm-min) {
       top: $tablet-height/2;
@@ -541,7 +541,7 @@ $phone-spacer-y: 145px;
 
   .diagram-position-right-top,
   .diagram-position-right-bottom {
-    left: $phone-width/2.4 + $phone-spacer-x;
+    left: $phone-width/2.7 + $phone-spacer-x;
 
     @media screen and (min-width: $screen-sm-min) {
       left: $tablet-width/2 + $tablet-spacer-x;
@@ -550,7 +550,7 @@ $phone-spacer-y: 145px;
     &:after {
       top: 50%;
       right: 100%;
-      width: $phone-spacer-x;
+      width: $phone-spacer-x / 2;
       height: $stroke * 2;
       transform-origin: 100% 100%;
 
