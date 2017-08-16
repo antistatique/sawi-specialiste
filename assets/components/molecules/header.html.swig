@@ -23,7 +23,7 @@ notes: |
   <div class="visible-xs">
     {% include '../atoms/language-picker.html.swig' %}
   </div>
-  <div class="hidden-xs hidden-sm">
+  <div class="hidden-xs hidden-sm hidden-md">
     {% include '../molecules/menu-desktop.html.swig' %}
   </div>
 </header>
