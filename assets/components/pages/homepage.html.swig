@@ -9,7 +9,7 @@ layout: page.html.swig
 
 {% include '../atoms/body-overlay.html.swig' %}
 {% include '../molecules/menu-access.html.swig' %}
-{% include '../molecules/header-menu.html.swig' %}
+{% include '../molecules/menu-mobile.html.swig' %}
 {% include '../molecules/header.html.swig' %}
 {% include '../molecules/alert.html.swig' %}
 {% include '../molecules/jumbotron.html.swig' with {cours: cours} %}

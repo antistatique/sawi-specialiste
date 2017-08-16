@@ -1,0 +1,17 @@
+@charset 'UTF-8';
+
+.menu-secondary {
+  padding: 0 $grid-gutter-width;
+  text-transform: uppercase;
+  font-size: $font-size-h6;
+
+  > ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+  }
+
+  > ul > li {
+    margin-right: 10px;
+  }
+}

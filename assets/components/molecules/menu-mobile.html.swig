@@ -1,14 +1,14 @@
 ---
-title: header-menu
-name: header-menu
+title: menu-mobile
+name: menu-mobile
 collection: molecules
 notes: |
-  ##### Usage : `header-menu`
+  ##### Usage : `menu-mobile`
   ##### Options :
   - **option** - Type
 ---
-<div id="main-navigation" class="header-menu">
-  <div class="header-menu-container">
+<div id="main-navigation" class="menu-mobile">
+  <div class="menu-mobile-container">
     <ul class="nav">
       <li class="">
         <h3 class="media-heading"><a href="#">Formations</a></h3>

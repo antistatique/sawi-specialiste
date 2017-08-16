@@ -3,17 +3,18 @@
 .language-picker {
   display: inline-block;
   margin: 0 $grid-gutter-width/2 0;
+  padding: $grid-gutter-width 0;
+  color: $gray;
+  text-transform: uppercase;
+  font-size: $font-size-h4;
 
-  a,
-  span {
-    margin-right: $grid-gutter-width/2;
-    font-size: 26px;
-    line-height: 1;
-    font-weight: 700;
-    // color: $link-color;
+  @media only screen and (min-width: $screen-sm-min) {
+    padding: 0;
+  font-size: $font-size-h6;
+  }
 
-    &.active {
-      color: $gray;
-    }
+  .active {
+    color: $black;
+    font-weight: bold;
   }
 }
