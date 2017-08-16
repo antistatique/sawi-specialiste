@@ -45,16 +45,16 @@ notes: |
         <li><a class="h4 media-heading" href="#">Presse</a></li>
       </ul>
     </div>
-    <div class="spacer spacer-sm"></div>
+    <div class="spacer spacer-md"></div>
 
     <a class="h3 media-heading">Entreprises</a>
-    <div class="spacer spacer-sm"></div>
+    <div class="spacer spacer-md"></div>
 
     <a class="h3 media-heading">Contact</a>
-    <div class="spacer spacer-sm"></div>
+    <div class="spacer spacer-md"></div>
 
     <a class="h3 media-heading">Connexion</a>
-    <div class="spacer spacer-sm"></div>
+    <div class="spacer spacer-md"></div>
   </div>
 
   <div class="separator"></div>
