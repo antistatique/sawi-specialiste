@@ -9,30 +9,61 @@ notes: |
 ---
 <div id="main-navigation" class="menu-mobile">
   <div class="menu-mobile-container">
-    <ul class="nav">
-      <li class="">
-        <h3 class="media-heading"><a href="#">Formations</a></h3>
-        <ul class="children">
-          <li><h4 class="media-heading"><a href="#">Toutes les formations</a></h4></li>
-          <li><h4 class="media-heading"><a href="#">Formations continues</a></h4></li>
-          <li><h4 class="media-heading"><a href="#">Formations à templs plein</a></h4></li>
-        </ul>
-      </li>
-      <li><h3 class="media-heading active">Actualités</a></h3></li>
-      <li class="">
-        <h3 class="media-heading"><a href="#">À propos</a></h3>
-        <ul class="children">
-          <li><h4 class="media-heading"><a href="#">Team</a></h4></li>
-          <li><h4 class="media-heading"><a href="#">Partenariats</a></h4></li>
-          <li><h4 class="media-heading"><a href="#">Presse</a></h4></li>
-        </ul>
-      </li>
-      <li><h3 class="media-heading"><a href="">Entreprises</a></h3></li>
-      <li><h3 class="media-heading"><a href="">Contact</a></h3></li>
-      <li><h3 class="media-heading"><a href="">Connexion</a></h3></li>
-    </ul>
+
+    <div class="collapse-grp">
+      <a class="collapse-link h2 media-heading">Formations</a>
+      <a class="collapse-toggle collapsed btn btn-icon btn-grey" role="button" data-toggle="collapse" href="#collapseFormations" aria-expanded="false" aria-controls="collapseFormations">
+        <span class="collapse-chevron sawi-icons sawi-icons-chevron"></span>
+        <span class="sr-only">Ouvrir le menu déroulant formations</span>
+      </a>
+    </div>
+    <div class="collapse nav" id="collapseFormations">
+      <ul class="list-unstyled children mb-0">
+        <li><a class="h4 media-heading" href="#">Formations en un clin d'oeil</a></li>
+        <li><a class="h4 media-heading" href="#">Formations continues</a></li>
+        <li><a class="h4 media-heading" href="#">Formations à plein temps</a></li>
+        <li><a class="h4 media-heading" href="#">Speed Learning</a></li>
+        <li><a class="h4 media-heading" href="#">Formations à la carte</a></li>
+      </ul>
+    </div>
+    <div class="spacer spacer-sm"></div>
+
+    <a class="h2 media-heading active">Actualités</a>
+    <div class="spacer spacer-sm"></div>
+
+    <div class="collapse-grp">
+      <a class="collapse-link h2 media-heading">À propos</a>
+      <a class="collapse-toggle collapsed btn btn-icon btn-grey" role="button" data-toggle="collapse" href="#collapseAbout" aria-expanded="false" aria-controls="collapseAbout">
+        <span class="collapse-chevron sawi-icons sawi-icons-chevron"></span>
+        <span class="sr-only">Ouvrir le menu déroulant formations</span>
+      </a>
+    </div>
+    <div class="collapse nav" id="collapseAbout">
+      <ul class="list-unstyled children mb-0">
+        <li><a class="h4 media-heading" href="#">Team</a></li>
+        <li><a class="h4 media-heading" href="#">Partenariats</a></li>
+        <li><a class="h4 media-heading" href="#">Presse</a></li>
+      </ul>
+    </div>
+    <div class="spacer spacer-sm"></div>
+
+    <a class="h2 media-heading">Entreprises</a>
+    <div class="spacer spacer-sm"></div>
+
+    <a class="h2 media-heading">Contact</a>
+    <div class="spacer spacer-sm"></div>
+
+    <a class="h2 media-heading">Connexion</a>
+    <div class="spacer spacer-sm"></div>
   </div>
 
-  <div class="spacer spacer-lg"></div>
+  <div class="separator"></div>
+    <ul class="list-unstyled ">
+      <li><a class="h4 media-heading" href="#">Webcampus SAWI</a></li>
+      <li><a class="h4 media-heading" href="#">Recherche <img src="/build/img/search.svg" class="inline-icon"> </a></li>
+    </ul>
+  <div class="separator"></div>
+
+  <div class="spacer spacer-sm"></div>
   {% include '../molecules/socials-icons.html.swig' %}
 </div>

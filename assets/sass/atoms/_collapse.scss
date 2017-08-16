@@ -16,7 +16,12 @@
 }
 
 .collapse-toggle {
+  width: 30px;
+  height: 30px;
+
   &.collapsed {
+    color: $brand-primary;
+
     .collapse-chevron {
       top: 60%;
       transform: translate(-50%, -60%) rotate(0);
