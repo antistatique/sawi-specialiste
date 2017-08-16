@@ -2,7 +2,7 @@
 
 .language-picker {
   display: inline-block;
-  margin: 0 $grid-gutter-width/2 0;
+  margin: 0 ($grid-gutter-width / 2) 0;
   padding: $grid-gutter-width 0;
   color: $gray;
   text-transform: uppercase;
