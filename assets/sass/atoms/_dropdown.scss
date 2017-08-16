@@ -30,6 +30,7 @@
     width: calc(100% - #{$padding-base-vertical * 4});
     background-color: $link-hover-color;
     opacity: 0;
+    transition: opacity 0.15s ease-in-out;
   }
 
   &:hover {
@@ -40,7 +41,9 @@
       opacity: 1;
     }
   }
+}
 
+.dropdown.btn-group .dropdown-link {
   // Right bar
   &:after {
     content: " ";
@@ -60,6 +63,9 @@
   height: 30px;
   margin-left: -7px;
   color: $brand-primary;
+  transition:
+    color 0.15s ease-in-out,
+    background-color 0.18s ease-in-out;
 
   &:hover {
     color: $black;
