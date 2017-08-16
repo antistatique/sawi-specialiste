@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+## NEXT RELEASE
+ - add SAWI school colors
+
 ## 1.0.76 (2017-06-30)
  - Improved cards
  - Improved jumbotrons
