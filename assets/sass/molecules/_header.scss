@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 
 .header {
-  max-width: $container-large-desktop;
+  max-width: $container-large-desktop - $grid-gutter-width;
   margin: 0 auto;
 
   .header-container {
@@ -20,7 +20,7 @@
     display: inline-block;
     width: 280px;
     height: 100px;
-    padding: 0 $grid-gutter-width 0 $grid-gutter-width;
+    padding: 0 $grid-gutter-width 0 0;
 
     @media only screen and (min-width: $screen-md-min) {
       width: 400px;
