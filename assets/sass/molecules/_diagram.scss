@@ -18,7 +18,7 @@ $tablet-height: 900px;
 $tablet-spacer-x: 195px;
 $tablet-spacer-y: 250px;
 
-$phone-width: 360px;
+$phone-width: 315px;
 $phone-height: 650px;
 $phone-spacer-x: 145px;
 $phone-spacer-y: 145px;
@@ -357,7 +357,7 @@ $phone-spacer-y: 145px;
 
     &:after {
       margin-left: -$stroke * 2;
-      transform: rotate(5deg);
+      transform: rotate(12deg);
     }
   }
 
@@ -366,7 +366,7 @@ $phone-spacer-y: 145px;
 
     &:after {
       margin-left: $stroke;
-      transform: rotate(-5deg);
+      transform: rotate(-12deg);
     }
   }
 }
