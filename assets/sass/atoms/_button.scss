@@ -51,3 +51,20 @@
 .form-inline .form-group {
   .btn { height: 100%; }
 }
+
+.btn-icon {
+  position: relative;
+  min-width: 30px;
+  min-height: 30px;
+}
+
+.btn-grey {
+  background-color: $gray-dark;
+  color: $brand-primary;
+  font-size: 0.8rem;
+
+  &:focus,
+  &:hover {
+    color: $white;
+  }
+}
