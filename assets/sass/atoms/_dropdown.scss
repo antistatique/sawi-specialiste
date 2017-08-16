@@ -61,7 +61,7 @@
   position: relative;
   width: 30px;
   height: 30px;
-  margin-left: -7px;
+  margin-left: -8px;
   color: $brand-primary;
   transition:
     color 0.15s ease-in-out,
@@ -94,7 +94,7 @@
   padding: 0;
 
   > li > a {
-    padding: $padding-base-vertical * 2 $padding-base-horizontal * 2;
+    padding: ($padding-base-vertical * 2) ($padding-base-horizontal * 2);
     font-weight: bold;
     color: $link-color;
     text-decoration: none;
