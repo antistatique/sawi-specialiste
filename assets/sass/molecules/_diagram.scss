@@ -85,8 +85,8 @@ $phone-spacer-y: 145px;
 
   @each $i, $size in $circle-size {
     &-#{$i} {
-      width: $size * 0.8;
-      height: $size * 0.8;
+      width: $size * 0.7;
+      height: $size * 0.7;
 
       @media screen and (min-width: $screen-sm-min) {
         width: $size;
@@ -144,7 +144,10 @@ $phone-spacer-y: 145px;
 
     &:before,
     &:after {
-      content: "";
+      @media screen and (min-width: $screen-sm-min) {
+        content: "";
+      }
+
       position: absolute;
       left: 50%;
       width: calc(80% - 20px);
