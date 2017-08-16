@@ -8,7 +8,7 @@ notes: |
 <div class="menu-desktop">
 
 <div class="dropdown btn-group">
-  <a href="#" class="btn btn-link dropdown-link">Formations</a>
+  <a href="#" class="btn btn-link dropdown-link active">Formations</a>
   <button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <span class="dropdown-chevron sawi-icons sawi-icons-chevron"></span>
     <span class="sr-only">Ouvrir le menu déroulant formations</span>

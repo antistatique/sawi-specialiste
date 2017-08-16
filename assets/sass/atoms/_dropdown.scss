@@ -33,6 +33,7 @@
     transition: opacity 0.15s ease-in-out;
   }
 
+  &.active,
   &:hover {
     color: inherit;
     text-decoration: none;
@@ -67,6 +68,7 @@
     color 0.15s ease-in-out,
     background-color 0.18s ease-in-out;
 
+  &:focus,
   &:hover {
     color: $black;
     background: $brand-primary;
