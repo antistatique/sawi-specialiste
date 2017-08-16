@@ -11,7 +11,7 @@ notes: |
   <div class="menu-mobile-container">
 
     <div class="collapse-grp">
-      <a class="collapse-link h2 media-heading">Formations</a>
+      <a class="collapse-link h3 media-heading">Formations</a>
       <a class="collapse-toggle collapsed btn btn-icon btn-grey" role="button" data-toggle="collapse" href="#collapseFormations" aria-expanded="false" aria-controls="collapseFormations">
         <span class="collapse-chevron sawi-icons sawi-icons-chevron"></span>
         <span class="sr-only">Ouvrir le menu déroulant formations</span>
@@ -28,11 +28,11 @@ notes: |
     </div>
     <div class="spacer spacer-sm"></div>
 
-    <a class="h2 media-heading active">Actualités</a>
+    <a class="h3 media-heading active">Actualités</a>
     <div class="spacer spacer-sm"></div>
 
     <div class="collapse-grp">
-      <a class="collapse-link h2 media-heading">À propos</a>
+      <a class="collapse-link h3 media-heading">À propos</a>
       <a class="collapse-toggle collapsed btn btn-icon btn-grey" role="button" data-toggle="collapse" href="#collapseAbout" aria-expanded="false" aria-controls="collapseAbout">
         <span class="collapse-chevron sawi-icons sawi-icons-chevron"></span>
         <span class="sr-only">Ouvrir le menu déroulant formations</span>
@@ -47,13 +47,13 @@ notes: |
     </div>
     <div class="spacer spacer-sm"></div>
 
-    <a class="h2 media-heading">Entreprises</a>
+    <a class="h3 media-heading">Entreprises</a>
     <div class="spacer spacer-sm"></div>
 
-    <a class="h2 media-heading">Contact</a>
+    <a class="h3 media-heading">Contact</a>
     <div class="spacer spacer-sm"></div>
 
-    <a class="h2 media-heading">Connexion</a>
+    <a class="h3 media-heading">Connexion</a>
     <div class="spacer spacer-sm"></div>
   </div>
 
