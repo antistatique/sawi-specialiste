@@ -60,7 +60,7 @@ notes: |
   <div class="separator"></div>
     <ul class="list-unstyled ">
       <li><a class="h4 media-heading" href="#">Webcampus SAWI</a></li>
-      <li><a class="h4 media-heading" href="#">Recherche</a></li>
+      <li><a class="h4 media-heading" href="#">Recherche </a></li>
     </ul>
   <div class="separator"></div>
 
