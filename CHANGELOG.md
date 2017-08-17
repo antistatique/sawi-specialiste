@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+## MEXT RELEASE
+ - add new component collapse
+ - add new component dropdown
+ - add btn variant btn-underline
+ - refactoring header
+ - refactoring menu (desktop & mobile)
+
 ## 1.0.77 (2017-08-17)
  - add SAWI school colors
  - add diagrams
