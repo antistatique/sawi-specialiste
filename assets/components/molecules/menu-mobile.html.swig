@@ -10,7 +10,7 @@ notes: |
 <div id="main-navigation" class="menu-mobile">
   <div class="menu-mobile-container">
 
-    <div class="collapse-grp">
+    <div class="collapse-group">
       <a class="collapse-link h3 media-heading">Formations</a>
       <a class="collapse-toggle collapsed btn btn-icon btn-grey" role="button" data-toggle="collapse" href="#collapseFormations" aria-expanded="false" aria-controls="collapseFormations">
         <span class="collapse-chevron sawi-icons sawi-icons-chevron"></span>
@@ -31,7 +31,7 @@ notes: |
     <a class="h3 media-heading active">Actualités</a>
     <div class="spacer spacer-sm"></div>
 
-    <div class="collapse-grp">
+    <div class="collapse-group">
       <a class="collapse-link h3 media-heading">À propos</a>
       <a class="collapse-toggle collapsed btn btn-icon btn-grey" role="button" data-toggle="collapse" href="#collapseAbout" aria-expanded="false" aria-controls="collapseAbout">
         <span class="collapse-chevron sawi-icons sawi-icons-chevron"></span>
