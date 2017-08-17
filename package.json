@@ -1,6 +1,6 @@
 {
   "name": "@antistatique/sawi-styleguide",
-  "version": "1.0.76",
+  "version": "1.0.77",
   "main": "index.html",
   "browserify-shim": {
     "jquery": "global:jQuery"
@@ -98,5 +98,52 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "yargs": "^4.3.2"
+  },
+  "stylelint": {
+    "ignoreFiles": [
+      "assets/sass/main.scss",
+      "assets/sass/main-variables.scss"
+    ],
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "at-rule-no-vendor-prefix": true,
+      "media-feature-name-no-vendor-prefix": true,
+      "property-no-vendor-prefix": true,
+      "selector-no-vendor-prefix": true,
+      "value-no-vendor-prefix": true,
+      "selector-pseudo-element-colon-notation": "single"
+    },
+    "order/order": [
+      "custom-properties",
+      "dollar-variables",
+      "declarations",
+      "at-rules",
+      "rules"
+    ],
+    "order/properties-order": [
+      "content",
+      "display",
+      "flex",
+      "position",
+      "top",
+      "right",
+      "bottom",
+      "left",
+      "float",
+      "width",
+      "height",
+      "margin",
+      "padding",
+      "background",
+      "border",
+      "font-familly",
+      "font-size",
+      "line-height",
+      "font-weight",
+      "font-style",
+      "color",
+      "transform",
+      "transition"
+    ]
   }
 }

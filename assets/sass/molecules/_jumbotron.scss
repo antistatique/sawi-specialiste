@@ -3,6 +3,10 @@
 .jumbotron-sawi {
   overflow: hidden;
 
+  video {
+    max-width: 100vw;
+  }
+
   // Themified jumbotrons
 
   @function theme($school, $stuff) {
