@@ -8,7 +8,7 @@ notes: |
 <div class="menu-desktop">
 
 <div class="dropdown btn-group">
-  <a href="#" class="btn btn-link dropdown-link active">Formations</a>
+  <a href="#" class="btn btn-underline text-bold active">Formations</a>
   <button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <span class="dropdown-chevron sawi-icons sawi-icons-chevron"></span>
     <span class="sr-only">Ouvrir le menu déroulant formations</span>
@@ -22,24 +22,14 @@ notes: |
   </ul>
 </div>
 
-<div class="dropdown">
-  <a href="#" class="btn btn-link dropdown-link">Séance d'information</a>
-</div>
+<a href="#" class="btn btn-underline text-bold">Séance d'information</a>
 
-<div class="dropdown">
-  <a href="#" class="btn btn-link dropdown-link">Diplômes</a>
-</div>
+<a href="#" class="btn btn-underline text-bold">Diplômes</a>
 
-<div class="dropdown">
-  <a href="#" class="btn btn-link dropdown-link">Avec et pour les entreprises</a>
-</div>
+<a href="#" class="btn btn-underline text-bold">Avec et pour les entreprises</a>
 
-<div class="dropdown">
-  <a href="#" class="btn btn-link dropdown-link">SAWI</a>
-</div>
+<a href="#" class="btn btn-underline text-bold">SAWI</a>
 
-<div class="dropdown">
-  <a href="#" class="btn btn-link dropdown-link">Contact</a>
-</div>
+<a href="#" class="btn btn-underline text-bold">Contact</a>
 
 </div>
