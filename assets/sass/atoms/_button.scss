@@ -54,8 +54,8 @@
 
 .btn-icon {
   position: relative;
-  min-width: 30px;
-  min-height: 30px;
+  min-width: $btn-icon-size-base;
+  min-height: $btn-icon-size-base;
 }
 
 .btn-grey {
