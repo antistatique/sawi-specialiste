@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+## 1.0.77 (2017-08-17)
+ - add SAWI school colors
+ - add diagrams
+ - add static block "Pour les entreprises"
+ 
 ## 1.0.76 (2017-06-30)
  - Improved cards
  - Improved jumbotrons

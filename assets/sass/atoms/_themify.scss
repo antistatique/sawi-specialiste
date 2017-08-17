@@ -72,6 +72,14 @@ a.theme-corporate:hover,
   color: $black;
 }
 
+.theme-school-sawi,
+a.theme-school-sawi,
+a.theme-school-sawi:hover,
+.theme-school-sawi .inline-cta-legend a {
+  background-color: map-get($schools-color, sawi-background-color);
+  color: $black;
+}
+
 .theme-school-sms,
 a.theme-school-sms,
 a.theme-school-sms:hover,
