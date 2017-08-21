@@ -58,9 +58,10 @@ notes: |
   </div>
 
   <div class="separator"></div>
-    <ul class="list-unstyled ">
-      <li><a class="h4 media-heading" href="#">Webcampus SAWI</a></li>
-      <li><a class="h4 media-heading" href="#">Recherche </a></li>
+    <ul class="list-unstyled">
+      <li><a class="text-uppercase media-heading" href="#">Webcampus SAWI</a></li>
+      <div class="spacer spacer-sm"></div>
+      <li><a class="text-uppercase media-heading" href="#">Recherche </a></li>
     </ul>
   <div class="separator"></div>
 

@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 
 .menu-secondary {
-  padding: 0 $grid-gutter-width;
+  padding-left: $grid-gutter-width;
   text-transform: uppercase;
   font-size: $font-size-h6;
 
@@ -12,6 +12,6 @@
   }
 
   > ul > li {
-    margin-right: 10px;
+    margin-right: $grid-gutter-width / 2;
   }
 }
