@@ -7,7 +7,6 @@ notes: |
   ##### Options :
   - **option** - Type
 ---
-<div class="spacer spacer-md"></div>
 <div class="newsletter">
   <h3 class="h1 m-0">La newsletter</h3>
   <h4 class="m-t-0 m-b-0 text-uppercase">Restons en contact</h4>
@@ -22,4 +21,3 @@ notes: |
     </div>
   </form>
 </div>
-<div class="spacer spacer-sm"></div>

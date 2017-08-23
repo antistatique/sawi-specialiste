@@ -10,12 +10,14 @@ notes: |
 <div class="spacer spacer-md"></div>
 
 <div class="theme-corporate">
+  <div class="spacer spacer-sm"></div>
   <div class="container">
     {% include '../molecules/newsletter.html.swig' %}
   </div>
+  <div class="spacer spacer-sm"></div>
 </div>
 
-<div class="bg-gray">
+<div class="bg-gray-lighter">
   <div class="spacer spacer-md"></div>
   <div class="container">
     <div class="row">
@@ -25,10 +27,22 @@ notes: |
       <div class="col-md-4">
         <div class="spacer spacer-lg visible-xs visible-sm"></div>
         asdf
-
       </div>
     </div>
   </div>
+  <div class="spacer spacer-md"></div>
+</div>
+
+<div class="container">
+  <div class="spacer spacer-sm"></div>
+  <div class="spacer spacer-sm"></div>
+  {% include '../molecules/school-hub.html.swig' %}
+  <div class="spacer spacer-sm"></div>
+  <div class="spacer spacer-sm"></div>
+</div>
+
+<div class="theme-corporate">
+  <div class="spacer spacer-xs"></div>
 </div>
 
 
