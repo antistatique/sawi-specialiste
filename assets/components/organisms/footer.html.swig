@@ -8,6 +8,28 @@ notes: |
   - **option** - Type
 ---
 <div class="spacer spacer-md"></div>
+
+<div class="theme-corporate">
+  <div class="container">
+    {% include '../molecules/newsletter.html.swig' %}
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="footer-certifications">
   <div class="spacer spacer-md"></div>
   <div class="container">
@@ -35,8 +57,6 @@ notes: |
   <div class="container">
     <div class="footer-inner row">
       <div class="col-md-8">
-        {% include '../molecules/newsletter.html.swig' %}
-        <div class="spacer spacer-xs"></div>
         {% include '../molecules/contact.html.swig' %}
       </div>
       <div class="col-md-4">
