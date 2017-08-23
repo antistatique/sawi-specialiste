@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-## MEXT RELEASE
+## 1.2.0 (2017-08-23)
  - add new component collapse
  - add new component dropdown
  - add btn variant btn-underline
