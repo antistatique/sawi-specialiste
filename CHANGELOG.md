@@ -1,6 +1,19 @@
 CHANGELOG
 =========
 
+## NEXT RELEASE
+ - refactoring footer
+ - new logo SQS
+ - new logo IAA
+ - new logo Eduqua
+ - add helper bg-gray-lighter
+ - add btn variant btn-blue
+ - new componenent certifications
+ - remove component teaser-certification
+ - refactoring component social (contact-social)
+ - refactoring component newsletter
+ - new compoment schools-hub
+
 ## 1.2.0 (2017-08-23)
  - add new component collapse
  - add new component dropdown
