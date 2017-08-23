@@ -1,9 +1,13 @@
 @charset 'UTF-8';
 
-.social {
+.contact-social {
   ul {
-    margin: $grid-gutter-width 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     padding: 0;
     list-style: none;
+    justify-content: space-between;
+    margin-top: -($grid-gutter-width / 2);
   }
 }
