@@ -23,4 +23,12 @@ a {
       color: $white;
     }
   }
+
+  &.link-light {
+    color: $gray;
+
+    &:hover {
+      color: $link-hover-color;
+    }
+  }
 }

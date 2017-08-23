@@ -2,7 +2,7 @@
 
 .teaser-profil {
   margin-bottom: $grid-gutter-width;
-  padding: $grid-gutter-width / 2 $grid-gutter-width;
+  padding: ($grid-gutter-width / 2) $grid-gutter-width;
   border: 1px solid $gray-lighter;
 
   &.teaser-profil-no-border {

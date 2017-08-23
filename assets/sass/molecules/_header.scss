@@ -1,6 +1,9 @@
 @charset 'UTF-8';
 
 .header {
+  max-width: $container-large-desktop - $grid-gutter-width;
+  margin: 0 auto;
+
   .header-container {
     display: flex;
     flex-direction: column;
@@ -24,6 +27,10 @@
       height: 120px;
     }
 
+    @media only screen and (min-width: $screen-lg-min) {
+      padding-left: 0;
+    }
+
     img {
       display: block;
       position: relative;
@@ -34,8 +41,7 @@
     }
   }
 
-  .left-container,
-  .right-container {
+  .left-container {
     display: flex;
     align-items: center;
   }
@@ -53,34 +59,11 @@
   }
 
   .right-container {
-    justify-content: space-around;
+    width: 100%;
     padding: 15px 0;
 
     @media only screen and (min-width: $screen-sm-min) {
       padding: 0;
-    }
-  }
-
-  .tagline {
-    display: none;
-    padding: 0;
-
-    @media only screen and (min-width: $screen-xs-min) {
-      display: inline-block;
-    }
-
-    @media only screen and (min-width: $screen-sm-min) {
-      display: none;
-    }
-
-    @media only screen and (min-width: $screen-md-min) {
-      display: inline-block;
-    }
-
-    p {
-      font-size: 17px;
-      line-height: 24px;
-      font-weight: 400;
     }
   }
 }

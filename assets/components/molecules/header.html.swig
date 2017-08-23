@@ -12,14 +12,19 @@ notes: |
       <div class="logo-container">
         <img src="/build/img/logo.svg" alt="SAWI" onerror="this.onerror=null; this.src='/build/img/logo.png'" />
       </div>
-      <div class="tagline">
-        <p class="m-b-0">Le centre suisse d'enseignement du marketing, de la publicité et de la communication</p>
+      <div class="hidden-xs">
+        {% include '../atoms/language-picker.html.swig' %}
       </div>
     </div>
-    <div class="right-container">
-      {% include '../atoms/language-picker.html.swig' %}
-      {% include '../molecules/search-box.html.swig' %}
+    <div class="right-container hidden-xs hidden-sm">
+      {% include '../molecules/menu-secondary.html.swig' %}
     </div>
+  </div>
+  <div class="visible-xs">
+    {% include '../atoms/language-picker.html.swig' %}
+  </div>
+  <div class="hidden-xs hidden-sm hidden-md">
+    {% include '../molecules/menu-desktop.html.swig' %}
   </div>
 </header>
 <a name="main-content" id="main-content">

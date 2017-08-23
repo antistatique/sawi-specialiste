@@ -1,6 +1,14 @@
 CHANGELOG
 =========
 
+## MEXT RELEASE
+ - add new component collapse
+ - add new component dropdown
+ - add btn variant btn-underline
+ - refactoring header
+ - refactoring menu (desktop & mobile)
+ - add link variant link-light
+
 ## 1.1.0 (2017-08-17)
  - remove tests dependencies
  - fix yarn dependencies
