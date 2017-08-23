@@ -25,8 +25,7 @@ notes: |
         {% include '../molecules/contact.html.swig' %}
       </div>
       <div class="col-md-4">
-        <div class="spacer spacer-lg visible-xs visible-sm"></div>
-        asdf
+        {% include '../molecules/certifications.html.swig' %}
       </div>
     </div>
   </div>

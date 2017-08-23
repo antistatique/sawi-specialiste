@@ -7,6 +7,7 @@ notes: |
 ---
 <div class="school-hub">
   <h3 class="m-0 text-uppercase">Swiss Marketing Hub & Schools</h3>
+  <div class="spacer spacer-md hidden-lg"></div>
   <div class="schools-logos">
     <div class="school-sawi">
       <img src="/build/svg/logo-sawi.svg" alt="SAWI">

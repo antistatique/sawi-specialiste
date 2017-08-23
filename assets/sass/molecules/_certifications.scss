@@ -1,0 +1,20 @@
+@charset 'UTF-8';
+
+.certifications {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .logo-eduqua {
+    width: 100%;
+  }
+
+  .logo-iaa {
+    width: 50%;
+  }
+
+  .logo-sqs {
+    width: 50%;
+  }
+}

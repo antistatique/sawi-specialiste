@@ -15,14 +15,25 @@
 .schools-logos {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 100%;
+
+  @media screen and (min-width: $screen-sm-min) {
+    flex-wrap: nowrap;
+  }
 
   @media screen and (min-width: $screen-md-min) {
     width: 50%;
   }
 
   div {
-    height: 50px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+
+    @media screen and (min-width: $screen-sm-min) {
+      height: 50px;
+    }
   }
 
   img {
