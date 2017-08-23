@@ -8,6 +8,6 @@ notes: |
   - **option** - Type
 ---
 <nav class="language-picker">
-  <a class="language-link" href="#">Deutschschweiz</a>
-  <span class="active language-link">Romandie</span>
+  <div class="d-block active language-link link-light">Romandie</div>
+  <a class="d-block language-link link-light" href="#">Deutschschweiz</a>
 </nav>

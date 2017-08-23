@@ -7,7 +7,7 @@
 @import 'accessibility';
 
 // atoms:
-@import 'atoms/_fieldset';
+@import 'atoms/fieldset';
 @import 'atoms/separator';
 @import 'atoms/pagination';
 @import 'atoms/table';
@@ -35,6 +35,8 @@
 
 // molecules:
 @import 'molecules/newsletter';
+@import 'molecules/dropdown';
+@import 'molecules/collapse';
 @import 'molecules/diagram';
 @import 'molecules/media-profil';
 @import 'molecules/googlemap';
@@ -46,8 +48,9 @@
 @import 'molecules/socials-icons';
 @import 'molecules/teaser-seance';
 @import 'molecules/header-light';
-@import 'molecules/search-box';
-@import 'molecules/header-menu';
+@import 'molecules/menu-mobile';
+@import 'molecules/menu-desktop';
+@import 'molecules/menu-secondary';
 @import 'molecules/social';
 @import 'molecules/contact';
 @import 'molecules/teaser-certification';
