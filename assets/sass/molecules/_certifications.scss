@@ -3,18 +3,40 @@
 .certifications {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-around;
+
+  max-width: 200px;
+  margin: 0 auto;
+
+  @media screen and (min-width: $screen-md-min) {
+    max-width: 100%;
+    flex-wrap: wrap;
+
+  }
+
+  img {
+    max-height: 60px;
+    margin: 0 30px;
+
+    @media screen and (min-width: $screen-md-min) {
+      max-height: 80px;
+      margin: 0;
+    }
+  }
 
   .logo-eduqua {
     width: 100%;
-  }
-
-  .logo-iaa {
-    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .logo-sqs {
-    width: 50%;
+    height: 100%;
+  }
+
+  .logo-iaa {
+    height: 100%;
   }
 }
