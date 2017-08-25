@@ -26,7 +26,7 @@ notes: |
     </div>
 
     <div class="school-procom">
-      <img src="/build/svg/logo-procom.svg" alt="Procom">
+      <img src="/build/svg/logo-procom-black.svg" alt="Procom">
     </div>
 
     <div class="school-polycom">
