@@ -33,8 +33,8 @@ gulp.task('init', function() {
 /**
  * Task to build assets on production server
  */
-gulp.task('build',['clean'], function() {
-  runSequence('vendors', 'styles', 'img', 'scripts', 'icons', 'metalsmith');
+gulp.task('build',['clean'], function(done){
+  runSequence(['css-vendors', 'js-vendors', 'fonts-vendors', 'polyfills-vendors', 'img', 'icons', 'styles', 'scripts', 'metalsmith-styles', 'metalsmith-scripts'], 'favicons', 'metalsmith',  done);
 });
 
 /**
