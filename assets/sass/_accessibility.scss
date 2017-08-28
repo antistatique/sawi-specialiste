@@ -1,9 +1,0 @@
-@charset 'UTF-8';
-
-a,
-.btn,
-.form-control {
-  &:focus {
-    outline: thin dotted;
-  }
-}
