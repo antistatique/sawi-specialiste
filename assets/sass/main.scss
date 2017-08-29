@@ -31,8 +31,10 @@
 @import 'atoms/themify';
 @import 'atoms/button';
 @import 'atoms/steps';
+@import 'atoms/social-box';
 
 // molecules:
+@import 'molecules/newsletter';
 @import 'molecules/dropdown';
 @import 'molecules/collapse';
 @import 'molecules/diagram';
@@ -51,7 +53,7 @@
 @import 'molecules/menu-secondary';
 @import 'molecules/social';
 @import 'molecules/contact';
-@import 'molecules/teaser-certification';
+@import 'molecules/certifications';
 @import 'molecules/teaser-news';
 @import 'molecules/alert';
 @import 'molecules/inline-cta';
@@ -61,6 +63,7 @@
 @import 'molecules/header';
 @import 'molecules/teaser-gallery';
 @import 'molecules/flex-grid';
+@import 'molecules/school-hub';
 
 // organisms:
 @import 'organisms/seances';
