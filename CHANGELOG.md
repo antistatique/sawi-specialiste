@@ -1,12 +1,12 @@
 CHANGELOG
 =========
 
-## NEXT RELEASE
+## 1.3.0 (2017-08-29)
  - refactoring footer
  - new logo SQS
  - new logo IAA
  - new logo Eduqua
- - add helper bg-gray-lighter
+ - add helper bg-g2017-08-22017-08-292017-08-292017-08-299ray-lighter
  - add btn variant btn-blue
  - new componenent certifications
  - remove component teaser-certification
@@ -70,7 +70,26 @@ CHANGELOG
 ## 1.0.4 (2017-02-21)
  - Added Gallery
 
-## 1.0.3 (2017-02-22)
+i# 1.0.3 (2017-02-22)
+ter
+ - new logo SQS
+ - new logo IAA
+ - new logo Eduqua
+ - add helper bg-gray-lighter
+ - add btn variant btn-blue
+ - new componenent certifications
+ - remove component teaser-certification
+ - refactoring component social (contact-social)
+ - refactoring component newsletter
+ - new compoment schools-hub
+
+## 1.2.0 (2017-08-23)
+ - add new component collapse
+ - add new component dropdown
+ - add btn variant btn-underline
+ - refactoring header
+ - refactoring menu (desktop & mobile)
+ - add link variant link-light
  - Improved animations menu open for very large screen
 
 ## 1.0.2 (2017-02-22)
