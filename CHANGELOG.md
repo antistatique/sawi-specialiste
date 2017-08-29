@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+## 1.3.1 (2017-08-29)
+ - improve newsletter mobile button
+
 ## 1.3.0 (2017-08-29)
  - refactoring footer
  - new logo SQS
