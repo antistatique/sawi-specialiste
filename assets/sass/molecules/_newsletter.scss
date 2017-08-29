@@ -6,12 +6,20 @@
   flex-wrap: wrap;
   align-items: baseline;
 
-  h4 {
-    width: 100%;
+  .form-inline {
+    input[type=submit] {
+      margin-top: $grid-gutter-width / 4;
+
+      @media screen and (min-width: $screen-xs-min) {
+        margin-top: 0;
+      }
+    }
   }
 
-  @media screen and (min-width: $screen-xs-min) {
-    h4 {
+  h4 {
+    width: 100%;
+
+    @media screen and (min-width: $screen-xs-min) {
       width: auto;
       margin-left: 15px;
     }
