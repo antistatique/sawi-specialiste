@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-## NEXT RELEASE 1.3.2 (2017-09-06)
+## 1.3.2 (2017-09-13)
  - change schools-hub using div instead of link
 
 ## 1.3.1 (2017-08-29)
