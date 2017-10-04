@@ -52,9 +52,14 @@
     }
 
     .logo-slogan {
+      display: none;
       position: relative;
       top: -30px;
       font-size: 12px;
+
+      @media only screen and (min-width: $screen-xs-min) {
+        display: block;
+      }
 
       @media only screen and (min-width: $screen-lg-min) {
         top: -60px;

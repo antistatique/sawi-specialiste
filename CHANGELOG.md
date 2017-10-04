@@ -6,6 +6,7 @@ CHANGELOG
  - add new colors for secondary btn into Jumbotron
  - change color for supedeluxe & others non school with special yellow colors
  - improve header logo & slogan
+ - add new .no-hover helper for link
 
 ## 1.3.2 (2017-09-13)
  - change schools-hub using div instead of link
@@ -42,7 +43,7 @@ CHANGELOG
  - add SAWI school colors
  - add diagrams
  - add static block "Pour les entreprises"
- 
+
 ## 1.0.76 (2017-06-30)
  - Improved cards
  - Improved jumbotrons
@@ -56,7 +57,7 @@ CHANGELOG
 
 ## 1.0.73 (2017-05-24)
  - Added new helper "text-square-separation"
- - Added new image cover image for static jumbotron 
+ - Added new image cover image for static jumbotron
 
 ## 1.0.72 (2017-04-19)
  - Fix issue with master conflict thanks @zufrieden for pushing on master
