@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-## NEXT RELEASE
+## 1.3.3 (2017-10-04)
  - add new secondary btn to Jumbotron
  - add new colors for secondary btn into Jumbotron
  - change color for supedeluxe & others non school with special yellow colors
