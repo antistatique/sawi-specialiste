@@ -4,6 +4,7 @@ CHANGELOG
 ## NEXT RELEASE
  - add new secondary btn to Jumbotron
  - add new colors for secondary btn into Jumbotron
+ - change color for supedeluxe & others non school with special yellow colors
 
 ## 1.3.2 (2017-09-13)
  - change schools-hub using div instead of link
