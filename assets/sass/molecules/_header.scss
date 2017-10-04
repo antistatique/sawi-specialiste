@@ -20,7 +20,12 @@
     display: inline-block;
     width: 280px;
     height: 100px;
-    padding: 0 $grid-gutter-width 0 $grid-gutter-width;
+    padding: 0 ($grid-gutter-width/2) 0 ($grid-gutter-width/2);
+    overflow: hidden;
+
+    @media only screen and (min-width: 402px) {
+      padding: 0 $grid-gutter-width 0 $grid-gutter-width;
+    }
 
     @media only screen and (min-width: $screen-md-min) {
       width: 400px;
@@ -29,15 +34,49 @@
 
     @media only screen and (min-width: $screen-lg-min) {
       padding-left: 0;
+      height: 140px;
     }
 
     img {
       display: block;
       position: relative;
-      top: 50%;
-      max-width: 100%;
-      margin: 0 auto;
-      transform: translateY(-50%);
+      width: 100%;
+      max-width: 150px;
+
+      @media only screen and (min-width: 402px) {
+        max-width: 200px;
+      }
+
+      @media only screen and (min-width: $screen-xs-min) {
+        top: -10px;
+        max-width: 100%;
+        transform: none;
+      }
+
+      @media only screen and (min-width: $screen-lg-min) {
+        top: -30px;
+      }
+    }
+
+    .logo-slogan {
+      position: relative;
+      bottom: 0;
+      font-size: 10px;
+
+      @media only screen and (min-width: 402px) {
+        font-size: 12px;
+        top: -20px;
+        bottom: auto;
+      }
+
+      @media only screen and (min-width: $screen-xs-min) {
+        top: -30px;
+      }
+
+      @media only screen and (min-width: $screen-lg-min) {
+        top: -60px;
+        font-size: 16px;
+      }
     }
   }
 

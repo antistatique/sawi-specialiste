@@ -13,6 +13,13 @@ a {
     text-decoration: none;
   }
 
+  &.no-hover {
+    &:hover,
+    &:active {
+      color: initial !important;
+    }
+  }
+
   &.link-invert {
     color: $white;
   }
